@@ -1,0 +1,3 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+sample.HelloWebSecurityApplication.java.HelloWebSecurityApplication,HelloWebSecurityApplication,0.188931167,0,1,0,0,0,4,0,27,13,1,0,2,0,2,2,0,2
+sample.HelloWebSecurityApplicationTests.java.HelloWebSecurityApplicationTests,HelloWebSecurityApplicationTests,0.127359569,1,1,1,0,1,0,1,32,40,1,0,7,0,3,3,1,3

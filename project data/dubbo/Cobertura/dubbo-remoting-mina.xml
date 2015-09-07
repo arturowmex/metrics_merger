@@ -1,0 +1,1209 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.6487455197132617" branch-rate="0.4" lines-covered="181" lines-valid="279" branches-covered="36" branches-valid="90" complexity="2.6363636363636362" version="2.1.1" timestamp="1436190659876">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Arturo/git/Alibaba/dubbo/dubbo-remoting/dubbo-remoting-mina/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.alibaba.dubbo.remoting.transport.mina" line-rate="0.6487455197132617" branch-rate="0.4" complexity="2.6363636363636362">
+			<classes>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaChannel" filename="com/alibaba/dubbo/remoting/transport/mina/MinaChannel.java" line-rate="0.5441176470588235" branch-rate="0.35294117647058826" complexity="3.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lorg/apache/mina/common/IoSession;Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)V" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="46" hits="4" branch="false"/>
+								<line number="47" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="48" hits="0" branch="false"/>
+								<line number="50" hits="4" branch="false"/>
+								<line number="51" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="close" signature="()V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+								<line number="119" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="123" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="157" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="158" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="159" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="160" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="162" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="163" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="164" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAttribute" signature="(Ljava/lang/String;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="136" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLocalAddress" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getOrAddChannel" signature="(Lorg/apache/mina/common/IoSession;Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)Lcom/alibaba/dubbo/remoting/transport/mina/MinaChannel;" line-rate="0.7272727272727273" branch-rate="0.625" complexity="0">
+							<lines>
+								<line number="54" hits="36" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="55" hits="0" branch="false"/>
+								<line number="57" hits="36" branch="false"/>
+								<line number="58" hits="36" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="59" hits="4" branch="false"/>
+								<line number="60" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="61" hits="4" branch="false"/>
+								<line number="62" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="68" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRemoteAddress" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasAttribute" signature="(Ljava/lang/String;)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="132" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="149" hits="2" branch="false"/>
+								<line number="150" hits="2" branch="false"/>
+								<line number="151" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="152" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="isConnected" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="86" hits="24" branch="false"/>
+							</lines>
+						</method>
+						<method name="removeAttribute" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="144" hits="12" branch="false"/>
+								<line number="145" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="removeChannelIfDisconnectd" signature="(Lorg/apache/mina/common/IoSession;)V" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="72" hits="26" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="73" hits="6" branch="false"/>
+								<line number="75" hits="26" branch="false"/>
+							</lines>
+						</method>
+						<method name="send" signature="(Ljava/lang/Object;Z)V" line-rate="0.5384615384615384" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="90" hits="4" branch="false"/>
+								<line number="92" hits="4" branch="false"/>
+								<line number="93" hits="4" branch="false"/>
+								<line number="95" hits="4" branch="false"/>
+								<line number="96" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="97" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="104" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="105" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="108" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAttribute" signature="(Ljava/lang/String;Ljava/lang/Object;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="140" hits="44" branch="false"/>
+								<line number="141" hits="44" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="169" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="39" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="46" hits="4" branch="false"/>
+						<line number="47" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="48" hits="0" branch="false"/>
+						<line number="50" hits="4" branch="false"/>
+						<line number="51" hits="4" branch="false"/>
+						<line number="54" hits="36" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="55" hits="0" branch="false"/>
+						<line number="57" hits="36" branch="false"/>
+						<line number="58" hits="36" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="59" hits="4" branch="false"/>
+						<line number="60" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="61" hits="4" branch="false"/>
+						<line number="62" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="68" hits="36" branch="false"/>
+						<line number="72" hits="26" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="73" hits="6" branch="false"/>
+						<line number="75" hits="26" branch="false"/>
+						<line number="78" hits="2" branch="false"/>
+						<line number="82" hits="4" branch="false"/>
+						<line number="86" hits="24" branch="false"/>
+						<line number="90" hits="4" branch="false"/>
+						<line number="92" hits="4" branch="false"/>
+						<line number="93" hits="4" branch="false"/>
+						<line number="95" hits="4" branch="false"/>
+						<line number="96" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="97" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="104" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="105" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="108" hits="4" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="123" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="136" hits="16" branch="false"/>
+						<line number="140" hits="44" branch="false"/>
+						<line number="141" hits="44" branch="false"/>
+						<line number="144" hits="12" branch="false"/>
+						<line number="145" hits="12" branch="false"/>
+						<line number="149" hits="2" branch="false"/>
+						<line number="150" hits="2" branch="false"/>
+						<line number="151" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="152" hits="2" branch="false"/>
+						<line number="157" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="158" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="159" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="160" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="162" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="163" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="164" hits="0" branch="false"/>
+						<line number="169" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaClient" filename="com/alibaba/dubbo/remoting/transport/mina/MinaClient.java" line-rate="0.8222222222222222" branch-rate="0.7" complexity="3.2857142857142856">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="2" branch="false"/>
+								<line number="66" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$0" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaClient;Lorg/apache/mina/common/IoSession;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$1" signature="()Lcom/alibaba/dubbo/common/logger/Logger;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$2" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaClient;)Lorg/apache/mina/common/IoSession;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="doClose" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="164" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="doConnect" signature="()V" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="93" hits="2" branch="false"/>
+								<line number="94" hits="2" branch="false"/>
+								<line number="95" hits="2" branch="false"/>
+								<line number="96" hits="2" branch="false"/>
+								<line number="97" hits="2" branch="false"/>
+								<line number="139" hits="2" branch="false"/>
+								<line number="140" hits="2" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+								<line number="142" hits="0" branch="false"/>
+								<line number="143" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="146" hits="2" branch="false"/>
+								<line number="147" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="148" hits="0" branch="false"/>
+								<line number="150" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="doDisConnect" signature="()V" line-rate="0.75" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="155" hits="2" branch="false"/>
+								<line number="156" hits="2" branch="false"/>
+								<line number="157" hits="0" branch="false"/>
+								<line number="159" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="doOpen" signature="()V" line-rate="0.875" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="70" hits="2" branch="false"/>
+								<line number="71" hits="2" branch="false"/>
+								<line number="72" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
+								<line number="76" hits="4" branch="false"/>
+								<line number="77" hits="2" branch="false"/>
+								<line number="79" hits="2" branch="false"/>
+								<line number="80" hits="2" branch="false"/>
+								<line number="81" hits="2" branch="false"/>
+								<line number="82" hits="2" branch="false"/>
+								<line number="83" hits="2" branch="false"/>
+								<line number="84" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="86" hits="2" branch="false"/>
+								<line number="87" hits="2" branch="false"/>
+								<line number="89" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getChannel" signature="()Lcom/alibaba/dubbo/remoting/Channel;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="168" hits="14" branch="false"/>
+								<line number="169" hits="14" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="170" hits="4" branch="false"/>
+								<line number="171" hits="10" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="54" hits="2" branch="false"/>
+						<line number="56" hits="2" branch="false"/>
+						<line number="62" hits="4" branch="false"/>
+						<line number="65" hits="2" branch="false"/>
+						<line number="66" hits="2" branch="false"/>
+						<line number="70" hits="2" branch="false"/>
+						<line number="71" hits="2" branch="false"/>
+						<line number="72" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="76" hits="4" branch="false"/>
+						<line number="77" hits="2" branch="false"/>
+						<line number="79" hits="2" branch="false"/>
+						<line number="80" hits="2" branch="false"/>
+						<line number="81" hits="2" branch="false"/>
+						<line number="82" hits="2" branch="false"/>
+						<line number="83" hits="2" branch="false"/>
+						<line number="84" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="86" hits="2" branch="false"/>
+						<line number="87" hits="2" branch="false"/>
+						<line number="89" hits="2" branch="false"/>
+						<line number="93" hits="2" branch="false"/>
+						<line number="94" hits="2" branch="false"/>
+						<line number="95" hits="2" branch="false"/>
+						<line number="96" hits="2" branch="false"/>
+						<line number="97" hits="2" branch="false"/>
+						<line number="139" hits="2" branch="false"/>
+						<line number="140" hits="2" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="142" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="146" hits="2" branch="false"/>
+						<line number="147" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="148" hits="0" branch="false"/>
+						<line number="150" hits="2" branch="false"/>
+						<line number="155" hits="2" branch="false"/>
+						<line number="156" hits="2" branch="false"/>
+						<line number="157" hits="0" branch="false"/>
+						<line number="159" hits="2" branch="false"/>
+						<line number="164" hits="2" branch="false"/>
+						<line number="168" hits="14" branch="false"/>
+						<line number="169" hits="14" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="170" hits="4" branch="false"/>
+						<line number="171" hits="10" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaClient$1" filename="com/alibaba/dubbo/remoting/transport/mina/MinaClient.java" line-rate="0.36666666666666664" branch-rate="0.3" complexity="3.2857142857142856">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaClient;Ljava/util/concurrent/CountDownLatch;Ljava/util/concurrent/atomic/AtomicReference;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="1" hits="2" branch="false"/>
+								<line number="97" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lorg/apache/mina/common/IoFuture;)V" line-rate="0.32142857142857145" branch-rate="0.3" complexity="0">
+							<lines>
+								<line number="100" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="101" hits="2" branch="false"/>
+								<line number="104" hits="2" branch="false"/>
+								<line number="105" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="107" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="108" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="119" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="2" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="131" hits="2" branch="false"/>
+								<line number="132" hits="0" branch="false"/>
+								<line number="133" hits="0" branch="false"/>
+								<line number="134" hits="2" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+								<line number="136" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="1" hits="2" branch="false"/>
+						<line number="97" hits="2" branch="false"/>
+						<line number="100" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="101" hits="2" branch="false"/>
+						<line number="104" hits="2" branch="false"/>
+						<line number="105" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="107" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="108" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="119" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="2" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="131" hits="2" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="133" hits="0" branch="false"/>
+						<line number="134" hits="2" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="136" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaCodecAdapter" filename="com/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter.java" line-rate="0.9333333333333333" branch-rate="0.5" complexity="2.875">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/Codec2;Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="42" hits="4" branch="false"/>
+								<line number="44" hits="4" branch="false"/>
+								<line number="54" hits="4" branch="false"/>
+								<line number="55" hits="4" branch="false"/>
+								<line number="56" hits="4" branch="false"/>
+								<line number="57" hits="4" branch="false"/>
+								<line number="58" hits="4" branch="false"/>
+								<line number="59" hits="4" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="60" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$0" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)Lcom/alibaba/dubbo/common/URL;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$1" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)Lcom/alibaba/dubbo/remoting/ChannelHandler;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$2" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)Lcom/alibaba/dubbo/remoting/Codec2;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="46" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$3" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDecoder" signature="()Lorg/apache/mina/filter/codec/ProtocolDecoder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="67" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="getEncoder" signature="()Lorg/apache/mina/filter/codec/ProtocolEncoder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="42" hits="4" branch="false"/>
+						<line number="44" hits="4" branch="false"/>
+						<line number="46" hits="8" branch="false"/>
+						<line number="48" hits="8" branch="false"/>
+						<line number="50" hits="8" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="54" hits="4" branch="false"/>
+						<line number="55" hits="4" branch="false"/>
+						<line number="56" hits="4" branch="false"/>
+						<line number="57" hits="4" branch="false"/>
+						<line number="58" hits="4" branch="false"/>
+						<line number="59" hits="4" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="60" hits="4" branch="false"/>
+						<line number="63" hits="4" branch="false"/>
+						<line number="67" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaCodecAdapter$InternalDecoder" filename="com/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter.java" line-rate="0.5365853658536586" branch-rate="0.3333333333333333" complexity="2.875">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="90" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter$InternalDecoder;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="88" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lorg/apache/mina/common/IoSession;Lorg/apache/mina/common/ByteBuffer;Lorg/apache/mina/filter/codec/ProtocolDecoderOutput;)V" line-rate="0.4864864864864865" branch-rate="0.3333333333333333" complexity="0">
+							<lines>
+								<line number="93" hits="4" branch="false"/>
+								<line number="94" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="98" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="105" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="4" branch="false"/>
+								<line number="112" hits="4" branch="false"/>
+								<line number="118" hits="4" branch="false"/>
+								<line number="120" hits="4" branch="false"/>
+								<line number="121" hits="4" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="125" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="129" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="130" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="false"/>
+								<line number="133" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="134" hits="4" branch="false"/>
+								<line number="137" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="138" hits="4" branch="false"/>
+								<line number="139" hits="4" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="140" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+								<line number="142" hits="0" branch="false"/>
+								<line number="143" hits="4" branch="false"/>
+								<line number="145" hits="4" branch="false"/>
+								<line number="146" hits="0" branch="false"/>
+								<line number="147" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="dispose" signature="(Lorg/apache/mina/common/IoSession;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="150" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="finishDecode" signature="(Lorg/apache/mina/common/IoSession;Lorg/apache/mina/filter/codec/ProtocolDecoderOutput;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="153" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="88" hits="8" branch="false"/>
+						<line number="90" hits="4" branch="false"/>
+						<line number="93" hits="4" branch="false"/>
+						<line number="94" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="98" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="105" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="4" branch="false"/>
+						<line number="112" hits="4" branch="false"/>
+						<line number="118" hits="4" branch="false"/>
+						<line number="120" hits="4" branch="false"/>
+						<line number="121" hits="4" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="125" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="129" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="130" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="false"/>
+						<line number="133" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="134" hits="4" branch="false"/>
+						<line number="137" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="138" hits="4" branch="false"/>
+						<line number="139" hits="4" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="140" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="142" hits="0" branch="false"/>
+						<line number="143" hits="4" branch="false"/>
+						<line number="145" hits="4" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
+						<line number="147" hits="4" branch="false"/>
+						<line number="150" hits="4" branch="false"/>
+						<line number="153" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaCodecAdapter$InternalEncoder" filename="com/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter.java" line-rate="0.9090909090909091" branch-rate="1.0" complexity="2.875">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter;Lcom/alibaba/dubbo/remoting/transport/mina/MinaCodecAdapter$InternalEncoder;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="dispose" signature="(Lorg/apache/mina/common/IoSession;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="73" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lorg/apache/mina/common/IoSession;Ljava/lang/Object;Lorg/apache/mina/filter/codec/ProtocolEncoderOutput;)V" line-rate="0.8888888888888888" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="76" hits="4" branch="false"/>
+								<line number="77" hits="4" branch="false"/>
+								<line number="79" hits="4" branch="false"/>
+								<line number="80" hits="4" branch="false"/>
+								<line number="81" hits="4" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="4" branch="false"/>
+								<line number="84" hits="4" branch="false"/>
+								<line number="85" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="70" hits="8" branch="false"/>
+						<line number="73" hits="4" branch="false"/>
+						<line number="76" hits="4" branch="false"/>
+						<line number="77" hits="4" branch="false"/>
+						<line number="79" hits="4" branch="false"/>
+						<line number="80" hits="4" branch="false"/>
+						<line number="81" hits="4" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="4" branch="false"/>
+						<line number="84" hits="4" branch="false"/>
+						<line number="85" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaHandler" filename="com/alibaba/dubbo/remoting/transport/mina/MinaHandler.java" line-rate="0.6842105263157895" branch-rate="0.5" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="35" hits="4" branch="false"/>
+								<line number="36" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="40" hits="0" branch="false"/>
+								<line number="42" hits="4" branch="false"/>
+								<line number="43" hits="4" branch="false"/>
+								<line number="44" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="exceptionCaught" signature="(Lorg/apache/mina/common/IoSession;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="88" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+								<line number="94" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="messageReceived" signature="(Lorg/apache/mina/common/IoSession;Ljava/lang/Object;)V" line-rate="0.8333333333333334" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="4" branch="false"/>
+								<line number="70" hits="4" branch="false"/>
+								<line number="71" hits="4" branch="false"/>
+								<line number="72" hits="4" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="messageSent" signature="(Lorg/apache/mina/common/IoSession;Ljava/lang/Object;)V" line-rate="0.8333333333333334" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="4" branch="false"/>
+								<line number="80" hits="4" branch="false"/>
+								<line number="81" hits="4" branch="false"/>
+								<line number="82" hits="4" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="sessionClosed" signature="(Lorg/apache/mina/common/IoSession;)V" line-rate="0.8333333333333334" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="4" branch="false"/>
+								<line number="60" hits="4" branch="false"/>
+								<line number="61" hits="4" branch="false"/>
+								<line number="62" hits="4" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="sessionOpened" signature="(Lorg/apache/mina/common/IoSession;)V" line-rate="0.8333333333333334" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="3" branch="false"/>
+								<line number="50" hits="4" branch="false"/>
+								<line number="51" hits="4" branch="false"/>
+								<line number="52" hits="4" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="35" hits="4" branch="false"/>
+						<line number="36" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="40" hits="0" branch="false"/>
+						<line number="42" hits="4" branch="false"/>
+						<line number="43" hits="4" branch="false"/>
+						<line number="44" hits="4" branch="false"/>
+						<line number="48" hits="3" branch="false"/>
+						<line number="50" hits="4" branch="false"/>
+						<line number="51" hits="4" branch="false"/>
+						<line number="52" hits="4" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="4" branch="false"/>
+						<line number="58" hits="4" branch="false"/>
+						<line number="60" hits="4" branch="false"/>
+						<line number="61" hits="4" branch="false"/>
+						<line number="62" hits="4" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="4" branch="false"/>
+						<line number="68" hits="4" branch="false"/>
+						<line number="70" hits="4" branch="false"/>
+						<line number="71" hits="4" branch="false"/>
+						<line number="72" hits="4" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="4" branch="false"/>
+						<line number="78" hits="4" branch="false"/>
+						<line number="80" hits="4" branch="false"/>
+						<line number="81" hits="4" branch="false"/>
+						<line number="82" hits="4" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="4" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaServer" filename="com/alibaba/dubbo/remoting/transport/mina/MinaServer.java" line-rate="0.75" branch-rate="0.4" complexity="2.1666666666666665">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="51" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="2" branch="false"/>
+								<line number="57" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="doClose" signature="()V" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="77" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="78" hits="2" branch="false"/>
+								<line number="80" hits="2" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+								<line number="83" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="doOpen" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="4" branch="false"/>
+								<line number="63" hits="4" branch="false"/>
+								<line number="64" hits="2" branch="false"/>
+								<line number="66" hits="2" branch="false"/>
+								<line number="67" hits="2" branch="false"/>
+								<line number="69" hits="2" branch="false"/>
+								<line number="71" hits="2" branch="false"/>
+								<line number="72" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getChannel" signature="(Ljava/net/InetSocketAddress;)Lcom/alibaba/dubbo/remoting/Channel;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="97" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getChannels" signature="()Ljava/util/Collection;" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="86" hits="4" branch="false"/>
+								<line number="87" hits="4" branch="false"/>
+								<line number="88" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="89" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="90" hits="2" branch="false"/>
+								<line number="93" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="isBound" signature="()Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="107" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="51" hits="2" branch="false"/>
+						<line number="56" hits="2" branch="false"/>
+						<line number="57" hits="2" branch="false"/>
+						<line number="62" hits="4" branch="false"/>
+						<line number="63" hits="4" branch="false"/>
+						<line number="64" hits="2" branch="false"/>
+						<line number="66" hits="2" branch="false"/>
+						<line number="67" hits="2" branch="false"/>
+						<line number="69" hits="2" branch="false"/>
+						<line number="71" hits="2" branch="false"/>
+						<line number="72" hits="2" branch="false"/>
+						<line number="77" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="78" hits="2" branch="false"/>
+						<line number="80" hits="2" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="83" hits="2" branch="false"/>
+						<line number="86" hits="4" branch="false"/>
+						<line number="87" hits="4" branch="false"/>
+						<line number="88" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="89" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="90" hits="2" branch="false"/>
+						<line number="93" hits="4" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.remoting.transport.mina.MinaTransporter" filename="com/alibaba/dubbo/remoting/transport/mina/MinaTransporter.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="bind" signature="(Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)Lcom/alibaba/dubbo/remoting/Server;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="connect" signature="(Lcom/alibaba/dubbo/common/URL;Lcom/alibaba/dubbo/remoting/ChannelHandler;)Lcom/alibaba/dubbo/remoting/Client;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="28" hits="2" branch="false"/>
+						<line number="33" hits="2" branch="false"/>
+						<line number="37" hits="2" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

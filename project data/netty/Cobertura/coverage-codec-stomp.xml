@@ -1,0 +1,2109 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.5685131195335277" branch-rate="0.6268656716417911" lines-covered="195" lines-valid="343" branches-covered="42" branches-valid="67" complexity="1.3658536585365855" version="2.1.1" timestamp="1433426546569">
+	<sources>
+		<source>C:/Users/Arturo/git/netty/codec-stomp/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="io.netty.handler.codec.stomp" line-rate="0.5685131195335277" branch-rate="0.6268656716417911" complexity="1.3658536585365855">
+			<classes>
+				<class name="io.netty.handler.codec.stomp.DefaultLastStompContentSubframe" filename="io/netty/handler/codec/stomp/DefaultLastStompContentSubframe.java" line-rate="0.35714285714285715" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="7" branch="false"/>
+								<line number="27" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/DefaultLastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="7" branch="false"/>
+								<line number="50" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="7" branch="false"/>
+						<line number="26" hits="7" branch="false"/>
+						<line number="27" hits="7" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="49" hits="7" branch="false"/>
+						<line number="50" hits="7" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.DefaultStompContentSubframe" filename="io/netty/handler/codec/stomp/DefaultStompContentSubframe.java" line-rate="0.44" branch-rate="0.5" complexity="1.1428571428571428">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="26" hits="13" branch="false"/>
+								<line number="29" hits="13" branch="false"/>
+								<line number="30" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="31" hits="0" branch="false"/>
+								<line number="33" hits="13" branch="false"/>
+								<line number="34" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="26" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="decoderResult" signature="()Lio/netty/handler/codec/DecoderResult;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="92" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setDecoderResult" signature="(Lio/netty/handler/codec/DecoderResult;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="97" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="102" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="0" branch="false"/>
+								<line number="71" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="76" hits="13" branch="false"/>
+								<line number="77" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="6" branch="false"/>
+						<line number="26" hits="13" branch="false"/>
+						<line number="29" hits="13" branch="false"/>
+						<line number="30" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="31" hits="0" branch="false"/>
+						<line number="33" hits="13" branch="false"/>
+						<line number="34" hits="13" branch="false"/>
+						<line number="38" hits="26" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="76" hits="13" branch="false"/>
+						<line number="77" hits="13" branch="false"/>
+						<line number="82" hits="13" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="92" hits="6" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.DefaultStompFrame" filename="io/netty/handler/codec/stomp/DefaultStompFrame.java" line-rate="0.391304347826087" branch-rate="0.5" complexity="1.1538461538461537">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/stomp/StompCommand;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/stomp/StompCommand;Lio/netty/buffer/ByteBuf;)V" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="34" hits="7" branch="false"/>
+								<line number="35" hits="7" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="36" hits="0" branch="false"/>
+								<line number="38" hits="7" branch="false"/>
+								<line number="39" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/StompFrame;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/StompFrame;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="92" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/StompFrame;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/StompFrame;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="97" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/StompFrame;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompFrame;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="81" hits="6" branch="false"/>
+								<line number="82" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="6" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="34" hits="7" branch="false"/>
+						<line number="35" hits="7" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="36" hits="0" branch="false"/>
+						<line number="38" hits="7" branch="false"/>
+						<line number="39" hits="7" branch="false"/>
+						<line number="43" hits="11" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="81" hits="6" branch="false"/>
+						<line number="82" hits="6" branch="false"/>
+						<line number="87" hits="7" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.DefaultStompHeaders" filename="io/netty/handler/codec/stomp/DefaultStompHeaders.java" line-rate="0.13043478260869565" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="43" branch="false"/>
+								<line number="27" hits="43" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/Object;Ljava/lang/Iterable;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/Object;Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="43" branch="false"/>
+							</lines>
+						</method>
+						<method name="add" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addBoolean" signature="(Ljava/lang/CharSequence;Z)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addBoolean" signature="(Ljava/lang/CharSequence;Z)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addBoolean" signature="(Ljava/lang/Object;Z)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addByte" signature="(Ljava/lang/CharSequence;B)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addByte" signature="(Ljava/lang/CharSequence;B)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addByte" signature="(Ljava/lang/Object;B)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addChar" signature="(Ljava/lang/CharSequence;C)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addChar" signature="(Ljava/lang/CharSequence;C)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addChar" signature="(Ljava/lang/Object;C)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addDouble" signature="(Ljava/lang/CharSequence;D)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addDouble" signature="(Ljava/lang/CharSequence;D)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="0" branch="false"/>
+								<line number="105" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addDouble" signature="(Ljava/lang/Object;D)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addFloat" signature="(Ljava/lang/CharSequence;F)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addFloat" signature="(Ljava/lang/CharSequence;F)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="98" hits="0" branch="false"/>
+								<line number="99" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addFloat" signature="(Ljava/lang/Object;F)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addInt" signature="(Ljava/lang/CharSequence;I)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addInt" signature="(Ljava/lang/CharSequence;I)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addInt" signature="(Ljava/lang/Object;I)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addLong" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addLong" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="92" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addLong" signature="(Ljava/lang/Object;J)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Object;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;[Ljava/lang/Object;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/CharSequence;[Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/Object;Ljava/lang/Iterable;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/Object;Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addObject" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addShort" signature="(Ljava/lang/CharSequence;S)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addShort" signature="(Ljava/lang/CharSequence;S)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addShort" signature="(Ljava/lang/Object;S)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addTimeMillis" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addTimeMillis" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="110" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addTimeMillis" signature="(Ljava/lang/Object;J)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="224" hits="7" branch="false"/>
+								<line number="225" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="set" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="212" hits="7" branch="false"/>
+								<line number="213" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="122" hits="2" branch="false"/>
+								<line number="123" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="128" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/CharSequence;[Ljava/lang/CharSequence;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="134" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/Object;Ljava/lang/Iterable;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/Object;Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="set" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setAll" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setAll" signature="(Lio/netty/handler/codec/TextHeaders;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="218" hits="0" branch="false"/>
+								<line number="219" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setBoolean" signature="(Ljava/lang/CharSequence;Z)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setBoolean" signature="(Ljava/lang/CharSequence;Z)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="158" hits="0" branch="false"/>
+								<line number="159" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setBoolean" signature="(Ljava/lang/Object;Z)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setByte" signature="(Ljava/lang/CharSequence;B)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setByte" signature="(Ljava/lang/CharSequence;B)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="170" hits="0" branch="false"/>
+								<line number="171" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setByte" signature="(Ljava/lang/Object;B)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setChar" signature="(Ljava/lang/CharSequence;C)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setChar" signature="(Ljava/lang/CharSequence;C)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="164" hits="0" branch="false"/>
+								<line number="165" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setChar" signature="(Ljava/lang/Object;C)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setDouble" signature="(Ljava/lang/CharSequence;D)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setDouble" signature="(Ljava/lang/CharSequence;D)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="200" hits="0" branch="false"/>
+								<line number="201" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDouble" signature="(Ljava/lang/Object;D)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setFloat" signature="(Ljava/lang/CharSequence;F)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setFloat" signature="(Ljava/lang/CharSequence;F)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="194" hits="0" branch="false"/>
+								<line number="195" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setFloat" signature="(Ljava/lang/Object;F)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setInt" signature="(Ljava/lang/CharSequence;I)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setInt" signature="(Ljava/lang/CharSequence;I)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="182" hits="0" branch="false"/>
+								<line number="183" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setInt" signature="(Ljava/lang/Object;I)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setLong" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setLong" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="188" hits="0" branch="false"/>
+								<line number="189" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setLong" signature="(Ljava/lang/Object;J)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="146" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Object;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="140" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;[Ljava/lang/Object;)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/CharSequence;[Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="152" hits="0" branch="false"/>
+								<line number="153" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/Object;Ljava/lang/Iterable;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/Object;Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setObject" signature="(Ljava/lang/Object;[Ljava/lang/Object;)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setShort" signature="(Ljava/lang/CharSequence;S)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setShort" signature="(Ljava/lang/CharSequence;S)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="176" hits="0" branch="false"/>
+								<line number="177" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setShort" signature="(Ljava/lang/Object;S)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setTimeMillis" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/TextHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setTimeMillis" signature="(Ljava/lang/CharSequence;J)Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="206" hits="0" branch="false"/>
+								<line number="207" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTimeMillis" signature="(Ljava/lang/Object;J)Lio/netty/handler/codec/Headers;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="43" branch="false"/>
+						<line number="26" hits="43" branch="false"/>
+						<line number="27" hits="43" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="105" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="122" hits="2" branch="false"/>
+						<line number="123" hits="2" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="140" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="152" hits="0" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="158" hits="0" branch="false"/>
+						<line number="159" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
+						<line number="171" hits="0" branch="false"/>
+						<line number="176" hits="0" branch="false"/>
+						<line number="177" hits="0" branch="false"/>
+						<line number="182" hits="0" branch="false"/>
+						<line number="183" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="false"/>
+						<line number="189" hits="0" branch="false"/>
+						<line number="194" hits="0" branch="false"/>
+						<line number="195" hits="0" branch="false"/>
+						<line number="200" hits="0" branch="false"/>
+						<line number="201" hits="0" branch="false"/>
+						<line number="206" hits="0" branch="false"/>
+						<line number="207" hits="0" branch="false"/>
+						<line number="212" hits="7" branch="false"/>
+						<line number="213" hits="7" branch="false"/>
+						<line number="218" hits="0" branch="false"/>
+						<line number="219" hits="0" branch="false"/>
+						<line number="224" hits="7" branch="false"/>
+						<line number="225" hits="7" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.DefaultStompHeadersSubframe" filename="io/netty/handler/codec/stomp/DefaultStompHeadersSubframe.java" line-rate="0.6923076923076923" branch-rate="0.5" complexity="1.3333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/stomp/StompCommand;)V" line-rate="0.8571428571428571" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="26" hits="21" branch="false"/>
+								<line number="27" hits="21" branch="false"/>
+								<line number="29" hits="21" branch="false"/>
+								<line number="30" hits="21" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="31" hits="0" branch="false"/>
+								<line number="33" hits="21" branch="false"/>
+								<line number="34" hits="21" branch="false"/>
+							</lines>
+						</method>
+						<method name="command" signature="()Lio/netty/handler/codec/stomp/StompCommand;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="19" branch="false"/>
+							</lines>
+						</method>
+						<method name="decoderResult" signature="()Lio/netty/handler/codec/DecoderResult;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="headers" signature="()Lio/netty/handler/codec/stomp/StompHeaders;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="38" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDecoderResult" signature="(Lio/netty/handler/codec/DecoderResult;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="21" branch="false"/>
+						<line number="27" hits="21" branch="false"/>
+						<line number="29" hits="21" branch="false"/>
+						<line number="30" hits="21" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="31" hits="0" branch="false"/>
+						<line number="33" hits="21" branch="false"/>
+						<line number="34" hits="21" branch="false"/>
+						<line number="38" hits="19" branch="false"/>
+						<line number="43" hits="38" branch="false"/>
+						<line number="48" hits="7" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.LastStompContentSubframe" filename="io/netty/handler/codec/stomp/LastStompContentSubframe.java" line-rate="1.0" branch-rate="1.0" complexity="1.0555555555555556">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.LastStompContentSubframe$1" filename="io/netty/handler/codec/stomp/LastStompContentSubframe.java" line-rate="0.38461538461538464" branch-rate="1.0" complexity="1.0555555555555556">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="decoderResult" signature="()Lio/netty/handler/codec/DecoderResult;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="84" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="74" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="79" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setDecoderResult" signature="(Lio/netty/handler/codec/DecoderResult;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/LastStompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/stomp/StompContentSubframe;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="31" hits="8" branch="false"/>
+						<line number="34" hits="5" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="64" hits="7" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="74" hits="7" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="84" hits="3" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompCommand" filename="io/netty/handler/codec/stomp/StompCommand.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="29" branch="false"/>
+								<line number="22" hits="1" branch="false"/>
+								<line number="23" hits="1" branch="false"/>
+								<line number="24" hits="1" branch="false"/>
+								<line number="25" hits="1" branch="false"/>
+								<line number="26" hits="1" branch="false"/>
+								<line number="27" hits="1" branch="false"/>
+								<line number="28" hits="1" branch="false"/>
+								<line number="29" hits="1" branch="false"/>
+								<line number="30" hits="1" branch="false"/>
+								<line number="31" hits="1" branch="false"/>
+								<line number="32" hits="1" branch="false"/>
+								<line number="33" hits="1" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+								<line number="35" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/handler/codec/stomp/StompCommand;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lio/netty/handler/codec/stomp/StompCommand;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="29" branch="false"/>
+						<line number="22" hits="1" branch="false"/>
+						<line number="23" hits="1" branch="false"/>
+						<line number="24" hits="1" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="26" hits="1" branch="false"/>
+						<line number="27" hits="1" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="29" hits="1" branch="false"/>
+						<line number="30" hits="1" branch="false"/>
+						<line number="31" hits="1" branch="false"/>
+						<line number="32" hits="1" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompConstants" filename="io/netty/handler/codec/stomp/StompConstants.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompContentSubframe" filename="io/netty/handler/codec/stomp/StompContentSubframe.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompFrame" filename="io/netty/handler/codec/stomp/StompFrame.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompHeaders" filename="io/netty/handler/codec/stomp/StompHeaders.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompHeadersSubframe" filename="io/netty/handler/codec/stomp/StompHeadersSubframe.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframe" filename="io/netty/handler/codec/stomp/StompSubframe.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframeAggregator" filename="io/netty/handler/codec/stomp/StompSubframeAggregator.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="7" branch="false"/>
+								<line number="43" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="beginAggregation" signature="(Lio/netty/handler/codec/stomp/StompHeadersSubframe;Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/stomp/StompFrame;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="7" branch="false"/>
+								<line number="83" hits="7" branch="false"/>
+								<line number="84" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="beginAggregation" signature="(Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="contentLength" signature="(Lio/netty/handler/codec/stomp/StompHeadersSubframe;)J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="72" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="contentLength" signature="(Ljava/lang/Object;)J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="hasContentLength" signature="(Lio/netty/handler/codec/stomp/StompHeadersSubframe;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="67" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasContentLength" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isAggregated" signature="(Lio/netty/handler/codec/stomp/StompSubframe;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAggregated" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isContentMessage" signature="(Lio/netty/handler/codec/stomp/StompSubframe;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="27" branch="false"/>
+							</lines>
+						</method>
+						<method name="isContentMessage" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isLastContentMessage" signature="(Lio/netty/buffer/ByteBufHolder;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isLastContentMessage" signature="(Lio/netty/handler/codec/stomp/StompContentSubframe;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="57" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="isStartMessage" signature="(Lio/netty/handler/codec/stomp/StompSubframe;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="47" hits="24" branch="false"/>
+							</lines>
+						</method>
+						<method name="isStartMessage" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="101" branch="false"/>
+							</lines>
+						</method>
+						<method name="newContinueResponse" signature="(Lio/netty/handler/codec/stomp/StompHeadersSubframe;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="77" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="newContinueResponse" signature="(Ljava/lang/Object;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="30" hits="101" branch="false"/>
+						<line number="42" hits="7" branch="false"/>
+						<line number="43" hits="7" branch="false"/>
+						<line number="47" hits="24" branch="false"/>
+						<line number="52" hits="27" branch="false"/>
+						<line number="57" hits="10" branch="false"/>
+						<line number="62" hits="17" branch="false"/>
+						<line number="67" hits="7" branch="false"/>
+						<line number="72" hits="2" branch="false"/>
+						<line number="77" hits="7" branch="false"/>
+						<line number="82" hits="7" branch="false"/>
+						<line number="83" hits="7" branch="false"/>
+						<line number="84" hits="7" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframeDecoder" filename="io/netty/handler/codec/stomp/StompSubframeDecoder.java" line-rate="0.7606837606837606" branch-rate="0.6415094339622641" complexity="5.7">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="79" hits="11" branch="false"/>
+								<line number="80" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(II)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="83" hits="13" branch="false"/>
+								<line number="84" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="0" branch="false"/>
+								<line number="89" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="90" hits="0" branch="false"/>
+								<line number="94" hits="13" branch="false"/>
+								<line number="95" hits="13" branch="false"/>
+								<line number="96" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V" line-rate="0.6875" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="100" hits="43" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="switch" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="102" hits="37" branch="false"/>
+								<line number="103" hits="13" branch="false"/>
+								<line number="106" hits="13" branch="false"/>
+								<line number="107" hits="13" branch="false"/>
+								<line number="109" hits="13" branch="false"/>
+								<line number="110" hits="13" branch="false"/>
+								<line number="111" hits="13" branch="false"/>
+								<line number="112" hits="13" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="115" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+								<line number="119" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="false"/>
+								<line number="121" hits="13" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="128" hits="19" branch="true" condition-coverage="66% (2/3)">
+									<conditions>
+										<condition number="0" type="switch" coverage="66%"/>
+									</conditions>
+								</line>
+								<line number="130" hits="13" branch="false"/>
+								<line number="131" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="132" hits="0" branch="false"/>
+								<line number="134" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="135" hits="13" branch="false"/>
+								<line number="137" hits="13" branch="false"/>
+								<line number="138" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="139" hits="7" branch="false"/>
+								<line number="141" hits="13" branch="false"/>
+								<line number="142" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="143" hits="7" branch="false"/>
+								<line number="144" hits="7" branch="false"/>
+								<line number="147" hits="6" branch="false"/>
+								<line number="148" hits="6" branch="false"/>
+								<line number="150" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="151" hits="6" branch="false"/>
+								<line number="155" hits="13" branch="false"/>
+								<line number="156" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="157" hits="6" branch="false"/>
+								<line number="159" hits="13" branch="false"/>
+								<line number="160" hits="13" branch="false"/>
+								<line number="162" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+								<line number="164" hits="0" branch="false"/>
+								<line number="165" hits="0" branch="false"/>
+								<line number="166" hits="0" branch="false"/>
+								<line number="167" hits="13" branch="false"/>
+								<line number="168" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="getContentLength" signature="(Lio/netty/handler/codec/stomp/StompHeaders;J)J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="222" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="readCommand" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/stomp/StompCommand;" line-rate="0.5384615384615384" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="171" hits="13" branch="false"/>
+								<line number="172" hits="13" branch="false"/>
+								<line number="174" hits="13" branch="false"/>
+								<line number="175" hits="0" branch="false"/>
+								<line number="177" hits="13" branch="false"/>
+								<line number="178" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="179" hits="0" branch="false"/>
+								<line number="181" hits="0" branch="false"/>
+								<line number="182" hits="0" branch="false"/>
+								<line number="184" hits="0" branch="false"/>
+								<line number="186" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="187" hits="0" branch="false"/>
+								<line number="189" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="readHeaders" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/handler/codec/stomp/StompHeaders;)Lio/netty/handler/codec/stomp/StompSubframeDecoder$State;" line-rate="1.0" branch-rate="0.8" complexity="0">
+							<lines>
+								<line number="194" hits="41" branch="false"/>
+								<line number="195" hits="41" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="196" hits="28" branch="false"/>
+								<line number="197" hits="28" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="198" hits="28" branch="false"/>
+								<line number="200" hits="28" branch="false"/>
+								<line number="201" hits="13" branch="false"/>
+								<line number="202" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="203" hits="4" branch="false"/>
+								<line number="205" hits="9" branch="false"/>
+								<line number="207" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="208" hits="9" branch="false"/>
+								<line number="211" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="212" hits="7" branch="false"/>
+								<line number="213" hits="7" branch="false"/>
+								<line number="215" hits="6" branch="false"/>
+								<line number="218" hits="28" branch="false"/>
+							</lines>
+						</method>
+						<method name="readLine" signature="(Lio/netty/buffer/ByteBuf;I)Ljava/lang/String;" line-rate="0.7142857142857143" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="244" hits="54" branch="false"/>
+								<line number="245" hits="54" branch="false"/>
+								<line number="247" hits="691" branch="false"/>
+								<line number="248" hits="691" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="249" hits="0" branch="false"/>
+								<line number="250" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="251" hits="0" branch="false"/>
+								<line number="253" hits="691" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="254" hits="54" branch="false"/>
+								<line number="256" hits="637" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="257" hits="0" branch="false"/>
+								<line number="259" hits="637" branch="false"/>
+								<line number="260" hits="637" branch="false"/>
+								<line number="262" hits="637" branch="false"/>
+							</lines>
+						</method>
+						<method name="resetDecoder" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="266" hits="13" branch="false"/>
+								<line number="267" hits="13" branch="false"/>
+								<line number="268" hits="13" branch="false"/>
+								<line number="269" hits="13" branch="false"/>
+								<line number="270" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="skipControlCharacters" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="235" hits="57" branch="false"/>
+								<line number="236" hits="33" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="237" hits="13" branch="false"/>
+								<line number="238" hits="13" branch="false"/>
+								<line number="241" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="skipNullCharacter" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="226" hits="13" branch="false"/>
+								<line number="227" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="228" hits="0" branch="false"/>
+								<line number="230" hits="13" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="79" hits="11" branch="false"/>
+						<line number="80" hits="11" branch="false"/>
+						<line number="83" hits="13" branch="false"/>
+						<line number="84" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="0" branch="false"/>
+						<line number="89" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="90" hits="0" branch="false"/>
+						<line number="94" hits="13" branch="false"/>
+						<line number="95" hits="13" branch="false"/>
+						<line number="96" hits="13" branch="false"/>
+						<line number="100" hits="43" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="switch" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="102" hits="37" branch="false"/>
+						<line number="103" hits="13" branch="false"/>
+						<line number="106" hits="13" branch="false"/>
+						<line number="107" hits="13" branch="false"/>
+						<line number="109" hits="13" branch="false"/>
+						<line number="110" hits="13" branch="false"/>
+						<line number="111" hits="13" branch="false"/>
+						<line number="112" hits="13" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="115" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+						<line number="121" hits="13" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="128" hits="19" branch="true" condition-coverage="66% (2/3)">
+							<conditions>
+								<condition number="0" type="switch" coverage="66%"/>
+							</conditions>
+						</line>
+						<line number="130" hits="13" branch="false"/>
+						<line number="131" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="132" hits="0" branch="false"/>
+						<line number="134" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="135" hits="13" branch="false"/>
+						<line number="137" hits="13" branch="false"/>
+						<line number="138" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="139" hits="7" branch="false"/>
+						<line number="141" hits="13" branch="false"/>
+						<line number="142" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="143" hits="7" branch="false"/>
+						<line number="144" hits="7" branch="false"/>
+						<line number="147" hits="6" branch="false"/>
+						<line number="148" hits="6" branch="false"/>
+						<line number="150" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="151" hits="6" branch="false"/>
+						<line number="155" hits="13" branch="false"/>
+						<line number="156" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="157" hits="6" branch="false"/>
+						<line number="159" hits="13" branch="false"/>
+						<line number="160" hits="13" branch="false"/>
+						<line number="162" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+						<line number="166" hits="0" branch="false"/>
+						<line number="167" hits="13" branch="false"/>
+						<line number="168" hits="13" branch="false"/>
+						<line number="171" hits="13" branch="false"/>
+						<line number="172" hits="13" branch="false"/>
+						<line number="174" hits="13" branch="false"/>
+						<line number="175" hits="0" branch="false"/>
+						<line number="177" hits="13" branch="false"/>
+						<line number="178" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="179" hits="0" branch="false"/>
+						<line number="181" hits="0" branch="false"/>
+						<line number="182" hits="0" branch="false"/>
+						<line number="184" hits="0" branch="false"/>
+						<line number="186" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="187" hits="0" branch="false"/>
+						<line number="189" hits="13" branch="false"/>
+						<line number="194" hits="41" branch="false"/>
+						<line number="195" hits="41" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="196" hits="28" branch="false"/>
+						<line number="197" hits="28" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="198" hits="28" branch="false"/>
+						<line number="200" hits="28" branch="false"/>
+						<line number="201" hits="13" branch="false"/>
+						<line number="202" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="203" hits="4" branch="false"/>
+						<line number="205" hits="9" branch="false"/>
+						<line number="207" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="208" hits="9" branch="false"/>
+						<line number="211" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="212" hits="7" branch="false"/>
+						<line number="213" hits="7" branch="false"/>
+						<line number="215" hits="6" branch="false"/>
+						<line number="218" hits="28" branch="false"/>
+						<line number="222" hits="4" branch="false"/>
+						<line number="226" hits="13" branch="false"/>
+						<line number="227" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="228" hits="0" branch="false"/>
+						<line number="230" hits="13" branch="false"/>
+						<line number="235" hits="57" branch="false"/>
+						<line number="236" hits="33" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="237" hits="13" branch="false"/>
+						<line number="238" hits="13" branch="false"/>
+						<line number="241" hits="13" branch="false"/>
+						<line number="244" hits="54" branch="false"/>
+						<line number="245" hits="54" branch="false"/>
+						<line number="247" hits="691" branch="false"/>
+						<line number="248" hits="691" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="249" hits="0" branch="false"/>
+						<line number="250" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="251" hits="0" branch="false"/>
+						<line number="253" hits="691" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="254" hits="54" branch="false"/>
+						<line number="256" hits="637" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="257" hits="0" branch="false"/>
+						<line number="259" hits="637" branch="false"/>
+						<line number="260" hits="637" branch="false"/>
+						<line number="262" hits="637" branch="false"/>
+						<line number="266" hits="13" branch="false"/>
+						<line number="267" hits="13" branch="false"/>
+						<line number="268" hits="13" branch="false"/>
+						<line number="269" hits="13" branch="false"/>
+						<line number="270" hits="13" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframeDecoder$1" filename="io/netty/handler/codec/stomp/StompSubframeDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="5.7">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="100" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="100" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframeDecoder$State" filename="io/netty/handler/codec/stomp/StompSubframeDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="5.7">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="8" branch="false"/>
+								<line number="64" hits="1" branch="false"/>
+								<line number="65" hits="1" branch="false"/>
+								<line number="66" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+								<line number="68" hits="1" branch="false"/>
+								<line number="69" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/handler/codec/stomp/StompSubframeDecoder$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lio/netty/handler/codec/stomp/StompSubframeDecoder$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="63" hits="8" branch="false"/>
+						<line number="64" hits="1" branch="false"/>
+						<line number="65" hits="1" branch="false"/>
+						<line number="66" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="68" hits="1" branch="false"/>
+						<line number="69" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.stomp.StompSubframeEncoder" filename="io/netty/handler/codec/stomp/StompSubframeEncoder.java" line-rate="0.6875" branch-rate="0.625" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/handler/codec/stomp/StompSubframe;Ljava/util/List;)V" line-rate="0.6" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="36" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="43" hits="1" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+								<line number="51" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeContent" signature="(Lio/netty/handler/codec/stomp/StompContentSubframe;Lio/netty/channel/ChannelHandlerContext;)Lio/netty/buffer/ByteBuf;" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="54" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="55" hits="1" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+								<line number="57" hits="1" branch="false"/>
+								<line number="58" hits="1" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeFrame" signature="(Lio/netty/handler/codec/stomp/StompHeadersSubframe;Lio/netty/channel/ChannelHandlerContext;)Lio/netty/buffer/ByteBuf;" line-rate="0.7" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+								<line number="68" hits="1" branch="false"/>
+								<line number="70" hits="1" branch="false"/>
+								<line number="71" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="1" branch="false"/>
+								<line number="75" hits="1" branch="false"/>
+								<line number="76" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="32" hits="3" branch="false"/>
+						<line number="36" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="43" hits="1" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="51" hits="2" branch="false"/>
+						<line number="54" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="55" hits="1" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="57" hits="1" branch="false"/>
+						<line number="58" hits="1" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="65" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="68" hits="1" branch="false"/>
+						<line number="70" hits="1" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="1" branch="false"/>
+						<line number="75" hits="1" branch="false"/>
+						<line number="76" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

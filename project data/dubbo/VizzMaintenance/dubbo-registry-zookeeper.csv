@@ -1,0 +1,4 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory.java.ZookeeperRegistryFactory,ZookeeperRegistryFactory,0.03700609,1,1,1,0,1,0,1,24,18,0.666666667,1,3,0,2,2,1,2
+com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry.java.ZookeeperRegistry,ZookeeperRegistry,0.093558606,0,1,0,0,3,148,1,17,249,0.941176471,0,23,0,16,16,1,42
+com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryTest.java.ZookeeperRegistryTest,ZookeeperRegistryTest,0.159410851,1,1,1,0,0,25,0,21,84,0.166666667,1,9,0,5,6,0,5

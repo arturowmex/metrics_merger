@@ -1,0 +1,13 @@
+ServicesPageHandler,0.0,0.0,12.0,45,1,0,0.5,0,1,0.0,0.0,0.6,0.11936339522546419,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.ServicesPageHandler
+UnregisterPageHandler,0.0,0.0,7.0,28,1,0,0.5,0,1,0.0,0.0,0.35,0.07427055702917772,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.UnregisterPageHandler
+ProvidersPageHandler,0.0,0.0,20.0,63,1,0,0.5,0,1,0.0,0.0,1.0,0.16710875331564987,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.ProvidersPageHandler
+ApplicationsPageHandler,0.0,0.0,19.0,56,1,0,0.5,0,1,0.0,0.0,0.95,0.14854111405835543,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.ApplicationsPageHandler
+DependenciesPageHandler,0.0,0.0,8.5,62,2,0,0.666666667,0,1,0.0,0.0,0.425,0.16445623342175067,0.11764705882352941,0.0,0.7058823536262975,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.DependenciesPageHandler
+SimpleMonitorService,0.1782608695652174,0.07608695652173914,4.05,377,17,2,0.944444444,0,1,1.0,1.0,0.20249999999999999,1.0,1.0,0.3333333333333333,1.0,NaN,0.5,com.alibaba.dubbo.monitor.simple.SimpleMonitorService
+StatisticsPageHandler,0.0,0.0,7.0,136,4,0,0.8,0,2,0.0,0.0,0.35,0.36074270557029176,0.23529411764705882,0.0,0.8470588239280277,NaN,1.0,com.alibaba.dubbo.monitor.simple.pages.StatisticsPageHandler
+CountUtils,0.0,0.0,3.25,67,4,2,0.8,0,0,0.0,0.0,0.1625,0.17771883289124668,0.23529411764705882,0.3333333333333333,0.8470588239280277,NaN,0.0,com.alibaba.dubbo.monitor.simple.CountUtils
+RegistryContainer,0.0,0.0,4.666666666666667,267,16,6,0.941176471,0,0,0.0,0.0,0.23333333333333334,0.7082228116710876,0.9411764705882353,1.0,0.9965397932924893,NaN,0.0,com.alibaba.dubbo.monitor.simple.RegistryContainer
+HostsPageHandler,0.0,0.0,15.0,47,1,0,0.5,0,1,0.0,0.0,0.75,0.1246684350132626,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.HostsPageHandler
+UnsubscribePageHandler,0.0,0.0,3.0,38,1,0,0.5,0,2,0.0,0.0,0.15,0.10079575596816977,0.058823529411764705,0.0,0.5294117649550173,NaN,1.0,com.alibaba.dubbo.monitor.simple.pages.UnsubscribePageHandler
+ConsumersPageHandler,0.0,0.0,20.0,63,1,0,0.5,0,1,0.0,0.0,1.0,0.16710875331564987,0.058823529411764705,0.0,0.5294117649550173,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.ConsumersPageHandler
+ChartsPageHandler,0.0,0.0,5.5,67,2,0,0.666666667,0,1,0.0,0.0,0.275,0.17771883289124668,0.11764705882352941,0.0,0.7058823536262975,NaN,0.5,com.alibaba.dubbo.monitor.simple.pages.ChartsPageHandler

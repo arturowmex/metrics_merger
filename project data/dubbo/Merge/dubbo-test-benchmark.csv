@@ -1,0 +1,16 @@
+SimpleProcessorBenchmarkClientRunnable,0.0,0.0,6.2,171,4,2,0.8,1,4,0.0,0.0,0.9789473684210527,0.7702702702702703,0.4,1.0,0.8,0.5,1.0,com.alibaba.dubbo.rpc.benchmark.SimpleProcessorBenchmarkClientRunnable
+ServiceFactory,0.0,0.0,1.2,84,10,1,0.909090909,0,0,0.0,0.0,0.18947368421052632,0.3783783783783784,1.0,0.5,0.909090909,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.ServiceFactory
+AbstractBenchmarkServer,0.0,0.0,2.5,39,1,1,0.5,0,0,0.0,0.0,0.39473684210526316,0.17567567567567569,0.1,0.5,0.5,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.AbstractBenchmarkServer
+DemoService,1.0,1.0,1.0,8,1,0,0.5,0,0,1.0,1.0,0.15789473684210528,0.036036036036036036,0.1,0.0,0.5,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.DemoService
+AbstractBenchmarkClient,0.0,0.0,6.333333333333333,222,3,1,0.75,0,1,0.0,0.0,1.0,1.0,0.3,0.5,0.75,0.0,0.25,com.alibaba.dubbo.rpc.benchmark.AbstractBenchmarkClient
+ClientRunnable,1.0,1.0,1.0,10,1,0,0.5,0,0,1.0,1.0,0.15789473684210528,0.04504504504504504,0.1,0.0,0.5,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.ClientRunnable
+BenchmarkClient,0.0,1.0,1.0,14,2,0,1.0,1,3,0.0,1.0,0.15789473684210528,0.06306306306306306,0.2,0.0,1.0,0.5,0.75,com.alibaba.dubbo.rpc.benchmark.BenchmarkClient
+RpcBenchmarkServer,0.0,1.0,2.0,14,1,0,1.0,1,1,0.0,1.0,0.31578947368421056,0.06306306306306306,0.1,0.0,1.0,0.5,0.25,com.alibaba.dubbo.rpc.benchmark.RpcBenchmarkServer
+ExchangeClientFactory,0.0,0.0,2.6666666666666665,86,5,1,0.833333333,0,0,0.0,0.0,0.42105263157894735,0.38738738738738737,0.5,0.5,0.833333333,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.ExchangeClientFactory
+BenchmarkServer,0.0,1.0,1.0,9,1,0,1.0,1,1,0.0,1.0,0.15789473684210528,0.04054054054054054,0.1,0.0,1.0,0.5,0.25,com.alibaba.dubbo.rpc.benchmark.BenchmarkServer
+ResponseObject,0.0,1.0,1.0,21,1,1,0.5,0,0,0.0,1.0,0.15789473684210528,0.0945945945945946,0.1,0.5,0.5,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.ResponseObject
+RpcBenchmarkClient,0.0,1.0,1.0,18,2,0,1.0,1,2,0.0,1.0,0.15789473684210528,0.08108108108108109,0.2,0.0,1.0,0.5,0.5,com.alibaba.dubbo.rpc.benchmark.RpcBenchmarkClient
+AbstractClientRunnable,0.0,0.0,5.333333333333333,160,5,2,0.833333333,1,2,0.0,0.0,0.8421052631578947,0.7207207207207207,0.5,1.0,0.833333333,0.5,0.5,com.alibaba.dubbo.rpc.benchmark.AbstractClientRunnable
+DemoServiceImpl,0.0,1.0,1.0,12,1,0,0.5,1,2,0.0,1.0,0.15789473684210528,0.05405405405405406,0.1,0.0,0.5,0.5,0.5,com.alibaba.dubbo.rpc.benchmark.DemoServiceImpl
+RequestObject,0.0,1.0,1.0,27,2,1,0.666666667,0,0,0.0,1.0,0.15789473684210528,0.12162162162162163,0.2,0.5,0.666666667,0.0,0.0,com.alibaba.dubbo.rpc.benchmark.RequestObject
+RpcClient,0.0,1.0,1.0,45,1,1,0.5,2,3,0.0,1.0,0.15789473684210528,0.20270270270270271,0.1,0.5,0.5,1.0,0.75,com.alibaba.dubbo.rpc.benchmark.RpcClient

@@ -1,0 +1,8 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+io.netty.resolver.SimpleNameResolver.java.SimpleNameResolver,SimpleNameResolver,0.093681693,1,1,1,0,2,90,1,18,152,0.636363636,0,12,0,10,10,0,20
+io.netty.resolver.DefaultNameResolverGroup.java.DefaultNameResolverGroup,DefaultNameResolverGroup,0.152712916,3,1,3,0,0,1,0,24,14,0.5,1,2,0,1,1,0,1
+io.netty.resolver.NoopNameResolverGroup.java.NoopNameResolverGroup,NoopNameResolverGroup,0.148694155,3,1,3,0,0,1,0,21,14,0.5,1,2,0,1,1,0,1
+io.netty.resolver.NameResolverGroup.java.NameResolverGroup,NameResolverGroup,0.068318936,1,1,1,0,1,8,1,17,87,0.2,0,6,0,4,4,0,8
+io.netty.resolver.NoopNameResolver.java.NoopNameResolver,NoopNameResolver,0.139525411,2,1,2,0,0,4,0,16,20,0.666666667,0,2,0,2,2,0,2
+io.netty.resolver.NameResolver.java.NameResolver,NameResolver,0.136637872,0,1,0,0,0,49,0,12,65,0,0,7,0,7,7,0,7
+io.netty.resolver.DefaultNameResolver.java.DefaultNameResolver,DefaultNameResolver,0.139525411,2,1,2,0,0,4,0,19,27,0.666666667,0,2,0,2,2,0,2

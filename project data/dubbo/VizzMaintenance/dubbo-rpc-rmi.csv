@@ -1,0 +1,8 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.rpc.protocol.rmi.RmiProtocolTest.java.RmiProtocolTest.NonStdRmiInterface,NonStdRmiInterface,0.194484877,0,1,0,0,0,1,0,18,3,1,0,1,0,1,1,0,1
+com.alibaba.dubbo.rpc.protocol.rmi.Type.java.RmiProtocol.java.RmiProtocol,RmiProtocol,0.141893175,0,1,0,0,1,14,0,11,70,0.8,0,5,0,4,4,0,9
+com.alibaba.dubbo.rpc.protocol.rmi.DemoService.java.DemoService,DemoService,0.216468549,1,1,1,0,0,100,0,11,26,0.909090909,0,10,1,10,10,0,10
+com.alibaba.dubbo.rpc.protocol.rmi.DemoServiceImpl.java.DemoServiceImpl,DemoServiceImpl,0.222668734,2,1,2,1,0,100,0,15,68,0.909090909,0,10,0,10,10,0,13
+com.alibaba.dubbo.rpc.protocol.rmi.RmiProtocolTest.java.RmiProtocolTest,RmiProtocolTest,0.093427312,4,1,4,0,1,0,1,15,165,1,8,5,0,3,8,1,4
+com.alibaba.dubbo.rpc.protocol.rmi.RemoteServiceImpl.java.RemoteServiceImpl,RemoteServiceImpl,0.203295573,1,1,1,1,0,4,0,17,13,1,0,2,0,2,2,0,2
+com.alibaba.dubbo.rpc.protocol.rmi.RemoteService.java.RemoteService,RemoteService,0.192112563,0,1,0,0,0,4,0,13,6,1,0,2,1,2,2,0,2

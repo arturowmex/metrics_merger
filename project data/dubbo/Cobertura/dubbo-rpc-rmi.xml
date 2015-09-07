@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.6052631578947368" branch-rate="0.0" lines-covered="23" lines-valid="38" branches-covered="0" branches-valid="12" complexity="3.0" version="2.1.1" timestamp="1436190734217">
+	<sources>
+		<source>C:/Users/Arturo/git/Alibaba/dubbo/dubbo-rpc/dubbo-rpc-rmi/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="com.alibaba.dubbo.rpc.protocol.rmi" line-rate="0.6052631578947368" branch-rate="0.0" complexity="3.0">
+			<classes>
+				<class name="com.alibaba.dubbo.rpc.protocol.rmi.RmiProtocol" filename="com/alibaba/dubbo/rpc/protocol/rmi/RmiProtocol.java" line-rate="0.5625" branch-rate="0.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="40" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$0" signature="(Lcom/alibaba/dubbo/rpc/protocol/rmi/RmiProtocol;)Lcom/alibaba/dubbo/common/logger/Logger;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doExport" signature="(Ljava/lang/Object;Ljava/lang/Class;Lcom/alibaba/dubbo/common/URL;)Ljava/lang/Runnable;" line-rate="0.8888888888888888" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="6" branch="false"/>
+								<line number="49" hits="6" branch="false"/>
+								<line number="50" hits="6" branch="false"/>
+								<line number="51" hits="6" branch="false"/>
+								<line number="52" hits="6" branch="false"/>
+								<line number="54" hits="6" branch="false"/>
+								<line number="55" hits="6" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="58" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="doRefer" signature="(Ljava/lang/Class;Lcom/alibaba/dubbo/common/URL;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="6" branch="false"/>
+								<line number="72" hits="6" branch="false"/>
+								<line number="73" hits="6" branch="false"/>
+								<line number="74" hits="6" branch="false"/>
+								<line number="75" hits="6" branch="false"/>
+								<line number="76" hits="6" branch="false"/>
+								<line number="77" hits="6" branch="false"/>
+								<line number="78" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDefaultPort" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getErrorCode" signature="(Ljava/lang/Throwable;)I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="82" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="83" hits="0" branch="false"/>
+								<line number="85" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="86" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="35" hits="0" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="48" hits="6" branch="false"/>
+						<line number="49" hits="6" branch="false"/>
+						<line number="50" hits="6" branch="false"/>
+						<line number="51" hits="6" branch="false"/>
+						<line number="52" hits="6" branch="false"/>
+						<line number="54" hits="6" branch="false"/>
+						<line number="55" hits="6" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="58" hits="6" branch="false"/>
+						<line number="71" hits="6" branch="false"/>
+						<line number="72" hits="6" branch="false"/>
+						<line number="73" hits="6" branch="false"/>
+						<line number="74" hits="6" branch="false"/>
+						<line number="75" hits="6" branch="false"/>
+						<line number="76" hits="6" branch="false"/>
+						<line number="77" hits="6" branch="false"/>
+						<line number="78" hits="6" branch="false"/>
+						<line number="82" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="83" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="86" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.rpc.protocol.rmi.RmiProtocol$1" filename="com/alibaba/dubbo/rpc/protocol/rmi/RmiProtocol.java" line-rate="0.8333333333333334" branch-rate="1.0" complexity="3.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/rpc/protocol/rmi/RmiProtocol;Lorg/springframework/remoting/rmi/RmiServiceExporter;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="1" hits="6" branch="false"/>
+								<line number="58" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="run" signature="()V" line-rate="0.75" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="61" hits="6" branch="false"/>
+								<line number="62" hits="6" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="65" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="1" hits="6" branch="false"/>
+						<line number="58" hits="6" branch="false"/>
+						<line number="61" hits="6" branch="false"/>
+						<line number="62" hits="6" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="65" hits="6" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,4187 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.50875" branch-rate="0.27759197324414714" lines-covered="407" lines-valid="800" branches-covered="83" branches-valid="299" complexity="1.8732394366197183" version="2.1.1" timestamp="1433426159661">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Arturo/git/netty/codec-dns/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="io.netty.handler.codec.dns" line-rate="0.50875" branch-rate="0.27759197324414714" complexity="1.8732394366197183">
+			<classes>
+				<class name="io.netty.handler.codec.dns.AbstractDnsMessage" filename="io/netty/handler/codec/dns/AbstractDnsMessage.java" line-rate="0.5053763440860215" branch-rate="0.4069767441860465" complexity="2.9069767441860463">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="1" branch="false"/>
+								<line number="38" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILio/netty/handler/codec/dns/DnsOpCode;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="11" branch="false"/>
+								<line number="64" hits="11" branch="false"/>
+								<line number="65" hits="11" branch="false"/>
+								<line number="66" hits="11" branch="false"/>
+								<line number="67" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(IILio/netty/handler/codec/dns/DnsRecord;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="262" hits="0" branch="false"/>
+								<line number="264" hits="0" branch="false"/>
+								<line number="265" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="266" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="267" hits="0" branch="false"/>
+								<line number="270" hits="0" branch="false"/>
+								<line number="271" hits="0" branch="false"/>
+								<line number="274" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="276" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="277" hits="0" branch="false"/>
+								<line number="278" hits="0" branch="false"/>
+								<line number="279" hits="0" branch="false"/>
+								<line number="280" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="281" hits="0" branch="false"/>
+								<line number="282" hits="0" branch="false"/>
+								<line number="283" hits="0" branch="false"/>
+								<line number="285" hits="0" branch="false"/>
+								<line number="287" hits="0" branch="false"/>
+								<line number="288" hits="0" branch="false"/>
+								<line number="292" hits="0" branch="false"/>
+								<line number="293" hits="0" branch="false"/>
+								<line number="294" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(ILio/netty/handler/codec/dns/DnsRecord;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="234" hits="22" branch="false"/>
+								<line number="236" hits="22" branch="false"/>
+								<line number="237" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="238" hits="10" branch="false"/>
+								<line number="239" hits="10" branch="false"/>
+								<line number="242" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="243" hits="1" branch="false"/>
+								<line number="244" hits="1" branch="false"/>
+								<line number="245" hits="1" branch="false"/>
+								<line number="246" hits="1" branch="false"/>
+								<line number="247" hits="1" branch="false"/>
+								<line number="251" hits="11" branch="false"/>
+								<line number="252" hits="11" branch="false"/>
+								<line number="253" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="257" hits="0" branch="false"/>
+								<line number="258" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="229" hits="22" branch="false"/>
+								<line number="230" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="castRecord" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="464" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="checkQuestion" signature="(ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.6666666666666666" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="455" hits="27" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="456" hits="0" branch="false"/>
+								<line number="459" hits="27" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="330" hits="55" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="331" hits="44" branch="false"/>
+								<line number="333" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(I)V" line-rate="1.0" branch-rate="0.875" complexity="0">
+							<lines>
+								<line number="337" hits="49" branch="false"/>
+								<line number="338" hits="49" branch="false"/>
+								<line number="339" hits="49" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="340" hits="4" branch="false"/>
+								<line number="341" hits="45" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="343" hits="1" branch="false"/>
+								<line number="344" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="345" hits="1" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="346" hits="13" branch="false"/>
+								<line number="347" hits="13" branch="false"/>
+								<line number="350" hits="49" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="324" hits="0" branch="false"/>
+								<line number="325" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="count" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="134" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="136" hits="0" branch="false"/>
+								<line number="138" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="count" signature="(I)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="119" hits="60" branch="false"/>
+								<line number="120" hits="60" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="121" hits="35" branch="false"/>
+								<line number="123" hits="25" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="124" hits="24" branch="false"/>
+								<line number="128" hits="1" branch="false"/>
+								<line number="129" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="count" signature="(Lio/netty/handler/codec/dns/DnsSection;)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="115" hits="60" branch="false"/>
+							</lines>
+						</method>
+						<method name="deallocate" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="377" hits="11" branch="false"/>
+								<line number="379" hits="11" branch="false"/>
+								<line number="380" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="381" hits="1" branch="false"/>
+								<line number="383" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="387" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="388" hits="0" branch="false"/>
+								<line number="391" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="392" hits="0" branch="false"/>
+								<line number="395" hits="0" branch="false"/>
+								<line number="396" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="397" hits="0" branch="false"/>
+								<line number="400" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="401" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="402" hits="0" branch="false"/>
+								<line number="404" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="405" hits="0" branch="false"/>
+								<line number="408" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="413" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="id" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="isRecursionDesired" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="93" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="newRecordList" signature="()Ljava/util/ArrayList;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="468" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="opCode" signature="()Lio/netty/handler/codec/dns/DnsOpCode;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordAt" signature="(I)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="149" hits="0" branch="false"/>
+								<line number="152" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="153" hits="0" branch="false"/>
+								<line number="157" hits="0" branch="false"/>
+								<line number="158" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="159" hits="0" branch="false"/>
+								<line number="162" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordAt" signature="(II)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.5555555555555556" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="171" hits="5" branch="false"/>
+								<line number="172" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="173" hits="0" branch="false"/>
+								<line number="176" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="177" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="178" hits="5" branch="false"/>
+								<line number="180" hits="0" branch="false"/>
+								<line number="185" hits="0" branch="false"/>
+								<line number="186" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordAt" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="143" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recordAt" signature="(Lio/netty/handler/codec/dns/DnsSection;I)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="167" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="removeRecord" signature="(II)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="302" hits="0" branch="false"/>
+								<line number="303" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="304" hits="0" branch="false"/>
+								<line number="307" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="308" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="309" hits="0" branch="false"/>
+								<line number="312" hits="0" branch="false"/>
+								<line number="313" hits="0" branch="false"/>
+								<line number="314" hits="0" branch="false"/>
+								<line number="318" hits="0" branch="false"/>
+								<line number="319" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="removeRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;I)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="298" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="367" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="372" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="sectionAt" signature="(I)Ljava/lang/Object;" line-rate="0.8333333333333334" branch-rate="0.8" complexity="0">
+							<lines>
+								<line number="417" hits="136" branch="true" condition-coverage="80% (4/5)">
+									<conditions>
+										<condition number="0" type="switch" coverage="80%"/>
+									</conditions>
+								</line>
+								<line number="419" hits="46" branch="false"/>
+								<line number="421" hits="24" branch="false"/>
+								<line number="423" hits="35" branch="false"/>
+								<line number="425" hits="31" branch="false"/>
+								<line number="428" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="sectionOrdinal" signature="(Lio/netty/handler/codec/dns/DnsSection;)I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="451" hits="92" branch="false"/>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="76" hits="11" branch="false"/>
+								<line number="77" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="11" branch="false"/>
+								<line number="88" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(IILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="206" hits="0" branch="false"/>
+								<line number="208" hits="0" branch="false"/>
+								<line number="209" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="210" hits="0" branch="false"/>
+								<line number="213" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="214" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="215" hits="0" branch="false"/>
+								<line number="216" hits="0" branch="false"/>
+								<line number="218" hits="0" branch="false"/>
+								<line number="223" hits="0" branch="false"/>
+								<line number="224" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(ILio/netty/handler/codec/dns/DnsRecord;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="196" hits="5" branch="false"/>
+								<line number="197" hits="5" branch="false"/>
+								<line number="198" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="202" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="191" hits="5" branch="false"/>
+								<line number="192" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="98" hits="6" branch="false"/>
+								<line number="99" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setSection" signature="(ILjava/lang/Object;)V" line-rate="0.9" branch-rate="0.8" complexity="0">
+							<lines>
+								<line number="432" hits="65" branch="true" condition-coverage="80% (4/5)">
+									<conditions>
+										<condition number="0" type="switch" coverage="80%"/>
+									</conditions>
+								</line>
+								<line number="434" hits="26" branch="false"/>
+								<line number="435" hits="26" branch="false"/>
+								<line number="437" hits="14" branch="false"/>
+								<line number="438" hits="14" branch="false"/>
+								<line number="440" hits="14" branch="false"/>
+								<line number="441" hits="14" branch="false"/>
+								<line number="443" hits="11" branch="false"/>
+								<line number="444" hits="11" branch="false"/>
+								<line number="447" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="109" hits="6" branch="false"/>
+								<line number="110" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="354" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="359" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="360" hits="1" branch="false"/>
+								<line number="362" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="z" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+						<line number="41" hits="11" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="64" hits="11" branch="false"/>
+						<line number="65" hits="11" branch="false"/>
+						<line number="66" hits="11" branch="false"/>
+						<line number="67" hits="11" branch="false"/>
+						<line number="71" hits="10" branch="false"/>
+						<line number="76" hits="11" branch="false"/>
+						<line number="77" hits="11" branch="false"/>
+						<line number="82" hits="5" branch="false"/>
+						<line number="87" hits="11" branch="false"/>
+						<line number="88" hits="11" branch="false"/>
+						<line number="93" hits="5" branch="false"/>
+						<line number="98" hits="6" branch="false"/>
+						<line number="99" hits="6" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="109" hits="6" branch="false"/>
+						<line number="110" hits="6" branch="false"/>
+						<line number="115" hits="60" branch="false"/>
+						<line number="119" hits="60" branch="false"/>
+						<line number="120" hits="60" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="121" hits="35" branch="false"/>
+						<line number="123" hits="25" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="124" hits="24" branch="false"/>
+						<line number="128" hits="1" branch="false"/>
+						<line number="129" hits="1" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="136" hits="0" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="149" hits="0" branch="false"/>
+						<line number="152" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="153" hits="0" branch="false"/>
+						<line number="157" hits="0" branch="false"/>
+						<line number="158" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="159" hits="0" branch="false"/>
+						<line number="162" hits="0" branch="false"/>
+						<line number="167" hits="5" branch="false"/>
+						<line number="171" hits="5" branch="false"/>
+						<line number="172" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="173" hits="0" branch="false"/>
+						<line number="176" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="177" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="178" hits="5" branch="false"/>
+						<line number="180" hits="0" branch="false"/>
+						<line number="185" hits="0" branch="false"/>
+						<line number="186" hits="0" branch="false"/>
+						<line number="191" hits="5" branch="false"/>
+						<line number="192" hits="5" branch="false"/>
+						<line number="196" hits="5" branch="false"/>
+						<line number="197" hits="5" branch="false"/>
+						<line number="198" hits="5" branch="false"/>
+						<line number="202" hits="0" branch="false"/>
+						<line number="206" hits="0" branch="false"/>
+						<line number="208" hits="0" branch="false"/>
+						<line number="209" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="210" hits="0" branch="false"/>
+						<line number="213" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="214" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="215" hits="0" branch="false"/>
+						<line number="216" hits="0" branch="false"/>
+						<line number="218" hits="0" branch="false"/>
+						<line number="223" hits="0" branch="false"/>
+						<line number="224" hits="0" branch="false"/>
+						<line number="229" hits="22" branch="false"/>
+						<line number="230" hits="22" branch="false"/>
+						<line number="234" hits="22" branch="false"/>
+						<line number="236" hits="22" branch="false"/>
+						<line number="237" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="238" hits="10" branch="false"/>
+						<line number="239" hits="10" branch="false"/>
+						<line number="242" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="243" hits="1" branch="false"/>
+						<line number="244" hits="1" branch="false"/>
+						<line number="245" hits="1" branch="false"/>
+						<line number="246" hits="1" branch="false"/>
+						<line number="247" hits="1" branch="false"/>
+						<line number="251" hits="11" branch="false"/>
+						<line number="252" hits="11" branch="false"/>
+						<line number="253" hits="11" branch="false"/>
+						<line number="257" hits="0" branch="false"/>
+						<line number="258" hits="0" branch="false"/>
+						<line number="262" hits="0" branch="false"/>
+						<line number="264" hits="0" branch="false"/>
+						<line number="265" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="266" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="267" hits="0" branch="false"/>
+						<line number="270" hits="0" branch="false"/>
+						<line number="271" hits="0" branch="false"/>
+						<line number="274" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="276" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="277" hits="0" branch="false"/>
+						<line number="278" hits="0" branch="false"/>
+						<line number="279" hits="0" branch="false"/>
+						<line number="280" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="281" hits="0" branch="false"/>
+						<line number="282" hits="0" branch="false"/>
+						<line number="283" hits="0" branch="false"/>
+						<line number="285" hits="0" branch="false"/>
+						<line number="287" hits="0" branch="false"/>
+						<line number="288" hits="0" branch="false"/>
+						<line number="292" hits="0" branch="false"/>
+						<line number="293" hits="0" branch="false"/>
+						<line number="294" hits="0" branch="false"/>
+						<line number="298" hits="0" branch="false"/>
+						<line number="302" hits="0" branch="false"/>
+						<line number="303" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="304" hits="0" branch="false"/>
+						<line number="307" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="308" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="309" hits="0" branch="false"/>
+						<line number="312" hits="0" branch="false"/>
+						<line number="313" hits="0" branch="false"/>
+						<line number="314" hits="0" branch="false"/>
+						<line number="318" hits="0" branch="false"/>
+						<line number="319" hits="0" branch="false"/>
+						<line number="324" hits="0" branch="false"/>
+						<line number="325" hits="0" branch="false"/>
+						<line number="330" hits="55" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="331" hits="44" branch="false"/>
+						<line number="333" hits="11" branch="false"/>
+						<line number="337" hits="49" branch="false"/>
+						<line number="338" hits="49" branch="false"/>
+						<line number="339" hits="49" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="340" hits="4" branch="false"/>
+						<line number="341" hits="45" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="343" hits="1" branch="false"/>
+						<line number="344" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="345" hits="1" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="346" hits="13" branch="false"/>
+						<line number="347" hits="13" branch="false"/>
+						<line number="350" hits="49" branch="false"/>
+						<line number="354" hits="0" branch="false"/>
+						<line number="359" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="360" hits="1" branch="false"/>
+						<line number="362" hits="10" branch="false"/>
+						<line number="367" hits="0" branch="false"/>
+						<line number="372" hits="0" branch="false"/>
+						<line number="377" hits="11" branch="false"/>
+						<line number="379" hits="11" branch="false"/>
+						<line number="380" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="381" hits="1" branch="false"/>
+						<line number="383" hits="11" branch="false"/>
+						<line number="387" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="388" hits="0" branch="false"/>
+						<line number="391" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="392" hits="0" branch="false"/>
+						<line number="395" hits="0" branch="false"/>
+						<line number="396" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="397" hits="0" branch="false"/>
+						<line number="400" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="401" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="402" hits="0" branch="false"/>
+						<line number="404" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="405" hits="0" branch="false"/>
+						<line number="408" hits="0" branch="false"/>
+						<line number="413" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="417" hits="136" branch="true" condition-coverage="80% (4/5)">
+							<conditions>
+								<condition number="0" type="switch" coverage="80%"/>
+							</conditions>
+						</line>
+						<line number="419" hits="46" branch="false"/>
+						<line number="421" hits="24" branch="false"/>
+						<line number="423" hits="35" branch="false"/>
+						<line number="425" hits="31" branch="false"/>
+						<line number="428" hits="0" branch="false"/>
+						<line number="432" hits="65" branch="true" condition-coverage="80% (4/5)">
+							<conditions>
+								<condition number="0" type="switch" coverage="80%"/>
+							</conditions>
+						</line>
+						<line number="434" hits="26" branch="false"/>
+						<line number="435" hits="26" branch="false"/>
+						<line number="437" hits="14" branch="false"/>
+						<line number="438" hits="14" branch="false"/>
+						<line number="440" hits="14" branch="false"/>
+						<line number="441" hits="14" branch="false"/>
+						<line number="443" hits="11" branch="false"/>
+						<line number="444" hits="11" branch="false"/>
+						<line number="447" hits="0" branch="false"/>
+						<line number="451" hits="92" branch="false"/>
+						<line number="455" hits="27" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="456" hits="0" branch="false"/>
+						<line number="459" hits="27" branch="false"/>
+						<line number="464" hits="6" branch="false"/>
+						<line number="468" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.AbstractDnsRecord" filename="io/netty/handler/codec/dns/AbstractDnsRecord.java" line-rate="0.3870967741935484" branch-rate="0.05555555555555555" complexity="2.4444444444444446">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;IJ)V" line-rate="0.875" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="60" hits="27" branch="false"/>
+								<line number="61" hits="27" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="62" hits="0" branch="false"/>
+								<line number="64" hits="27" branch="false"/>
+								<line number="65" hits="27" branch="false"/>
+								<line number="66" hits="27" branch="false"/>
+								<line number="67" hits="27" branch="false"/>
+								<line number="68" hits="27" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;J)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="5" branch="false"/>
+								<line number="42" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="dnsClass" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="92" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="97" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="103" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="true" condition-coverage="0% (0/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+										<condition number="2" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="115" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="name" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="72" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="timeToLive" signature="()J" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="123" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="132" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="type" signature="()Lio/netty/handler/codec/dns/DnsRecordType;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="77" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="41" hits="5" branch="false"/>
+						<line number="42" hits="5" branch="false"/>
+						<line number="60" hits="27" branch="false"/>
+						<line number="61" hits="27" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="62" hits="0" branch="false"/>
+						<line number="64" hits="27" branch="false"/>
+						<line number="65" hits="27" branch="false"/>
+						<line number="66" hits="27" branch="false"/>
+						<line number="67" hits="27" branch="false"/>
+						<line number="68" hits="27" branch="false"/>
+						<line number="72" hits="5" branch="false"/>
+						<line number="77" hits="5" branch="false"/>
+						<line number="82" hits="5" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="97" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="103" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="true" condition-coverage="0% (0/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+								<condition number="2" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="115" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DatagramDnsQuery" filename="io/netty/handler/codec/dns/DatagramDnsQuery.java" line-rate="0.30612244897959184" branch-rate="0.038461538461538464" complexity="2.05">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="5" branch="false"/>
+								<line number="42" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;ILio/netty/handler/codec/dns/DnsOpCode;)V" line-rate="0.8333333333333334" branch-rate="0.25" complexity="0">
+							<lines>
+								<line number="54" hits="5" branch="false"/>
+								<line number="56" hits="5" branch="true" condition-coverage="25% (1/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="57" hits="0" branch="false"/>
+								<line number="60" hits="5" branch="false"/>
+								<line number="61" hits="5" branch="false"/>
+								<line number="62" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="111" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="106" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="121" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="116" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="66" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="30" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="146" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="147" hits="0" branch="false"/>
+								<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="151" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="155" hits="0" branch="false"/>
+								<line number="159" hits="0" branch="false"/>
+								<line number="160" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="161" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="162" hits="0" branch="false"/>
+								<line number="164" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="165" hits="0" branch="false"/>
+								<line number="168" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="169" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="170" hits="0" branch="false"/>
+								<line number="172" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="173" hits="0" branch="false"/>
+								<line number="176" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="181" hits="0" branch="false"/>
+								<line number="182" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="183" hits="0" branch="false"/>
+								<line number="185" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="186" hits="0" branch="false"/>
+								<line number="188" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recipient" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="76" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="recipient" signature="()Ljava/net/SocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="136" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="141" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="sender" signature="()Ljava/net/InetSocketAddress;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="sender" signature="()Ljava/net/SocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="81" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="86" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="101" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="91" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="96" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="126" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DatagramDnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="131" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="30" branch="false"/>
+						<line number="41" hits="5" branch="false"/>
+						<line number="42" hits="5" branch="false"/>
+						<line number="54" hits="5" branch="false"/>
+						<line number="56" hits="5" branch="true" condition-coverage="25% (1/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="57" hits="0" branch="false"/>
+						<line number="60" hits="5" branch="false"/>
+						<line number="61" hits="5" branch="false"/>
+						<line number="62" hits="5" branch="false"/>
+						<line number="66" hits="5" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+						<line number="76" hits="5" branch="false"/>
+						<line number="81" hits="5" branch="false"/>
+						<line number="86" hits="5" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="101" hits="5" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="121" hits="5" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="131" hits="5" branch="false"/>
+						<line number="136" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="147" hits="0" branch="false"/>
+						<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="151" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="155" hits="0" branch="false"/>
+						<line number="159" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="161" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="162" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="165" hits="0" branch="false"/>
+						<line number="168" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="169" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="170" hits="0" branch="false"/>
+						<line number="172" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="173" hits="0" branch="false"/>
+						<line number="176" hits="0" branch="false"/>
+						<line number="181" hits="0" branch="false"/>
+						<line number="182" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="183" hits="0" branch="false"/>
+						<line number="185" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="186" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DatagramDnsQueryEncoder" filename="io/netty/handler/codec/dns/DatagramDnsQueryEncoder.java" line-rate="0.9459459459459459" branch-rate="0.625" complexity="1.5714285714285714">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="1" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/dns/DnsRecordEncoder;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="51" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="allocateBuffer" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/channel/AddressedEnvelope;)Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="84" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/channel/AddressedEnvelope;Ljava/util/List;)V" line-rate="0.9166666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="58" hits="5" branch="false"/>
+								<line number="59" hits="5" branch="false"/>
+								<line number="60" hits="5" branch="false"/>
+								<line number="62" hits="5" branch="false"/>
+								<line number="64" hits="5" branch="false"/>
+								<line number="65" hits="5" branch="false"/>
+								<line number="66" hits="5" branch="false"/>
+								<line number="67" hits="5" branch="false"/>
+								<line number="69" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="70" hits="0" branch="false"/>
+								<line number="74" hits="5" branch="false"/>
+								<line number="75" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeHeader" signature="(Lio/netty/handler/codec/dns/DnsQuery;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="96" hits="5" branch="false"/>
+								<line number="97" hits="5" branch="false"/>
+								<line number="98" hits="5" branch="false"/>
+								<line number="99" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="5" branch="false"/>
+								<line number="101" hits="5" branch="false"/>
+								<line number="102" hits="5" branch="false"/>
+								<line number="103" hits="5" branch="false"/>
+								<line number="104" hits="5" branch="false"/>
+								<line number="105" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeQuestions" signature="(Lio/netty/handler/codec/dns/DnsQuery;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="108" hits="5" branch="false"/>
+								<line number="109" hits="10" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="110" hits="5" branch="false"/>
+								<line number="112" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeRecords" signature="(Lio/netty/handler/codec/dns/DnsQuery;Lio/netty/handler/codec/dns/DnsSection;Lio/netty/buffer/ByteBuf;)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="115" hits="5" branch="false"/>
+								<line number="116" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="117" hits="0" branch="false"/>
+								<line number="119" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="34" hits="5" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="58" hits="5" branch="false"/>
+						<line number="59" hits="5" branch="false"/>
+						<line number="60" hits="5" branch="false"/>
+						<line number="62" hits="5" branch="false"/>
+						<line number="64" hits="5" branch="false"/>
+						<line number="65" hits="5" branch="false"/>
+						<line number="66" hits="5" branch="false"/>
+						<line number="67" hits="5" branch="false"/>
+						<line number="69" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="70" hits="0" branch="false"/>
+						<line number="74" hits="5" branch="false"/>
+						<line number="75" hits="5" branch="false"/>
+						<line number="84" hits="5" branch="false"/>
+						<line number="96" hits="5" branch="false"/>
+						<line number="97" hits="5" branch="false"/>
+						<line number="98" hits="5" branch="false"/>
+						<line number="99" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="5" branch="false"/>
+						<line number="101" hits="5" branch="false"/>
+						<line number="102" hits="5" branch="false"/>
+						<line number="103" hits="5" branch="false"/>
+						<line number="104" hits="5" branch="false"/>
+						<line number="105" hits="5" branch="false"/>
+						<line number="108" hits="5" branch="false"/>
+						<line number="109" hits="10" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="110" hits="5" branch="false"/>
+						<line number="112" hits="5" branch="false"/>
+						<line number="115" hits="5" branch="false"/>
+						<line number="116" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="117" hits="0" branch="false"/>
+						<line number="119" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DatagramDnsResponse" filename="io/netty/handler/codec/dns/DatagramDnsResponse.java" line-rate="0.32727272727272727" branch-rate="0.07692307692307693" complexity="1.84">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;ILio/netty/handler/codec/dns/DnsOpCode;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;ILio/netty/handler/codec/dns/DnsOpCode;Lio/netty/handler/codec/dns/DnsResponseCode;)V" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="68" hits="6" branch="false"/>
+								<line number="70" hits="6" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="71" hits="0" branch="false"/>
+								<line number="74" hits="6" branch="false"/>
+								<line number="75" hits="6" branch="false"/>
+								<line number="76" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="145" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="140" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="155" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="150" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="86" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="180" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="181" hits="0" branch="false"/>
+								<line number="184" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="185" hits="0" branch="false"/>
+								<line number="188" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="189" hits="0" branch="false"/>
+								<line number="193" hits="0" branch="false"/>
+								<line number="194" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="195" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="196" hits="0" branch="false"/>
+								<line number="198" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="199" hits="0" branch="false"/>
+								<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="203" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="204" hits="0" branch="false"/>
+								<line number="206" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="207" hits="0" branch="false"/>
+								<line number="210" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="215" hits="0" branch="false"/>
+								<line number="216" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="217" hits="0" branch="false"/>
+								<line number="219" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="220" hits="0" branch="false"/>
+								<line number="222" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recipient" signature="()Ljava/net/InetSocketAddress;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="90" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="recipient" signature="()Ljava/net/SocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="170" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="175" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="sender" signature="()Ljava/net/InetSocketAddress;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="85" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="sender" signature="()Ljava/net/SocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setAuthoritativeAnswer" signature="(Z)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="95" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setAuthoritativeAnswer" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setCode" signature="(Lio/netty/handler/codec/dns/DnsResponseCode;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="110" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCode" signature="(Lio/netty/handler/codec/dns/DnsResponseCode;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="115" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="120" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="135" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionAvailable" signature="(Z)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="105" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionAvailable" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="125" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setTruncated" signature="(Z)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="100" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTruncated" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="130" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="160" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DatagramDnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="165" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="86" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="68" hits="6" branch="false"/>
+						<line number="70" hits="6" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="71" hits="0" branch="false"/>
+						<line number="74" hits="6" branch="false"/>
+						<line number="75" hits="6" branch="false"/>
+						<line number="76" hits="6" branch="false"/>
+						<line number="80" hits="5" branch="false"/>
+						<line number="85" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="95" hits="6" branch="false"/>
+						<line number="100" hits="6" branch="false"/>
+						<line number="105" hits="6" branch="false"/>
+						<line number="110" hits="6" branch="false"/>
+						<line number="115" hits="6" branch="false"/>
+						<line number="120" hits="6" branch="false"/>
+						<line number="125" hits="6" branch="false"/>
+						<line number="130" hits="6" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="140" hits="22" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="150" hits="0" branch="false"/>
+						<line number="155" hits="6" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="165" hits="5" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
+						<line number="175" hits="0" branch="false"/>
+						<line number="180" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="181" hits="0" branch="false"/>
+						<line number="184" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="185" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="189" hits="0" branch="false"/>
+						<line number="193" hits="0" branch="false"/>
+						<line number="194" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="195" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="196" hits="0" branch="false"/>
+						<line number="198" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="199" hits="0" branch="false"/>
+						<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="203" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="204" hits="0" branch="false"/>
+						<line number="206" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="207" hits="0" branch="false"/>
+						<line number="210" hits="0" branch="false"/>
+						<line number="215" hits="0" branch="false"/>
+						<line number="216" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="217" hits="0" branch="false"/>
+						<line number="219" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="220" hits="0" branch="false"/>
+						<line number="222" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DatagramDnsResponseDecoder" filename="io/netty/handler/codec/dns/DatagramDnsResponseDecoder.java" line-rate="0.975" branch-rate="0.6875" complexity="1.8333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="2" branch="false"/>
+								<line number="43" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/dns/DnsRecordDecoder;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="2" branch="false"/>
+								<line number="49" hits="2" branch="false"/>
+								<line number="50" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/channel/socket/DatagramPacket;Ljava/util/List;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="54" hits="6" branch="false"/>
+								<line number="55" hits="6" branch="false"/>
+								<line number="57" hits="6" branch="false"/>
+								<line number="58" hits="6" branch="false"/>
+								<line number="60" hits="6" branch="false"/>
+								<line number="61" hits="6" branch="false"/>
+								<line number="62" hits="6" branch="false"/>
+								<line number="63" hits="6" branch="false"/>
+								<line number="65" hits="6" branch="false"/>
+								<line number="66" hits="5" branch="false"/>
+								<line number="67" hits="5" branch="false"/>
+								<line number="68" hits="5" branch="false"/>
+								<line number="70" hits="5" branch="false"/>
+								<line number="71" hits="5" branch="false"/>
+								<line number="73" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="74" hits="1" branch="false"/>
+								<line number="77" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeQuestions" signature="(Lio/netty/handler/codec/dns/DnsResponse;Lio/netty/buffer/ByteBuf;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="100" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="101" hits="6" branch="false"/>
+								<line number="103" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeRecords" signature="(Lio/netty/handler/codec/dns/DnsResponse;Lio/netty/handler/codec/dns/DnsSection;Lio/netty/buffer/ByteBuf;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="107" hits="32" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="108" hits="17" branch="false"/>
+								<line number="110" hits="15" branch="false"/>
+							</lines>
+						</method>
+						<method name="newResponse" signature="(Ljava/net/InetSocketAddress;Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.9090909090909091" branch-rate="0.6" complexity="0">
+							<lines>
+								<line number="80" hits="6" branch="false"/>
+								<line number="82" hits="6" branch="false"/>
+								<line number="83" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="84" hits="0" branch="false"/>
+								<line number="87" hits="6" branch="false"/>
+								<line number="91" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="92" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="95" hits="6" branch="false"/>
+								<line number="96" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="33" hits="6" branch="false"/>
+						<line number="42" hits="2" branch="false"/>
+						<line number="43" hits="2" branch="false"/>
+						<line number="48" hits="2" branch="false"/>
+						<line number="49" hits="2" branch="false"/>
+						<line number="50" hits="2" branch="false"/>
+						<line number="54" hits="6" branch="false"/>
+						<line number="55" hits="6" branch="false"/>
+						<line number="57" hits="6" branch="false"/>
+						<line number="58" hits="6" branch="false"/>
+						<line number="60" hits="6" branch="false"/>
+						<line number="61" hits="6" branch="false"/>
+						<line number="62" hits="6" branch="false"/>
+						<line number="63" hits="6" branch="false"/>
+						<line number="65" hits="6" branch="false"/>
+						<line number="66" hits="5" branch="false"/>
+						<line number="67" hits="5" branch="false"/>
+						<line number="68" hits="5" branch="false"/>
+						<line number="70" hits="5" branch="false"/>
+						<line number="71" hits="5" branch="false"/>
+						<line number="73" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="74" hits="1" branch="false"/>
+						<line number="77" hits="5" branch="false"/>
+						<line number="80" hits="6" branch="false"/>
+						<line number="82" hits="6" branch="false"/>
+						<line number="83" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="84" hits="0" branch="false"/>
+						<line number="87" hits="6" branch="false"/>
+						<line number="91" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="92" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="95" hits="6" branch="false"/>
+						<line number="96" hits="6" branch="false"/>
+						<line number="100" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="101" hits="6" branch="false"/>
+						<line number="103" hits="5" branch="false"/>
+						<line number="107" hits="32" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="108" hits="17" branch="false"/>
+						<line number="110" hits="15" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsQuery" filename="io/netty/handler/codec/dns/DefaultDnsQuery.java" line-rate="0.3684210526315789" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILio/netty/handler/codec/dns/DnsOpCode;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="5" branch="false"/>
+								<line number="40" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="74" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="84" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="79" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="99" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="109" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsQuery;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsQuery;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="94" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="39" hits="5" branch="false"/>
+						<line number="40" hits="5" branch="false"/>
+						<line number="44" hits="5" branch="false"/>
+						<line number="49" hits="5" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="64" hits="5" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="84" hits="5" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="94" hits="5" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsQuestion" filename="io/netty/handler/codec/dns/DefaultDnsQuestion.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="5" branch="false"/>
+								<line number="33" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="51" hits="5" branch="false"/>
+								<line number="52" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="32" hits="5" branch="false"/>
+						<line number="33" hits="5" branch="false"/>
+						<line number="51" hits="5" branch="false"/>
+						<line number="52" hits="5" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsRawRecord" filename="io/netty/handler/codec/dns/DefaultDnsRawRecord.java" line-rate="0.17857142857142858" branch-rate="0.0" complexity="1.1538461538461537">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;IJLio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="17" branch="false"/>
+								<line number="60" hits="17" branch="false"/>
+								<line number="61" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;JLio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="97" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="102" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="85" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="119" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="122" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="127" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="107" hits="0" branch="false"/>
+								<line number="108" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsRawRecord;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="59" hits="17" branch="false"/>
+						<line number="60" hits="17" branch="false"/>
+						<line number="61" hits="17" branch="false"/>
+						<line number="65" hits="17" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="97" hits="17" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="122" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="127" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsRecordDecoder" filename="io/netty/handler/codec/dns/DefaultDnsRecordDecoder.java" line-rate="0.9743589743589743" branch-rate="0.8888888888888888" complexity="3.2">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeName" signature="(Lio/netty/buffer/ByteBuf;)Ljava/lang/String;" line-rate="0.9583333333333334" branch-rate="0.8888888888888888" complexity="0">
+							<lines>
+								<line number="88" hits="23" branch="false"/>
+								<line number="89" hits="23" branch="false"/>
+								<line number="90" hits="23" branch="false"/>
+								<line number="91" hits="23" branch="false"/>
+								<line number="92" hits="61" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="93" hits="39" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="39" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="95" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="96" hits="5" branch="false"/>
+								<line number="99" hits="13" branch="false"/>
+								<line number="100" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="101" hits="0" branch="false"/>
+								<line number="103" hits="13" branch="false"/>
+								<line number="106" hits="13" branch="false"/>
+								<line number="107" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="108" hits="1" branch="false"/>
+								<line number="110" hits="12" branch="false"/>
+								<line number="111" hits="26" branch="false"/>
+								<line number="112" hits="26" branch="false"/>
+								<line number="115" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="116" hits="4" branch="false"/>
+								<line number="118" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="119" hits="13" branch="false"/>
+								<line number="122" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeQuestion" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/dns/DnsQuestion;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="6" branch="false"/>
+								<line number="38" hits="5" branch="false"/>
+								<line number="39" hits="5" branch="false"/>
+								<line number="40" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeRecord" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="17" branch="false"/>
+								<line number="46" hits="17" branch="false"/>
+								<line number="47" hits="17" branch="false"/>
+								<line number="48" hits="17" branch="false"/>
+								<line number="49" hits="17" branch="false"/>
+								<line number="50" hits="17" branch="false"/>
+								<line number="53" hits="17" branch="false"/>
+								<line number="54" hits="17" branch="false"/>
+								<line number="55" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeRecord" signature="(Ljava/lang/String;Lio/netty/handler/codec/dns/DnsRecordType;IJLio/netty/buffer/ByteBuf;II)Lio/netty/handler/codec/dns/DnsRecord;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="17" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="33" hits="1" branch="false"/>
+						<line number="37" hits="6" branch="false"/>
+						<line number="38" hits="5" branch="false"/>
+						<line number="39" hits="5" branch="false"/>
+						<line number="40" hits="5" branch="false"/>
+						<line number="45" hits="17" branch="false"/>
+						<line number="46" hits="17" branch="false"/>
+						<line number="47" hits="17" branch="false"/>
+						<line number="48" hits="17" branch="false"/>
+						<line number="49" hits="17" branch="false"/>
+						<line number="50" hits="17" branch="false"/>
+						<line number="53" hits="17" branch="false"/>
+						<line number="54" hits="17" branch="false"/>
+						<line number="55" hits="17" branch="false"/>
+						<line number="75" hits="17" branch="false"/>
+						<line number="88" hits="23" branch="false"/>
+						<line number="89" hits="23" branch="false"/>
+						<line number="90" hits="23" branch="false"/>
+						<line number="91" hits="23" branch="false"/>
+						<line number="92" hits="61" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="93" hits="39" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="39" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="95" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="96" hits="5" branch="false"/>
+						<line number="99" hits="13" branch="false"/>
+						<line number="100" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="101" hits="0" branch="false"/>
+						<line number="103" hits="13" branch="false"/>
+						<line number="106" hits="13" branch="false"/>
+						<line number="107" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="108" hits="1" branch="false"/>
+						<line number="110" hits="12" branch="false"/>
+						<line number="111" hits="26" branch="false"/>
+						<line number="112" hits="26" branch="false"/>
+						<line number="115" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="116" hits="4" branch="false"/>
+						<line number="118" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="119" hits="13" branch="false"/>
+						<line number="122" hits="9" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsRecordEncoder" filename="io/netty/handler/codec/dns/DefaultDnsRecordEncoder.java" line-rate="0.4482758620689655" branch-rate="0.375" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeName" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="0.8888888888888888" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="68" hits="5" branch="false"/>
+								<line number="69" hits="20" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="70" hits="15" branch="false"/>
+								<line number="71" hits="15" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="72" hits="0" branch="false"/>
+								<line number="74" hits="15" branch="false"/>
+								<line number="75" hits="15" branch="false"/>
+								<line number="77" hits="5" branch="false"/>
+								<line number="78" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeQuestion" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="5" branch="false"/>
+								<line number="38" hits="5" branch="false"/>
+								<line number="39" hits="5" branch="false"/>
+								<line number="40" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeRawRecord" signature="(Lio/netty/handler/codec/dns/DnsRawRecord;Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeRecord" signature="(Lio/netty/handler/codec/dns/DnsRecord;Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="47" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="33" hits="1" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+						<line number="38" hits="5" branch="false"/>
+						<line number="39" hits="5" branch="false"/>
+						<line number="40" hits="5" branch="false"/>
+						<line number="44" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="47" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="68" hits="5" branch="false"/>
+						<line number="69" hits="20" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="70" hits="15" branch="false"/>
+						<line number="71" hits="15" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="72" hits="0" branch="false"/>
+						<line number="74" hits="15" branch="false"/>
+						<line number="75" hits="15" branch="false"/>
+						<line number="77" hits="5" branch="false"/>
+						<line number="78" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DefaultDnsResponse" filename="io/netty/handler/codec/dns/DefaultDnsResponse.java" line-rate="0.5294117647058824" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILio/netty/handler/codec/dns/DnsOpCode;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILio/netty/handler/codec/dns/DnsOpCode;Lio/netty/handler/codec/dns/DnsResponseCode;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="6" branch="false"/>
+								<line number="59" hits="6" branch="false"/>
+								<line number="60" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;ILio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="138" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="addRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="133" hits="22" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="148" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="clear" signature="(Lio/netty/handler/codec/dns/DnsSection;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="143" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="code" signature="()Lio/netty/handler/codec/dns/DnsResponseCode;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="97" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAuthoritativeAnswer" signature="()Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isRecursionAvailable" signature="()Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="86" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="isTruncated" signature="()Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="163" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="168" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setAuthoritativeAnswer" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="6" branch="false"/>
+								<line number="70" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setCode" signature="(Lio/netty/handler/codec/dns/DnsResponseCode;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="102" hits="6" branch="false"/>
+								<line number="103" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setId" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="108" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setOpCode" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="113" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecord" signature="(Lio/netty/handler/codec/dns/DnsSection;Lio/netty/handler/codec/dns/DnsRecord;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="128" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionAvailable" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="91" hits="6" branch="false"/>
+								<line number="92" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="118" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTruncated" signature="(Z)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="6" branch="false"/>
+								<line number="81" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setZ" signature="(I)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="123" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="173" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/dns/DnsResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="153" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/dns/DnsResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="158" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="58" hits="6" branch="false"/>
+						<line number="59" hits="6" branch="false"/>
+						<line number="60" hits="6" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="69" hits="6" branch="false"/>
+						<line number="70" hits="6" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="80" hits="6" branch="false"/>
+						<line number="81" hits="6" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="91" hits="6" branch="false"/>
+						<line number="92" hits="6" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="102" hits="6" branch="false"/>
+						<line number="103" hits="6" branch="false"/>
+						<line number="108" hits="6" branch="false"/>
+						<line number="113" hits="6" branch="false"/>
+						<line number="118" hits="6" branch="false"/>
+						<line number="123" hits="6" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="133" hits="22" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="148" hits="6" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="158" hits="5" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="168" hits="0" branch="false"/>
+						<line number="173" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsMessage" filename="io/netty/handler/codec/dns/DnsMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsMessageUtil" filename="io/netty/handler/codec/dns/DnsMessageUtil.java" line-rate="0.0" branch-rate="0.0" complexity="3.3333333333333335">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="180" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendAddresses" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsMessage;)Ljava/lang/StringBuilder;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="140" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="141" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="149" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="false"/>
+								<line number="155" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="156" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendAllRecords" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsMessage;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="165" hits="0" branch="false"/>
+								<line number="166" hits="0" branch="false"/>
+								<line number="167" hits="0" branch="false"/>
+								<line number="168" hits="0" branch="false"/>
+								<line number="169" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendQuery" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsQuery;)Ljava/lang/StringBuilder;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendQueryHeader" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsQuery;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="76" hits="0" branch="false"/>
+								<line number="79" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="88" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendRecordClass" signature="(Ljava/lang/StringBuilder;I)Ljava/lang/StringBuilder;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="42" hits="0" branch="true" condition-coverage="0% (0/7)">
+									<conditions>
+										<condition number="0" type="switch" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="67" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendRecords" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsMessage;Lio/netty/handler/codec/dns/DnsSection;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="172" hits="0" branch="false"/>
+								<line number="173" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="174" hits="0" branch="false"/>
+								<line number="178" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendResponse" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsResponse;)Ljava/lang/StringBuilder;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appendResponseHeader" signature="(Ljava/lang/StringBuilder;Lio/netty/handler/codec/dns/DnsResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="95" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="107" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="119" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="120" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="124" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="125" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="132" hits="0" branch="false"/>
+								<line number="134" hits="0" branch="false"/>
+								<line number="136" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="true" condition-coverage="0% (0/7)">
+							<conditions>
+								<condition number="0" type="switch" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="67" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="88" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="95" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="119" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="120" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="124" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="125" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="132" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="136" hits="0" branch="false"/>
+						<line number="140" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="141" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="149" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="false"/>
+						<line number="155" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="156" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+						<line number="166" hits="0" branch="false"/>
+						<line number="167" hits="0" branch="false"/>
+						<line number="168" hits="0" branch="false"/>
+						<line number="169" hits="0" branch="false"/>
+						<line number="172" hits="0" branch="false"/>
+						<line number="173" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="174" hits="0" branch="false"/>
+						<line number="178" hits="0" branch="false"/>
+						<line number="180" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsOpCode" filename="io/netty/handler/codec/dns/DnsOpCode.java" line-rate="0.3870967741935484" branch-rate="0.07142857142857142" complexity="2.875">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="1" branch="false"/>
+								<line number="33" hits="1" branch="false"/>
+								<line number="38" hits="1" branch="false"/>
+								<line number="43" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="5" branch="false"/>
+								<line number="79" hits="5" branch="false"/>
+								<line number="80" hits="5" branch="false"/>
+								<line number="81" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="byteValue" signature="()B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="84" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Lio/netty/handler/codec/dns/DnsOpCode;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="107" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Ljava/lang/Object;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="94" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="95" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="112" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="114" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(I)Lio/netty/handler/codec/dns/DnsOpCode;" line-rate="0.2857142857142857" branch-rate="0.16666666666666666" complexity="0">
+							<lines>
+								<line number="54" hits="6" branch="true" condition-coverage="16% (1/6)">
+									<conditions>
+										<condition number="0" type="switch" coverage="16%"/>
+									</conditions>
+								</line>
+								<line number="56" hits="6" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="54" hits="6" branch="true" condition-coverage="16% (1/6)">
+							<conditions>
+								<condition number="0" type="switch" coverage="16%"/>
+							</conditions>
+						</line>
+						<line number="56" hits="6" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="78" hits="5" branch="false"/>
+						<line number="79" hits="5" branch="false"/>
+						<line number="80" hits="5" branch="false"/>
+						<line number="81" hits="5" branch="false"/>
+						<line number="84" hits="5" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="95" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="107" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="114" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsQuery" filename="io/netty/handler/codec/dns/DnsQuery.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsQuestion" filename="io/netty/handler/codec/dns/DnsQuestion.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsRawRecord" filename="io/netty/handler/codec/dns/DnsRawRecord.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsRecord" filename="io/netty/handler/codec/dns/DnsRecord.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsRecordDecoder" filename="io/netty/handler/codec/dns/DnsRecordDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsRecordEncoder" filename="io/netty/handler/codec/dns/DnsRecordEncoder.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsRecordType" filename="io/netty/handler/codec/dns/DnsRecordType.java" line-rate="0.8607594936708861" branch-rate="0.4166666666666667" complexity="1.8">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+								<line number="39" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="61" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+								<line number="76" hits="1" branch="false"/>
+								<line number="83" hits="1" branch="false"/>
+								<line number="91" hits="1" branch="false"/>
+								<line number="98" hits="1" branch="false"/>
+								<line number="107" hits="1" branch="false"/>
+								<line number="113" hits="1" branch="false"/>
+								<line number="119" hits="1" branch="false"/>
+								<line number="125" hits="1" branch="false"/>
+								<line number="132" hits="1" branch="false"/>
+								<line number="141" hits="1" branch="false"/>
+								<line number="146" hits="1" branch="false"/>
+								<line number="154" hits="1" branch="false"/>
+								<line number="160" hits="1" branch="false"/>
+								<line number="166" hits="1" branch="false"/>
+								<line number="172" hits="1" branch="false"/>
+								<line number="180" hits="1" branch="false"/>
+								<line number="185" hits="1" branch="false"/>
+								<line number="191" hits="1" branch="false"/>
+								<line number="197" hits="1" branch="false"/>
+								<line number="203" hits="1" branch="false"/>
+								<line number="209" hits="1" branch="false"/>
+								<line number="215" hits="1" branch="false"/>
+								<line number="220" hits="1" branch="false"/>
+								<line number="229" hits="1" branch="false"/>
+								<line number="235" hits="1" branch="false"/>
+								<line number="242" hits="1" branch="false"/>
+								<line number="249" hits="1" branch="false"/>
+								<line number="256" hits="1" branch="false"/>
+								<line number="265" hits="1" branch="false"/>
+								<line number="271" hits="1" branch="false"/>
+								<line number="282" hits="1" branch="false"/>
+								<line number="288" hits="1" branch="false"/>
+								<line number="295" hits="1" branch="false"/>
+								<line number="302" hits="1" branch="false"/>
+								<line number="304" hits="1" branch="false"/>
+								<line number="305" hits="1" branch="false"/>
+								<line number="309" hits="1" branch="false"/>
+								<line number="315" hits="1" branch="false"/>
+								<line number="317" hits="1" branch="false"/>
+								<line number="318" hits="41" branch="false"/>
+								<line number="319" hits="40" branch="false"/>
+								<line number="320" hits="40" branch="false"/>
+								<line number="322" hits="40" branch="false"/>
+								<line number="328" hits="1" branch="false"/>
+								<line number="329" hits="1" branch="false"/>
+								<line number="330" hits="1" branch="false"/>
+								<line number="331" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="354" hits="0" branch="false"/>
+								<line number="355" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;)V" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="357" hits="40" branch="false"/>
+								<line number="358" hits="40" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="359" hits="0" branch="false"/>
+								<line number="361" hits="40" branch="false"/>
+								<line number="362" hits="40" branch="false"/>
+								<line number="363" hits="40" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Lio/netty/handler/codec/dns/DnsRecordType;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="391" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Ljava/lang/Object;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="386" hits="1560" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="381" hits="80" branch="false"/>
+							</lines>
+						</method>
+						<method name="intValue" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="376" hits="165" branch="false"/>
+							</lines>
+						</method>
+						<method name="name" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="369" hits="160" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="396" hits="0" branch="false"/>
+								<line number="397" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="398" hits="0" branch="false"/>
+								<line number="400" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(I)Lio/netty/handler/codec/dns/DnsRecordType;" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="334" hits="62" branch="false"/>
+								<line number="335" hits="62" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="336" hits="0" branch="false"/>
+								<line number="338" hits="62" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/handler/codec/dns/DnsRecordType;" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="342" hits="40" branch="false"/>
+								<line number="343" hits="40" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="344" hits="0" branch="false"/>
+								<line number="346" hits="40" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="0" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="61" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="76" hits="1" branch="false"/>
+						<line number="83" hits="1" branch="false"/>
+						<line number="91" hits="1" branch="false"/>
+						<line number="98" hits="1" branch="false"/>
+						<line number="107" hits="1" branch="false"/>
+						<line number="113" hits="1" branch="false"/>
+						<line number="119" hits="1" branch="false"/>
+						<line number="125" hits="1" branch="false"/>
+						<line number="132" hits="1" branch="false"/>
+						<line number="141" hits="1" branch="false"/>
+						<line number="146" hits="1" branch="false"/>
+						<line number="154" hits="1" branch="false"/>
+						<line number="160" hits="1" branch="false"/>
+						<line number="166" hits="1" branch="false"/>
+						<line number="172" hits="1" branch="false"/>
+						<line number="180" hits="1" branch="false"/>
+						<line number="185" hits="1" branch="false"/>
+						<line number="191" hits="1" branch="false"/>
+						<line number="197" hits="1" branch="false"/>
+						<line number="203" hits="1" branch="false"/>
+						<line number="209" hits="1" branch="false"/>
+						<line number="215" hits="1" branch="false"/>
+						<line number="220" hits="1" branch="false"/>
+						<line number="229" hits="1" branch="false"/>
+						<line number="235" hits="1" branch="false"/>
+						<line number="242" hits="1" branch="false"/>
+						<line number="249" hits="1" branch="false"/>
+						<line number="256" hits="1" branch="false"/>
+						<line number="265" hits="1" branch="false"/>
+						<line number="271" hits="1" branch="false"/>
+						<line number="282" hits="1" branch="false"/>
+						<line number="288" hits="1" branch="false"/>
+						<line number="295" hits="1" branch="false"/>
+						<line number="302" hits="1" branch="false"/>
+						<line number="304" hits="1" branch="false"/>
+						<line number="305" hits="1" branch="false"/>
+						<line number="309" hits="1" branch="false"/>
+						<line number="315" hits="1" branch="false"/>
+						<line number="317" hits="1" branch="false"/>
+						<line number="318" hits="41" branch="false"/>
+						<line number="319" hits="40" branch="false"/>
+						<line number="320" hits="40" branch="false"/>
+						<line number="322" hits="40" branch="false"/>
+						<line number="328" hits="1" branch="false"/>
+						<line number="329" hits="1" branch="false"/>
+						<line number="330" hits="1" branch="false"/>
+						<line number="331" hits="1" branch="false"/>
+						<line number="334" hits="62" branch="false"/>
+						<line number="335" hits="62" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="336" hits="0" branch="false"/>
+						<line number="338" hits="62" branch="false"/>
+						<line number="342" hits="40" branch="false"/>
+						<line number="343" hits="40" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="344" hits="0" branch="false"/>
+						<line number="346" hits="40" branch="false"/>
+						<line number="354" hits="0" branch="false"/>
+						<line number="355" hits="0" branch="false"/>
+						<line number="357" hits="40" branch="false"/>
+						<line number="358" hits="40" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="359" hits="0" branch="false"/>
+						<line number="361" hits="40" branch="false"/>
+						<line number="362" hits="40" branch="false"/>
+						<line number="363" hits="40" branch="false"/>
+						<line number="369" hits="160" branch="false"/>
+						<line number="376" hits="165" branch="false"/>
+						<line number="381" hits="80" branch="false"/>
+						<line number="386" hits="1560" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="391" hits="0" branch="false"/>
+						<line number="396" hits="0" branch="false"/>
+						<line number="397" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="398" hits="0" branch="false"/>
+						<line number="400" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsResponse" filename="io/netty/handler/codec/dns/DnsResponse.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsResponseCode" filename="io/netty/handler/codec/dns/DnsResponseCode.java" line-rate="0.43636363636363634" branch-rate="0.10714285714285714" complexity="6.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="1" branch="false"/>
+								<line number="33" hits="1" branch="false"/>
+								<line number="38" hits="1" branch="false"/>
+								<line number="43" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="58" hits="1" branch="false"/>
+								<line number="63" hits="1" branch="false"/>
+								<line number="68" hits="1" branch="false"/>
+								<line number="73" hits="1" branch="false"/>
+								<line number="78" hits="1" branch="false"/>
+								<line number="84" hits="1" branch="false"/>
+								<line number="89" hits="1" branch="false"/>
+								<line number="94" hits="1" branch="false"/>
+								<line number="99" hits="1" branch="false"/>
+								<line number="104" hits="1" branch="false"/>
+								<line number="109" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="164" hits="0" branch="false"/>
+								<line number="165" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(ILjava/lang/String;)V" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="167" hits="17" branch="false"/>
+								<line number="168" hits="17" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="169" hits="0" branch="false"/>
+								<line number="172" hits="17" branch="false"/>
+								<line number="173" hits="17" branch="false"/>
+								<line number="174" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Lio/netty/handler/codec/dns/DnsResponseCode;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="185" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="compareTo" signature="(Ljava/lang/Object;)I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="equals" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="198" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="199" hits="0" branch="false"/>
+								<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="hashCode" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="190" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="intValue" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="180" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="210" hits="0" branch="false"/>
+								<line number="211" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="212" hits="0" branch="false"/>
+								<line number="214" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(I)Lio/netty/handler/codec/dns/DnsResponseCode;" line-rate="0.10526315789473684" branch-rate="0.05555555555555555" complexity="0">
+							<lines>
+								<line number="119" hits="6" branch="true" condition-coverage="5% (1/18)">
+									<conditions>
+										<condition number="0" type="switch" coverage="5%"/>
+									</conditions>
+								</line>
+								<line number="121" hits="6" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="false"/>
+								<line number="133" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+								<line number="139" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+								<line number="143" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+								<line number="151" hits="0" branch="false"/>
+								<line number="153" hits="0" branch="false"/>
+								<line number="155" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="38" hits="1" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="58" hits="1" branch="false"/>
+						<line number="63" hits="1" branch="false"/>
+						<line number="68" hits="1" branch="false"/>
+						<line number="73" hits="1" branch="false"/>
+						<line number="78" hits="1" branch="false"/>
+						<line number="84" hits="1" branch="false"/>
+						<line number="89" hits="1" branch="false"/>
+						<line number="94" hits="1" branch="false"/>
+						<line number="99" hits="1" branch="false"/>
+						<line number="104" hits="1" branch="false"/>
+						<line number="109" hits="1" branch="false"/>
+						<line number="119" hits="6" branch="true" condition-coverage="5% (1/18)">
+							<conditions>
+								<condition number="0" type="switch" coverage="5%"/>
+							</conditions>
+						</line>
+						<line number="121" hits="6" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="false"/>
+						<line number="133" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+						<line number="139" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="151" hits="0" branch="false"/>
+						<line number="153" hits="0" branch="false"/>
+						<line number="155" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="false"/>
+						<line number="165" hits="0" branch="false"/>
+						<line number="167" hits="17" branch="false"/>
+						<line number="168" hits="17" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="169" hits="0" branch="false"/>
+						<line number="172" hits="17" branch="false"/>
+						<line number="173" hits="17" branch="false"/>
+						<line number="174" hits="17" branch="false"/>
+						<line number="180" hits="0" branch="false"/>
+						<line number="185" hits="0" branch="false"/>
+						<line number="190" hits="0" branch="false"/>
+						<line number="198" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="199" hits="0" branch="false"/>
+						<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="210" hits="0" branch="false"/>
+						<line number="211" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="212" hits="0" branch="false"/>
+						<line number="214" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.dns.DnsSection" filename="io/netty/handler/codec/dns/DnsSection.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="5" branch="false"/>
+								<line number="25" hits="1" branch="false"/>
+								<line number="29" hits="1" branch="false"/>
+								<line number="33" hits="1" branch="false"/>
+								<line number="37" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/handler/codec/dns/DnsSection;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lio/netty/handler/codec/dns/DnsSection;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="5" branch="false"/>
+						<line number="25" hits="1" branch="false"/>
+						<line number="29" hits="1" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="37" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

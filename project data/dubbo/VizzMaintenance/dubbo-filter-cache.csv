@@ -1,0 +1,11 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.cache.support.lru.LruCache.java.LruCache,LruCache,0.084621261,1,1,1,1,1,0,1,8,33,0.666666667,0,3,0,2,2,1,2
+com.alibaba.dubbo.cache.support.threadlocal.ThreadLocalCache.java.ThreadLocalCache,ThreadLocalCache,0.070596071,1,1,1,1,1,0,1,16,27,0.666666667,0,3,0,2,2,1,2
+com.alibaba.dubbo.cache.support.threadlocal.ThreadLocalCacheFactory.java.ThreadLocalCacheFactory,ThreadLocalCacheFactory,0.293698948,3,1,3,2,0,1,0,23,12,0.5,1,1,0,1,1,0,1
+com.alibaba.dubbo.cache.support.jcache.JCache.java.JCache,JCache,0.070596071,1,1,1,1,1,0,1,6,25,0.666666667,0,3,0,2,2,1,2
+com.alibaba.dubbo.cache.support.AbstractCacheFactory.java.AbstractCacheFactory,AbstractCacheFactory,0.230955319,2,1,2,1,1,2,0,20,22,0.666666667,0,3,3,2,2,0,3
+com.alibaba.dubbo.cache.support.lru.LruCacheFactory.java.LruCacheFactory,LruCacheFactory,0.249779632,3,1,3,2,0,1,0,15,12,0.5,1,1,0,1,1,0,1
+com.alibaba.dubbo.cache.CacheFactory.java.CacheFactory,CacheFactory,0.136637872,1,1,1,0,0,1,0,12,12,0.5,0,1,1,1,1,0,1
+com.alibaba.dubbo.cache.filter.CacheFilter.java.CacheFilter,CacheFilter,0.176255117,2,1,2,0,1,0,1,11,36,0.666666667,3,3,0,2,5,1,7
+com.alibaba.dubbo.cache.support.jcache.JCacheFactory.java.JCacheFactory,JCacheFactory,0.249779632,3,1,3,2,0,1,0,13,12,0.5,1,1,0,1,1,0,1
+com.alibaba.dubbo.cache.Cache.java.Cache,Cache,0.202290357,0,1,0,0,0,4,0,5,12,0.666666667,0,2,3,2,2,0,2

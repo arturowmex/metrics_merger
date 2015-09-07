@@ -1,0 +1,7 @@
+NoopNameResolver,0.0,1.0,1.0,20,2,0,0.666666667,0,2,0.0,1.0,0.3,0.13157894736842105,0.2,0.0,1.0,NaN,0.6666666666666666,io.netty.resolver.NoopNameResolver
+NameResolverGroup,0.0,0.0,2.5,87,4,1,0.2,0,1,0.0,0.0,0.75,0.5723684210526315,0.4,0.5,0.29999999985000003,NaN,0.3333333333333333,io.netty.resolver.NameResolverGroup
+SimpleNameResolver,0.0,0.0,3.3333333333333335,152,10,2,0.636363636,0,1,0.0,0.0,1.0,1.0,1.0,1.0,0.9545454535227273,NaN,0.3333333333333333,io.netty.resolver.SimpleNameResolver
+DefaultNameResolver,0.0,0.0,1.3333333333333333,27,2,0,0.666666667,0,2,0.0,0.0,0.39999999999999997,0.17763157894736842,0.2,0.0,1.0,NaN,0.6666666666666666,io.netty.resolver.DefaultNameResolver
+NoopNameResolverGroup,0.0,1.0,1.0,14,1,0,0.5,0,3,0.0,1.0,0.3,0.09210526315789473,0.1,0.0,0.749999999625,NaN,1.0,io.netty.resolver.NoopNameResolverGroup
+DefaultNameResolverGroup,0.0,1.0,1.0,14,1,0,0.5,0,3,0.0,1.0,0.3,0.09210526315789473,0.1,0.0,0.749999999625,NaN,1.0,io.netty.resolver.DefaultNameResolverGroup
+NameResolver,1.0,1.0,1.0,65,7,0,0.0,0,0,1.0,1.0,0.3,0.4276315789473684,0.7,0.0,0.0,NaN,0.0,io.netty.resolver.NameResolver

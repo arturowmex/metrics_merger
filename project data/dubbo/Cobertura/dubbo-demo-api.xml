@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="1.0" branch-rate="1.0" lines-covered="0" lines-valid="0" branches-covered="0" branches-valid="0" complexity="1.0" version="2.1.1" timestamp="1436190879172">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Arturo/git/Alibaba/dubbo/dubbo-demo/dubbo-demo-api/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="com.alibaba.dubbo.demo" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+			<classes>
+				<class name="com.alibaba.dubbo.demo.DemoService" filename="com/alibaba/dubbo/demo/DemoService.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

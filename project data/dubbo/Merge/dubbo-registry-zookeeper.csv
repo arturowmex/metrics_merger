@@ -1,0 +1,2 @@
+ZookeeperRegistryFactory,0.0,1.0,1.0,18,2,1,0.666666667,0,1,0.0,1.0,0.273972602739726,0.07228915662650602,0.125,0.3333333333333333,0.7083333333776042,NaN,1.0,com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistryFactory
+ZookeeperRegistry,0.064,0.07575757575757576,3.65,249,16,3,0.941176471,0,0,1.0,0.07575757575757576,1.0,1.0,1.0,1.0,1.0,NaN,0.0,com.alibaba.dubbo.registry.zookeeper.ZookeeperRegistry

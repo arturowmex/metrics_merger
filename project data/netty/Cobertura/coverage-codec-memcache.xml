@@ -1,0 +1,3003 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.5232323232323233" branch-rate="0.4152542372881356" lines-covered="259" lines-valid="495" branches-covered="49" branches-valid="118" complexity="1.4385964912280702" version="2.1.1" timestamp="1433426489952">
+	<sources>
+		<source>--source</source>
+		<source>C:/Users/Arturo/git/netty/codec-memcache/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="io.netty.handler.codec.memcache" line-rate="0.5208333333333334" branch-rate="0.3888888888888889" complexity="1.434782608695652">
+			<classes>
+				<class name="io.netty.handler.codec.memcache.AbstractMemcacheObject" filename="io/netty/handler/codec/memcache/AbstractMemcacheObject.java" line-rate="0.5" branch-rate="0.0" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="33" branch="false"/>
+								<line number="27" hits="33" branch="false"/>
+								<line number="29" hits="33" branch="false"/>
+							</lines>
+						</method>
+						<method name="decoderResult" signature="()Lio/netty/handler/codec/DecoderResult;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDecoderResult" signature="(Lio/netty/handler/codec/DecoderResult;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="38" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="39" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="33" branch="false"/>
+						<line number="27" hits="33" branch="false"/>
+						<line number="29" hits="33" branch="false"/>
+						<line number="33" hits="5" branch="false"/>
+						<line number="38" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="39" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.AbstractMemcacheObjectAggregator" filename="io/netty/handler/codec/memcache/AbstractMemcacheObjectAggregator.java" line-rate="0.8888888888888888" branch-rate="1.0" complexity="1.1428571428571428">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="contentLength" signature="(Lio/netty/handler/codec/memcache/MemcacheMessage;)J" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="73" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="contentLength" signature="(Ljava/lang/Object;)J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="hasContentLength" signature="(Lio/netty/handler/codec/memcache/MemcacheMessage;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasContentLength" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isAggregated" signature="(Lio/netty/handler/codec/memcache/MemcacheObject;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAggregated" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isContentMessage" signature="(Lio/netty/handler/codec/memcache/MemcacheObject;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="9" branch="false"/>
+							</lines>
+						</method>
+						<method name="isContentMessage" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="20" branch="false"/>
+							</lines>
+						</method>
+						<method name="isLastContentMessage" signature="(Lio/netty/buffer/ByteBufHolder;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isLastContentMessage" signature="(Lio/netty/handler/codec/memcache/MemcacheContent;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="newContinueResponse" signature="(Lio/netty/handler/codec/memcache/MemcacheMessage;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="newContinueResponse" signature="(Ljava/lang/Object;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="20" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="53" hits="9" branch="false"/>
+						<line number="58" hits="4" branch="false"/>
+						<line number="63" hits="5" branch="false"/>
+						<line number="68" hits="1" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="78" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.AbstractMemcacheObjectDecoder" filename="io/netty/handler/codec/memcache/AbstractMemcacheObjectDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="8" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="8" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.AbstractMemcacheObjectEncoder" filename="io/netty/handler/codec/memcache/AbstractMemcacheObjectEncoder.java" line-rate="0.6896551724137931" branch-rate="0.40625" complexity="5.8">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="acceptOutboundMessage" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="0.16666666666666666" complexity="0">
+							<lines>
+								<line number="65" hits="9" branch="true" condition-coverage="16% (1/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+										<condition number="2" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="contentLength" signature="(Ljava/lang/Object;)I" line-rate="0.2857142857142857" branch-rate="0.16666666666666666" complexity="0">
+							<lines>
+								<line number="84" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="3" branch="false"/>
+								<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="88" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="91" hits="0" branch="false"/>
+								<line number="93" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V" line-rate="1.0" branch-rate="0.6428571428571429" complexity="0">
+							<lines>
+								<line number="40" hits="9" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="41" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="42" hits="1" branch="false"/>
+								<line number="46" hits="5" branch="false"/>
+								<line number="47" hits="5" branch="false"/>
+								<line number="48" hits="5" branch="false"/>
+								<line number="51" hits="3" branch="true" condition-coverage="16% (1/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+										<condition number="2" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="52" hits="3" branch="false"/>
+								<line number="53" hits="3" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="54" hits="2" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+								<line number="59" hits="3" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="61" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeAndRetain" signature="(Ljava/lang/Object;)Ljava/lang/Object;" line-rate="0.42857142857142855" branch-rate="0.3333333333333333" complexity="0">
+							<lines>
+								<line number="103" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="104" hits="0" branch="false"/>
+								<line number="106" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="107" hits="2" branch="false"/>
+								<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="110" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="34" hits="6" branch="false"/>
+						<line number="40" hits="9" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="41" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="42" hits="1" branch="false"/>
+						<line number="46" hits="5" branch="false"/>
+						<line number="47" hits="5" branch="false"/>
+						<line number="48" hits="5" branch="false"/>
+						<line number="51" hits="3" branch="true" condition-coverage="16% (1/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+								<condition number="2" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="52" hits="3" branch="false"/>
+						<line number="53" hits="3" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="54" hits="2" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="59" hits="3" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="61" hits="3" branch="false"/>
+						<line number="65" hits="9" branch="true" condition-coverage="16% (1/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+								<condition number="2" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="84" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="3" branch="false"/>
+						<line number="87" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="88" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="91" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="103" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="104" hits="0" branch="false"/>
+						<line number="106" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="107" hits="2" branch="false"/>
+						<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="110" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.DefaultLastMemcacheContent" filename="io/netty/handler/codec/memcache/DefaultLastMemcacheContent.java" line-rate="0.3333333333333333" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="7" branch="false"/>
+								<line number="33" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="61" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="66" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="7" branch="false"/>
+								<line number="56" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="7" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="32" hits="7" branch="false"/>
+						<line number="33" hits="7" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="55" hits="7" branch="false"/>
+						<line number="56" hits="7" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.DefaultMemcacheContent" filename="io/netty/handler/codec/memcache/DefaultMemcacheContent.java" line-rate="0.42857142857142855" branch-rate="0.5" complexity="1.1666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="31" hits="17" branch="false"/>
+								<line number="32" hits="17" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="17" branch="false"/>
+								<line number="36" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="40" hits="25" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="84" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="94" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="72" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="78" hits="17" branch="false"/>
+								<line number="79" hits="17" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="10" branch="false"/>
+						<line number="31" hits="17" branch="false"/>
+						<line number="32" hits="17" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="17" branch="false"/>
+						<line number="36" hits="17" branch="false"/>
+						<line number="40" hits="25" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="78" hits="17" branch="false"/>
+						<line number="79" hits="17" branch="false"/>
+						<line number="84" hits="17" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.FullMemcacheMessage" filename="io/netty/handler/codec/memcache/FullMemcacheMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.LastMemcacheContent" filename="io/netty/handler/codec/memcache/LastMemcacheContent.java" line-rate="1.0" branch-rate="1.0" complexity="1.0555555555555556">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.LastMemcacheContent$1" filename="io/netty/handler/codec/memcache/LastMemcacheContent.java" line-rate="0.23076923076923078" branch-rate="1.0" complexity="1.0555555555555556">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="decoderResult" signature="()Lio/netty/handler/codec/DecoderResult;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="85" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="90" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="40" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setDecoderResult" signature="(Lio/netty/handler/codec/DecoderResult;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="55" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="31" hits="4" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="55" hits="3" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="85" hits="2" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.MemcacheContent" filename="io/netty/handler/codec/memcache/MemcacheContent.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.MemcacheMessage" filename="io/netty/handler/codec/memcache/MemcacheMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.MemcacheObject" filename="io/netty/handler/codec/memcache/MemcacheObject.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="io.netty.handler.codec.memcache.binary" line-rate="0.5238095238095238" branch-rate="0.4268292682926829" complexity="1.440251572327044">
+			<classes>
+				<class name="io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder" filename="io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder.java" line-rate="0.6385542168674698" branch-rate="0.71875" complexity="4.888888888888889">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.8333333333333334" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="48" hits="8" branch="false"/>
+								<line number="62" hits="8" branch="false"/>
+								<line number="63" hits="8" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="64" hits="0" branch="false"/>
+								<line number="67" hits="8" branch="false"/>
+								<line number="68" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="channelInactive" signature="(Lio/netty/channel/ChannelHandlerContext;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="201" hits="6" branch="false"/>
+								<line number="203" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="204" hits="6" branch="false"/>
+								<line number="207" hits="6" branch="false"/>
+								<line number="208" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V" line-rate="0.6779661016949152" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="72" hits="29" branch="true" condition-coverage="50% (3/6)">
+									<conditions>
+										<condition number="0" type="switch" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="74" hits="19" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="75" hits="10" branch="false"/>
+								<line number="77" hits="9" branch="false"/>
+								<line number="79" hits="9" branch="false"/>
+								<line number="80" hits="9" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="9" branch="false"/>
+								<line number="86" hits="9" branch="false"/>
+								<line number="87" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="89" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="95" hits="9" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+								<line number="97" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+								<line number="99" hits="9" branch="false"/>
+								<line number="101" hits="11" branch="false"/>
+								<line number="102" hits="11" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="103" hits="8" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="104" hits="2" branch="false"/>
+								<line number="107" hits="6" branch="false"/>
+								<line number="108" hits="6" branch="false"/>
+								<line number="111" hits="9" branch="false"/>
+								<line number="112" hits="9" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="9" branch="false"/>
+								<line number="118" hits="17" branch="false"/>
+								<line number="121" hits="17" branch="false"/>
+								<line number="122" hits="17" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="123" hits="14" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="124" hits="0" branch="false"/>
+								<line number="127" hits="14" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="128" hits="6" branch="false"/>
+								<line number="131" hits="14" branch="false"/>
+								<line number="132" hits="14" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="133" hits="2" branch="false"/>
+								<line number="136" hits="14" branch="false"/>
+								<line number="139" hits="14" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="140" hits="6" branch="false"/>
+								<line number="142" hits="8" branch="false"/>
+								<line number="145" hits="14" branch="false"/>
+								<line number="146" hits="14" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="147" hits="8" branch="false"/>
+								<line number="149" hits="6" branch="false"/>
+								<line number="150" hits="3" branch="false"/>
+								<line number="153" hits="9" branch="false"/>
+								<line number="154" hits="9" branch="false"/>
+								<line number="155" hits="0" branch="false"/>
+								<line number="156" hits="0" branch="false"/>
+								<line number="157" hits="0" branch="false"/>
+								<line number="160" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="false"/>
+								<line number="163" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="invalidChunk" signature="(Ljava/lang/Exception;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="187" hits="0" branch="false"/>
+								<line number="188" hits="0" branch="false"/>
+								<line number="189" hits="0" branch="false"/>
+								<line number="190" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="invalidMessage" signature="(Ljava/lang/Exception;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="174" hits="0" branch="false"/>
+								<line number="175" hits="0" branch="false"/>
+								<line number="176" hits="0" branch="false"/>
+								<line number="177" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="resetDecoder" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="214" hits="15" branch="false"/>
+								<line number="215" hits="15" branch="false"/>
+								<line number="216" hits="15" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="48" hits="8" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="62" hits="8" branch="false"/>
+						<line number="63" hits="8" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="64" hits="0" branch="false"/>
+						<line number="67" hits="8" branch="false"/>
+						<line number="68" hits="8" branch="false"/>
+						<line number="72" hits="29" branch="true" condition-coverage="50% (3/6)">
+							<conditions>
+								<condition number="0" type="switch" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="74" hits="19" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="75" hits="10" branch="false"/>
+						<line number="77" hits="9" branch="false"/>
+						<line number="79" hits="9" branch="false"/>
+						<line number="80" hits="9" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="9" branch="false"/>
+						<line number="86" hits="9" branch="false"/>
+						<line number="87" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="88" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="89" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="95" hits="9" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="99" hits="9" branch="false"/>
+						<line number="101" hits="11" branch="false"/>
+						<line number="102" hits="11" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="103" hits="8" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="104" hits="2" branch="false"/>
+						<line number="107" hits="6" branch="false"/>
+						<line number="108" hits="6" branch="false"/>
+						<line number="111" hits="9" branch="false"/>
+						<line number="112" hits="9" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="9" branch="false"/>
+						<line number="118" hits="17" branch="false"/>
+						<line number="121" hits="17" branch="false"/>
+						<line number="122" hits="17" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="123" hits="14" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="124" hits="0" branch="false"/>
+						<line number="127" hits="14" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="128" hits="6" branch="false"/>
+						<line number="131" hits="14" branch="false"/>
+						<line number="132" hits="14" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="133" hits="2" branch="false"/>
+						<line number="136" hits="14" branch="false"/>
+						<line number="139" hits="14" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="140" hits="6" branch="false"/>
+						<line number="142" hits="8" branch="false"/>
+						<line number="145" hits="14" branch="false"/>
+						<line number="146" hits="14" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="147" hits="8" branch="false"/>
+						<line number="149" hits="6" branch="false"/>
+						<line number="150" hits="3" branch="false"/>
+						<line number="153" hits="9" branch="false"/>
+						<line number="154" hits="9" branch="false"/>
+						<line number="155" hits="0" branch="false"/>
+						<line number="156" hits="0" branch="false"/>
+						<line number="157" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="false"/>
+						<line number="163" hits="0" branch="false"/>
+						<line number="174" hits="0" branch="false"/>
+						<line number="175" hits="0" branch="false"/>
+						<line number="176" hits="0" branch="false"/>
+						<line number="177" hits="0" branch="false"/>
+						<line number="187" hits="0" branch="false"/>
+						<line number="188" hits="0" branch="false"/>
+						<line number="189" hits="0" branch="false"/>
+						<line number="190" hits="0" branch="false"/>
+						<line number="201" hits="6" branch="false"/>
+						<line number="203" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="204" hits="6" branch="false"/>
+						<line number="207" hits="6" branch="false"/>
+						<line number="208" hits="6" branch="false"/>
+						<line number="214" hits="15" branch="false"/>
+						<line number="215" hits="15" branch="false"/>
+						<line number="216" hits="15" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder$1" filename="io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="4.888888888888889">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="72" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="72" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheDecoder$State" filename="io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder.java" line-rate="1.0" branch-rate="1.0" complexity="4.888888888888889">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="240" hits="7" branch="false"/>
+								<line number="244" hits="1" branch="false"/>
+								<line number="249" hits="1" branch="false"/>
+								<line number="254" hits="1" branch="false"/>
+								<line number="259" hits="1" branch="false"/>
+								<line number="264" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lio/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheDecoder$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="240" hits="7" branch="false"/>
+						<line number="244" hits="1" branch="false"/>
+						<line number="249" hits="1" branch="false"/>
+						<line number="254" hits="1" branch="false"/>
+						<line number="259" hits="1" branch="false"/>
+						<line number="264" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheEncoder" filename="io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheEncoder.java" line-rate="1.0" branch-rate="0.75" complexity="2.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="encodeExtras" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="53" hits="5" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="54" hits="4" branch="false"/>
+								<line number="57" hits="1" branch="false"/>
+								<line number="58" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeKey" signature="(Lio/netty/buffer/ByteBuf;Ljava/lang/String;)V" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="67" hits="5" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="68" hits="4" branch="false"/>
+								<line number="71" hits="1" branch="false"/>
+								<line number="72" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeMessage" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/handler/codec/memcache/MemcacheMessage;)Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeMessage" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;)Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="5" branch="false"/>
+								<line number="39" hits="5" branch="false"/>
+								<line number="40" hits="5" branch="false"/>
+								<line number="41" hits="5" branch="false"/>
+								<line number="43" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="27" hits="11" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+						<line number="39" hits="5" branch="false"/>
+						<line number="40" hits="5" branch="false"/>
+						<line number="41" hits="5" branch="false"/>
+						<line number="43" hits="5" branch="false"/>
+						<line number="53" hits="5" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="54" hits="4" branch="false"/>
+						<line number="57" hits="1" branch="false"/>
+						<line number="58" hits="1" branch="false"/>
+						<line number="67" hits="5" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="68" hits="4" branch="false"/>
+						<line number="71" hits="1" branch="false"/>
+						<line number="72" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.AbstractBinaryMemcacheMessage" filename="io/netty/handler/codec/memcache/binary/AbstractBinaryMemcacheMessage.java" line-rate="0.7037037037037037" branch-rate="0.3333333333333333" complexity="1.3214285714285714">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="16" branch="false"/>
+								<line number="54" hits="16" branch="false"/>
+								<line number="55" hits="16" branch="false"/>
+								<line number="56" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="cas" signature="()J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="93" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="dataType" signature="()B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="126" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="extras" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="extrasLength" signature="()B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="137" hits="34" branch="false"/>
+							</lines>
+						</method>
+						<method name="key" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="keyLength" signature="()S" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="148" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="magic" signature="()B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="opaque" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="opcode" signature="()B" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="159" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="170" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="171" hits="0" branch="false"/>
+								<line number="173" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="194" hits="22" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="195" hits="1" branch="false"/>
+								<line number="197" hits="21" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="203" hits="0" branch="false"/>
+								<line number="205" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="178" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="179" hits="0" branch="false"/>
+								<line number="181" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="186" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="187" hits="0" branch="false"/>
+								<line number="189" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setCas" signature="(J)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="98" hits="10" branch="false"/>
+								<line number="99" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="setDataType" signature="(B)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="131" hits="10" branch="false"/>
+								<line number="132" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="setExtras" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setExtrasLength" signature="(B)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="142" hits="11" branch="false"/>
+								<line number="143" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setKey" signature="(Ljava/lang/String;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="6" branch="false"/>
+								<line number="71" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="setKeyLength" signature="(S)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="153" hits="11" branch="false"/>
+								<line number="154" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMagic" signature="(B)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="27" branch="false"/>
+								<line number="88" hits="27" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpaque" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="109" hits="10" branch="false"/>
+								<line number="110" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="setOpcode" signature="(B)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="164" hits="11" branch="false"/>
+								<line number="165" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTotalBodyLength" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="120" hits="11" branch="false"/>
+								<line number="121" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="totalBodyLength" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="115" hits="28" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="210" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="215" hits="16" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="216" hits="1" branch="false"/>
+								<line number="218" hits="16" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="0" branch="false"/>
+						<line number="53" hits="16" branch="false"/>
+						<line number="54" hits="16" branch="false"/>
+						<line number="55" hits="16" branch="false"/>
+						<line number="56" hits="16" branch="false"/>
+						<line number="60" hits="10" branch="false"/>
+						<line number="65" hits="10" branch="false"/>
+						<line number="70" hits="6" branch="false"/>
+						<line number="71" hits="6" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="82" hits="6" branch="false"/>
+						<line number="87" hits="27" branch="false"/>
+						<line number="88" hits="27" branch="false"/>
+						<line number="93" hits="6" branch="false"/>
+						<line number="98" hits="10" branch="false"/>
+						<line number="99" hits="10" branch="false"/>
+						<line number="104" hits="6" branch="false"/>
+						<line number="109" hits="10" branch="false"/>
+						<line number="110" hits="10" branch="false"/>
+						<line number="115" hits="28" branch="false"/>
+						<line number="120" hits="11" branch="false"/>
+						<line number="121" hits="11" branch="false"/>
+						<line number="126" hits="6" branch="false"/>
+						<line number="131" hits="10" branch="false"/>
+						<line number="132" hits="10" branch="false"/>
+						<line number="137" hits="34" branch="false"/>
+						<line number="142" hits="11" branch="false"/>
+						<line number="143" hits="11" branch="false"/>
+						<line number="148" hits="36" branch="false"/>
+						<line number="153" hits="11" branch="false"/>
+						<line number="154" hits="11" branch="false"/>
+						<line number="159" hits="6" branch="false"/>
+						<line number="164" hits="11" branch="false"/>
+						<line number="165" hits="11" branch="false"/>
+						<line number="170" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="171" hits="0" branch="false"/>
+						<line number="173" hits="0" branch="false"/>
+						<line number="178" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="179" hits="0" branch="false"/>
+						<line number="181" hits="0" branch="false"/>
+						<line number="186" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="187" hits="0" branch="false"/>
+						<line number="189" hits="0" branch="false"/>
+						<line number="194" hits="22" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="195" hits="1" branch="false"/>
+						<line number="197" hits="21" branch="false"/>
+						<line number="202" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="203" hits="0" branch="false"/>
+						<line number="205" hits="0" branch="false"/>
+						<line number="210" hits="0" branch="false"/>
+						<line number="215" hits="16" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="216" hits="1" branch="false"/>
+						<line number="218" hits="16" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheClientCodec" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec.java" line-rate="0.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(IZ)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="41" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$100" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$200" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec;)Ljava/util/concurrent/atomic/AtomicLong;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="38" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheClientCodec$1" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheClientCodec$Decoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec.java" line-rate="0.0" branch-rate="0.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec;I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="85" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="channelInactive" signature="(Lio/netty/channel/ChannelHandlerContext;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="107" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="110" hits="0" branch="false"/>
+								<line number="111" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="112" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="decode" signature="(Lio/netty/channel/ChannelHandlerContext;Lio/netty/buffer/ByteBuf;Ljava/util/List;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="94" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="95" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="97" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="85" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="95" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="97" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="110" hits="0" branch="false"/>
+						<line number="111" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="112" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheClientCodec$Encoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec.java" line-rate="0.0" branch-rate="0.0" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheClientCodec$1;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="71" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="encode" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;Ljava/util/List;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="true" condition-coverage="0% (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+										<condition number="1" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="78" hits="0" branch="false"/>
+								<line number="80" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="71" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="true" condition-coverage="0% (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+								<condition number="1" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="78" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheMessage" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheObjectAggregator" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheObjectAggregator.java" line-rate="0.5483870967741935" branch-rate="0.25" complexity="2.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="beginAggregation" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="0.4" branch-rate="0.25" complexity="0">
+							<lines>
+								<line number="43" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="44" hits="1" branch="false"/>
+								<line number="47" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="48" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="beginAggregation" signature="(Ljava/lang/Object;Lio/netty/buffer/ByteBuf;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="isStartMessage" signature="(Lio/netty/handler/codec/memcache/MemcacheObject;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="38" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="isStartMessage" signature="(Ljava/lang/Object;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="toFullRequest" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="1" branch="false"/>
+								<line number="59" hits="1" branch="false"/>
+								<line number="60" hits="1" branch="false"/>
+								<line number="61" hits="1" branch="false"/>
+								<line number="62" hits="1" branch="false"/>
+								<line number="63" hits="1" branch="false"/>
+								<line number="64" hits="1" branch="false"/>
+								<line number="65" hits="1" branch="false"/>
+								<line number="66" hits="1" branch="false"/>
+								<line number="67" hits="1" branch="false"/>
+								<line number="69" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="toFullResponse" signature="(Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="73" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+								<line number="78" hits="0" branch="false"/>
+								<line number="79" hits="0" branch="false"/>
+								<line number="80" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="30" hits="7" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+						<line number="38" hits="6" branch="false"/>
+						<line number="43" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="44" hits="1" branch="false"/>
+						<line number="47" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="48" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="59" hits="1" branch="false"/>
+						<line number="60" hits="1" branch="false"/>
+						<line number="61" hits="1" branch="false"/>
+						<line number="62" hits="1" branch="false"/>
+						<line number="63" hits="1" branch="false"/>
+						<line number="64" hits="1" branch="false"/>
+						<line number="65" hits="1" branch="false"/>
+						<line number="66" hits="1" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="69" hits="1" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="78" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheOpcodes" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheOpcodes.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="26" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheRequest" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheRequest.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheRequestDecoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheRequestDecoder.java" line-rate="0.9411764705882353" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="5" branch="false"/>
+								<line number="29" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="7" branch="false"/>
+								<line number="33" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="buildInvalidMessage" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="buildInvalidMessage" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeHeader" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeHeader" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="6" branch="false"/>
+								<line number="38" hits="6" branch="false"/>
+								<line number="39" hits="6" branch="false"/>
+								<line number="40" hits="6" branch="false"/>
+								<line number="41" hits="6" branch="false"/>
+								<line number="42" hits="6" branch="false"/>
+								<line number="43" hits="6" branch="false"/>
+								<line number="44" hits="6" branch="false"/>
+								<line number="45" hits="6" branch="false"/>
+								<line number="46" hits="6" branch="false"/>
+								<line number="47" hits="6" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="6" branch="false"/>
+						<line number="28" hits="5" branch="false"/>
+						<line number="29" hits="5" branch="false"/>
+						<line number="32" hits="7" branch="false"/>
+						<line number="33" hits="7" branch="false"/>
+						<line number="37" hits="6" branch="false"/>
+						<line number="38" hits="6" branch="false"/>
+						<line number="39" hits="6" branch="false"/>
+						<line number="40" hits="6" branch="false"/>
+						<line number="41" hits="6" branch="false"/>
+						<line number="42" hits="6" branch="false"/>
+						<line number="43" hits="6" branch="false"/>
+						<line number="44" hits="6" branch="false"/>
+						<line number="45" hits="6" branch="false"/>
+						<line number="46" hits="6" branch="false"/>
+						<line number="47" hits="6" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheRequestEncoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheRequestEncoder.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="encodeHeader" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="11" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeHeader" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="5" branch="false"/>
+								<line number="29" hits="5" branch="false"/>
+								<line number="30" hits="5" branch="false"/>
+								<line number="31" hits="5" branch="false"/>
+								<line number="32" hits="5" branch="false"/>
+								<line number="33" hits="5" branch="false"/>
+								<line number="34" hits="5" branch="false"/>
+								<line number="35" hits="5" branch="false"/>
+								<line number="36" hits="5" branch="false"/>
+								<line number="37" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="11" branch="false"/>
+						<line number="28" hits="5" branch="false"/>
+						<line number="29" hits="5" branch="false"/>
+						<line number="30" hits="5" branch="false"/>
+						<line number="31" hits="5" branch="false"/>
+						<line number="32" hits="5" branch="false"/>
+						<line number="33" hits="5" branch="false"/>
+						<line number="34" hits="5" branch="false"/>
+						<line number="35" hits="5" branch="false"/>
+						<line number="36" hits="5" branch="false"/>
+						<line number="37" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheResponse" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheResponse.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseDecoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseDecoder.java" line-rate="0.9411764705882353" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="1" branch="false"/>
+								<line number="29" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="32" hits="1" branch="false"/>
+								<line number="33" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="buildInvalidMessage" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="buildInvalidMessage" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeHeader" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="decodeHeader" signature="(Lio/netty/buffer/ByteBuf;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="37" hits="3" branch="false"/>
+								<line number="38" hits="3" branch="false"/>
+								<line number="39" hits="3" branch="false"/>
+								<line number="40" hits="3" branch="false"/>
+								<line number="41" hits="3" branch="false"/>
+								<line number="42" hits="3" branch="false"/>
+								<line number="43" hits="3" branch="false"/>
+								<line number="44" hits="3" branch="false"/>
+								<line number="45" hits="3" branch="false"/>
+								<line number="46" hits="3" branch="false"/>
+								<line number="47" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="3" branch="false"/>
+						<line number="28" hits="1" branch="false"/>
+						<line number="29" hits="1" branch="false"/>
+						<line number="32" hits="1" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="37" hits="3" branch="false"/>
+						<line number="38" hits="3" branch="false"/>
+						<line number="39" hits="3" branch="false"/>
+						<line number="40" hits="3" branch="false"/>
+						<line number="41" hits="3" branch="false"/>
+						<line number="42" hits="3" branch="false"/>
+						<line number="43" hits="3" branch="false"/>
+						<line number="44" hits="3" branch="false"/>
+						<line number="45" hits="3" branch="false"/>
+						<line number="46" hits="3" branch="false"/>
+						<line number="47" hits="3" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseEncoder" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseEncoder.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="encodeHeader" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="encodeHeader" signature="(Lio/netty/buffer/ByteBuf;Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheResponseStatus" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheResponseStatus.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.BinaryMemcacheServerCodec" filename="io/netty/handler/codec/memcache/binary/BinaryMemcacheServerCodec.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(I)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheRequest" filename="io/netty/handler/codec/memcache/binary/DefaultBinaryMemcacheRequest.java" line-rate="0.7142857142857143" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="10" branch="false"/>
+								<line number="37" hits="10" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="1" branch="false"/>
+								<line number="55" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="13" branch="false"/>
+								<line number="65" hits="13" branch="false"/>
+								<line number="66" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="reserved" signature="()S" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="81" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setReserved" signature="(S)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="7" branch="false"/>
+								<line number="76" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="93" hits="0" branch="false"/>
+								<line number="94" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="99" hits="13" branch="false"/>
+								<line number="100" hits="13" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="12" branch="false"/>
+						<line number="36" hits="10" branch="false"/>
+						<line number="37" hits="10" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="55" hits="1" branch="false"/>
+						<line number="64" hits="13" branch="false"/>
+						<line number="65" hits="13" branch="false"/>
+						<line number="66" hits="13" branch="false"/>
+						<line number="70" hits="6" branch="false"/>
+						<line number="75" hits="7" branch="false"/>
+						<line number="76" hits="7" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+						<line number="99" hits="13" branch="false"/>
+						<line number="100" hits="13" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.DefaultBinaryMemcacheResponse" filename="io/netty/handler/codec/memcache/binary/DefaultBinaryMemcacheResponse.java" line-rate="0.5238095238095238" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="3" branch="false"/>
+								<line number="37" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="3" branch="false"/>
+								<line number="65" hits="3" branch="false"/>
+								<line number="66" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="81" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="87" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="setStatus" signature="(S)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="3" branch="false"/>
+								<line number="76" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="status" signature="()S" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="70" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="93" hits="0" branch="false"/>
+								<line number="94" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="99" hits="3" branch="false"/>
+								<line number="100" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="3" branch="false"/>
+						<line number="36" hits="3" branch="false"/>
+						<line number="37" hits="3" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="64" hits="3" branch="false"/>
+						<line number="65" hits="3" branch="false"/>
+						<line number="66" hits="3" branch="false"/>
+						<line number="70" hits="3" branch="false"/>
+						<line number="75" hits="3" branch="false"/>
+						<line number="76" hits="3" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+						<line number="99" hits="3" branch="false"/>
+						<line number="100" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.DefaultFullBinaryMemcacheRequest" filename="io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheRequest.java" line-rate="0.3235294117647059" branch-rate="0.16666666666666666" complexity="1.3333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="48" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="50" hits="0" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="54" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="110" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="119" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="96" hits="1" branch="false"/>
+								<line number="97" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="1" branch="false"/>
+								<line number="90" hits="1" branch="false"/>
+								<line number="91" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="1" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="50" hits="0" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="58" hits="7" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="89" hits="1" branch="false"/>
+						<line number="90" hits="1" branch="false"/>
+						<line number="91" hits="1" branch="false"/>
+						<line number="96" hits="1" branch="false"/>
+						<line number="97" hits="1" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="110" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="119" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.DefaultFullBinaryMemcacheResponse" filename="io/netty/handler/codec/memcache/binary/DefaultFullBinaryMemcacheResponse.java" line-rate="0.0" branch-rate="0.0" complexity="1.3333333333333333">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Lio/netty/buffer/ByteBuf;Lio/netty/buffer/ByteBuf;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="50" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="content" signature="()Lio/netty/buffer/ByteBuf;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="copy" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="110" hits="0" branch="false"/>
+								<line number="112" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="duplicate" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="119" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="refCnt" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="96" hits="0" branch="false"/>
+								<line number="97" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="(I)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retain" signature="(I)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="()Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/buffer/ByteBufHolder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/FullMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/LastMemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheContent;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/MemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheMessage;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/BinaryMemcacheResponse;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="touch" signature="(Ljava/lang/Object;)Lio/netty/util/ReferenceCounted;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="24" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="50" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="110" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="119" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.FullBinaryMemcacheRequest" filename="io/netty/handler/codec/memcache/binary/FullBinaryMemcacheRequest.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="io.netty.handler.codec.memcache.binary.FullBinaryMemcacheResponse" filename="io/netty/handler/codec/memcache/binary/FullBinaryMemcacheResponse.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

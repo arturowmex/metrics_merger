@@ -1,0 +1,2 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.demo.DemoService.java.DemoService,DemoService,0.18747429,0,1,0,0,0,1,0,11,5,1,0,1,0,1,1,0,1

@@ -1,0 +1,7 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyCodecAdapter.java.GrizzlyCodecAdapter,GrizzlyCodecAdapter,0.002627651,1,1,1,0,1,0,1,19,108,0.666666667,4,7,0,2,4,1,9
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyChannel.java.GrizzlyChannel,GrizzlyChannel,0.06115585,0,1,0,0,2,0,1,14,144,0.933333333,0,18,0,14,14,0.833333333,26
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyClient.java.GrizzlyClient,GrizzlyClient,0.073574239,3,1,3,0,1,0,1,13,73,0.833333333,4,8,0,5,7,0,6
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyTransporter.java.GrizzlyTransporter,GrizzlyTransporter,0.139265523,2,1,2,0,0,4,0,18,18,0.666666667,2,3,0,2,2,0,2
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyHandler.java.GrizzlyHandler,GrizzlyHandler,0.002627651,1,1,1,0,1,0,1,14,88,0.833333333,10,8,0,5,7,1,5
+com.alibaba.dubbo.remoting.transport.grizzly.GrizzlyServer.java.GrizzlyServer,GrizzlyServer,0.049827812,2,1,2,0,2,0,1,13,81,0.875,2,10,0,7,7,0.6,9

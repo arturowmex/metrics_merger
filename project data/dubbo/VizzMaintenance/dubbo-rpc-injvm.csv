@@ -1,0 +1,10 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.InjvmInvoker.java.InjvmInvoker,InjvmInvoker,0.005693245,2,2,2,0,1,0,1,12,36,0.666666667,1,4,0,2,3,1,4
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.DemoService.java.DemoService,DemoService,0.201696452,1,1,1,0,0,81,0,11,24,0.9,0,9,1,9,9,0,9
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.DemoServiceImpl.java.DemoServiceImpl,DemoServiceImpl,0.203691325,2,1,2,1,0,81,0,15,61,0.9,0,9,0,9,9,0,12
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.InjvmProtocolTest.java.InjvmProtocolTest,InjvmProtocolTest,0.02087523,3,1,3,0,1,0,1,17,46,0.75,6,6,0,3,7,1,4
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.InjvmExporter.java.InjvmExporter,InjvmExporter,0.068318936,0,1,0,0,1,0,1,13,24,0.5,0,3,0,1,1,0,1
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.InjvmProtocol.java.InjvmProtocol,InjvmProtocol,0.195509964,2,2,2,0,2,32,0,13,88,0.857142857,0,9,0,6,6,0,18
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.DemoRequest.java.DemoRequest,DemoRequest,0.145058237,0,1,0,0,4,8,0,11,45,0.8,0,9,0,4,4,0,4
+com.alibaba.dubbo.rpc.protocol.injvm.IEcho.java.IEcho,IEcho,0.189185406,0,1,0,0,0,1,0,5,3,1,0,1,1,1,1,0,1
+com.alibaba.dubbo.rpc.protocol.injvm.Type.java.ProtocolTest.java.ProtocolTest,ProtocolTest,0.068318936,1,1,1,0,1,0,1,12,39,0.5,1,5,0,1,2,0,1

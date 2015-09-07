@@ -1,0 +1,2 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.rpc.protocol.memcached.MemcachedProtocol.java.MemcachedProtocol,MemcachedProtocol,0.141657495,0,1,0,0,1,7,0,17,78,0.75,0,4,0,3,3,0,4

@@ -1,0 +1,4 @@
+RxtxDeviceAddress,0.0,1.0,1.0,26,1,1,0.0,0,0,NaN,1.0,0.5,0.1145374449339207,0.03571428571428571,0.125,0.0,0.0,0.0,io.netty.channel.rxtx.RxtxDeviceAddress
+RxtxChannel,0.0,0.0,1.8,146,12,3,0.923076923,0,8,NaN,0.0,0.9,0.6431718061674009,0.42857142857142855,0.375,0.9560439563398744,0.0,1.0,io.netty.channel.rxtx.RxtxChannel
+RxtxChannelOption,0.0,1.0,1.0,18,0,0,0.0,0,3,NaN,1.0,0.5,0.07929515418502203,0.0,0.0,0.0,0.0,0.375,io.netty.channel.rxtx.RxtxChannelOption
+DefaultRxtxChannelConfig,0.0,0.0,2.0,227,28,8,0.965517241,1,6,NaN,0.0,1.0,1.0,1.0,1.0,1.0,1.0,0.75,io.netty.channel.rxtx.DefaultRxtxChannelConfig

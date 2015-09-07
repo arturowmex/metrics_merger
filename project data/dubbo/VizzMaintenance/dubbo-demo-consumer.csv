@@ -1,0 +1,3 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.demo.consumer.DemoAction.java.DemoAction,DemoAction,0.115973079,0,1,0,0,1,0,1,10,21,1,0,3,0,2,2,1,3
+com.alibaba.dubbo.demo.consumer.DemoConsumer.java.DemoConsumer,DemoConsumer,0.206010901,0,1,0,0,0,1,0,12,7,1,0,1,0,1,1,0,1

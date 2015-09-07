@@ -1,0 +1,7 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+io.netty.channel.rxtx.RxtxChannelConfig.java.RxtxChannelConfig.Paritybit.RxtxChannel.java.RxtxChannel.RxtxUnsafe,RxtxUnsafe,0.188696427,2,4,0,0,0,1,0,10,43,1,3,1,0,1,4,0,4
+io.netty.channel.rxtx.RxtxChannelConfig.java.RxtxChannelConfig.Paritybit.DefaultRxtxChannelConfig.java.DefaultRxtxChannelConfig,DefaultRxtxChannelConfig,0.139959997,6,4,5,1,8,720,1,24,227,0.965517241,0,36,0,28,28,0.021164021,46
+io.netty.channel.rxtx.RxtxChannelConfig.java.RxtxChannelConfig.Paritybit,Paritybit,0.153756729,5,4,5,0,0,625,0,9,276,0.346153846,0,25,1,25,25,0,25
+io.netty.channel.rxtx.RxtxChannelConfig.java.RxtxChannelConfig.Paritybit.RxtxDeviceAddress.java.RxtxDeviceAddress,RxtxDeviceAddress,0.068318936,0,1,0,0,1,0,1,17,26,0,0,3,0,1,1,0,1
+io.netty.channel.rxtx.RxtxChannelOption.java.RxtxChannelOption,RxtxChannelOption,0.136637872,3,1,3,0,0,0,0,17,18,0,0,9,0,0,0,0,0
+io.netty.channel.rxtx.RxtxChannelConfig.java.RxtxChannelConfig.Paritybit.RxtxChannel.java.RxtxChannel,RxtxChannel,0.126318268,8,4,4,0,3,110,0.384615385,11,146,0.923076923,6,17,0,12,16,0,13

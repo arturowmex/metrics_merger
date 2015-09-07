@@ -1,0 +1,3611 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.7391874180865007" branch-rate="0.6214511041009464" lines-covered="564" lines-valid="763" branches-covered="197" branches-valid="317" complexity="2.8076923076923075" version="2.1.1" timestamp="1433426596795">
+	<sources>
+		<source>C:/Users/Arturo/git/netty/resolver-dns/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="io.netty.resolver.dns" line-rate="0.7391874180865007" branch-rate="0.6214511041009464" complexity="2.8076923076923075">
+			<classes>
+				<class name="io.netty.resolver.dns.DnsCacheEntry" filename="io/netty/resolver/dns/DnsCacheEntry.java" line-rate="0.7307692307692307" branch-rate="0.5" complexity="1.8333333333333333">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/AddressedEnvelope;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="608" branch="false"/>
+								<line number="46" hits="608" branch="false"/>
+								<line number="47" hits="608" branch="false"/>
+								<line number="48" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="cause" signature="()Ljava/lang/Throwable;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="release" signature="()V" line-rate="0.9" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="74" hits="608" branch="false"/>
+								<line number="75" hits="608" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="76" hits="0" branch="false"/>
+								<line number="79" hits="608" branch="false"/>
+								<line number="80" hits="608" branch="false"/>
+								<line number="81" hits="608" branch="false"/>
+								<line number="83" hits="608" branch="false"/>
+								<line number="84" hits="608" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="608" branch="false"/>
+								<line number="87" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="retainedResponse" signature="()Lio/netty/channel/AddressedEnvelope;" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="60" hits="97" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="62" hits="0" branch="false"/>
+								<line number="65" hits="97" branch="false"/>
+							</lines>
+						</method>
+						<method name="scheduleExpiration" signature="(Lio/netty/channel/EventLoop;Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)V" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="69" hits="608" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="70" hits="608" branch="false"/>
+								<line number="71" hits="608" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="31" hits="1" branch="false"/>
+						<line number="45" hits="608" branch="false"/>
+						<line number="46" hits="608" branch="false"/>
+						<line number="47" hits="608" branch="false"/>
+						<line number="48" hits="608" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="60" hits="97" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="62" hits="0" branch="false"/>
+						<line number="65" hits="97" branch="false"/>
+						<line number="69" hits="608" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="70" hits="608" branch="false"/>
+						<line number="71" hits="608" branch="false"/>
+						<line number="74" hits="608" branch="false"/>
+						<line number="75" hits="608" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="76" hits="0" branch="false"/>
+						<line number="79" hits="608" branch="false"/>
+						<line number="80" hits="608" branch="false"/>
+						<line number="81" hits="608" branch="false"/>
+						<line number="83" hits="608" branch="false"/>
+						<line number="84" hits="608" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="608" branch="false"/>
+						<line number="87" hits="608" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsCacheEntry$State" filename="io/netty/resolver/dns/DnsCacheEntry.java" line-rate="0.0" branch-rate="1.0" complexity="1.8333333333333333">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lio/netty/resolver/dns/DnsCacheEntry$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lio/netty/resolver/dns/DnsCacheEntry$State;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolver" filename="io/netty/resolver/dns/DnsNameResolver.java" line-rate="0.6157635467980296" branch-rate="0.425" complexity="2.6470588235294117">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.75" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="69" hits="1" branch="false"/>
+								<line number="71" hits="1" branch="false"/>
+								<line number="73" hits="1" branch="false"/>
+								<line number="77" hits="1" branch="false"/>
+								<line number="78" hits="0" branch="false"/>
+								<line number="79" hits="0" branch="false"/>
+								<line number="80" hits="0" branch="false"/>
+								<line number="82" hits="1" branch="false"/>
+								<line number="83" hits="1" branch="false"/>
+								<line number="84" hits="1" branch="false"/>
+								<line number="88" hits="1" branch="false"/>
+								<line number="89" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Lio/netty/channel/ChannelFactory;Ljava/lang/Iterable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="220" hits="0" branch="false"/>
+								<line number="221" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="160" hits="0" branch="false"/>
+								<line number="161" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;Ljava/lang/Iterable;)V" line-rate="0.8260869565217391" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="100" hits="1" branch="false"/>
+								<line number="105" hits="1" branch="false"/>
+								<line number="107" hits="1" branch="false"/>
+								<line number="109" hits="1" branch="false"/>
+								<line number="113" hits="1" branch="false"/>
+								<line number="115" hits="1" branch="false"/>
+								<line number="117" hits="1" branch="false"/>
+								<line number="118" hits="1" branch="false"/>
+								<line number="119" hits="1" branch="false"/>
+								<line number="237" hits="1" branch="false"/>
+								<line number="239" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="240" hits="0" branch="false"/>
+								<line number="242" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="243" hits="0" branch="false"/>
+								<line number="245" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="246" hits="0" branch="false"/>
+								<line number="248" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="249" hits="0" branch="false"/>
+								<line number="252" hits="1" branch="false"/>
+								<line number="253" hits="1" branch="false"/>
+								<line number="254" hits="1" branch="false"/>
+								<line number="256" hits="1" branch="false"/>
+								<line number="257" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="174" hits="0" branch="false"/>
+								<line number="175" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Ljava/lang/Class;Ljava/lang/Iterable;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="189" hits="1" branch="false"/>
+								<line number="190" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Ljava/lang/Class;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="133" hits="0" branch="false"/>
+								<line number="134" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Ljava/lang/Class;Ljava/net/InetSocketAddress;Ljava/lang/Iterable;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="205" hits="1" branch="false"/>
+								<line number="206" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/EventLoop;Ljava/lang/Class;Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$100" signature="()Lio/netty/handler/codec/dns/DatagramDnsResponseDecoder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$200" signature="()Lio/netty/handler/codec/dns/DatagramDnsQueryEncoder;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$300" signature="(Lio/netty/resolver/dns/DnsNameResolver;)Lio/netty/resolver/dns/DnsNameResolver$DnsResponseHandler;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$400" signature="()Lio/netty/util/internal/logging/InternalLogger;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$500" signature="(Lio/netty/channel/AddressedEnvelope;)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="67" hits="3068" branch="false"/>
+							</lines>
+						</method>
+						<method name="cache" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/resolver/dns/DnsCacheEntry;J)V" line-rate="0.7" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="759" hits="608" branch="false"/>
+								<line number="760" hits="608" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="761" hits="0" branch="false"/>
+								<line number="764" hits="608" branch="false"/>
+								<line number="766" hits="608" branch="false"/>
+								<line number="775" hits="608" branch="false"/>
+								<line number="777" hits="608" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="780" hits="0" branch="false"/>
+								<line number="781" hits="0" branch="false"/>
+								<line number="784" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="cacheFailure" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Ljava/lang/Throwable;J)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="755" hits="0" branch="false"/>
+								<line number="756" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="cacheSuccess" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;J)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="751" hits="608" branch="false"/>
+								<line number="752" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="cast" signature="(Lio/netty/channel/AddressedEnvelope;)Lio/netty/channel/AddressedEnvelope;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="793" hits="537" branch="false"/>
+							</lines>
+						</method>
+						<method name="cast" signature="(Lio/netty/util/concurrent/Promise;)Lio/netty/util/concurrent/Promise;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="788" hits="611" branch="false"/>
+							</lines>
+						</method>
+						<method name="clearCache" signature="()Lio/netty/resolver/dns/DnsNameResolver;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="597" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="598" hits="606" branch="false"/>
+								<line number="599" hits="606" branch="false"/>
+								<line number="600" hits="606" branch="false"/>
+								<line number="601" hits="606" branch="false"/>
+								<line number="603" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="clearCache" signature="(Lio/netty/handler/codec/dns/DnsQuestion;)Z" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="610" hits="2" branch="false"/>
+								<line number="611" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="612" hits="2" branch="false"/>
+								<line number="613" hits="2" branch="false"/>
+								<line number="615" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="close" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="626" hits="0" branch="false"/>
+								<line number="627" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doIsResolved" signature="(Ljava/net/InetSocketAddress;)Z" line-rate="1.0" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="636" hits="414" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="doIsResolved" signature="(Ljava/net/SocketAddress;)Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="doResolve" signature="(Ljava/net/InetSocketAddress;Lio/netty/util/concurrent/Promise;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="641" hits="414" branch="false"/>
+								<line number="642" hits="414" branch="false"/>
+								<line number="644" hits="414" branch="false"/>
+								<line number="646" hits="414" branch="false"/>
+								<line number="647" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="doResolve" signature="(Ljava/net/SocketAddress;Lio/netty/util/concurrent/Promise;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="executor" signature="()Lio/netty/channel/EventLoop;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="631" hits="415" branch="false"/>
+							</lines>
+						</method>
+						<method name="executor" signature="()Lio/netty/util/concurrent/EventExecutor;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="hostname" signature="(Ljava/net/InetSocketAddress;)Ljava/lang/String;" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="651" hits="414" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="652" hits="0" branch="false"/>
+								<line number="654" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="isRecursionDesired" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="515" hits="617" branch="false"/>
+							</lines>
+						</method>
+						<method name="maxPayloadSize" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="563" hits="611" branch="false"/>
+							</lines>
+						</method>
+						<method name="maxQueriesPerResolve" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="537" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="maxTriesPerQuery" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="393" hits="611" branch="false"/>
+							</lines>
+						</method>
+						<method name="maxTtl" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="300" hits="609" branch="false"/>
+							</lines>
+						</method>
+						<method name="minTtl" signature="()I" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="290" hits="609" branch="false"/>
+							</lines>
+						</method>
+						<method name="negativeTtl" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="340" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="newChannel" signature="(Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;)Lio/netty/channel/ChannelFuture;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="262" hits="1" branch="false"/>
+								<line number="263" hits="1" branch="false"/>
+								<line number="264" hits="1" branch="false"/>
+								<line number="265" hits="1" branch="false"/>
+								<line number="272" hits="1" branch="false"/>
+								<line number="273" hits="1" branch="false"/>
+								<line number="280" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="(Lio/netty/handler/codec/dns/DnsQuestion;)Lio/netty/util/concurrent/Future;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="662" hits="92" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/util/concurrent/Promise;)Lio/netty/util/concurrent/Future;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="670" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="(Ljava/lang/Iterable;Lio/netty/handler/codec/dns/DnsQuestion;)Lio/netty/util/concurrent/Future;" line-rate="0.6428571428571429" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="678" hits="708" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="679" hits="0" branch="false"/>
+								<line number="681" hits="708" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="682" hits="0" branch="false"/>
+								<line number="685" hits="708" branch="false"/>
+								<line number="686" hits="708" branch="false"/>
+								<line number="687" hits="708" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="688" hits="97" branch="false"/>
+								<line number="689" hits="97" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="690" hits="97" branch="false"/>
+								<line number="692" hits="0" branch="false"/>
+								<line number="693" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="694" hits="0" branch="false"/>
+								<line number="698" hits="611" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="(Ljava/lang/Iterable;Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/util/concurrent/Promise;)Lio/netty/util/concurrent/Future;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="710" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="711" hits="0" branch="false"/>
+								<line number="713" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="714" hits="0" branch="false"/>
+								<line number="716" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="717" hits="0" branch="false"/>
+								<line number="720" hits="0" branch="false"/>
+								<line number="721" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="722" hits="0" branch="false"/>
+								<line number="723" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="724" hits="0" branch="false"/>
+								<line number="726" hits="0" branch="false"/>
+								<line number="727" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="728" hits="0" branch="false"/>
+								<line number="733" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="query0" signature="(Ljava/lang/Iterable;Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/util/concurrent/Promise;)Lio/netty/util/concurrent/Future;" line-rate="0.6" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="740" hits="611" branch="false"/>
+								<line number="742" hits="611" branch="false"/>
+								<line number="743" hits="611" branch="false"/>
+								<line number="744" hits="0" branch="false"/>
+								<line number="745" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="queryTimeoutMillis" signature="()J" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="367" hits="653" branch="false"/>
+							</lines>
+						</method>
+						<method name="resolveAddressTypes" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="421" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="resolveAddressTypesUnsafe" signature="()[Lio/netty/channel/socket/InternetProtocolFamily;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="425" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMaxPayloadSize" signature="(I)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.7142857142857143" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="574" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="575" hits="0" branch="false"/>
+								<line number="578" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="580" hits="0" branch="false"/>
+								<line number="583" hits="1" branch="false"/>
+								<line number="584" hits="1" branch="false"/>
+								<line number="586" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMaxQueriesPerResolve" signature="(I)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="548" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="549" hits="0" branch="false"/>
+								<line number="552" hits="0" branch="false"/>
+								<line number="554" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setMaxTriesPerQuery" signature="(I)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="404" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="405" hits="0" branch="false"/>
+								<line number="408" hits="1" branch="false"/>
+								<line number="410" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="setNegativeTtl" signature="(I)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="351" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="352" hits="0" branch="false"/>
+								<line number="355" hits="0" branch="false"/>
+								<line number="357" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setQueryTimeoutMillis" signature="(J)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="378" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="379" hits="0" branch="false"/>
+								<line number="382" hits="0" branch="false"/>
+								<line number="384" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecursionDesired" signature="(Z)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="526" hits="0" branch="false"/>
+								<line number="527" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setResolveAddressTypes" signature="(Ljava/lang/Iterable;)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.7142857142857143" branch-rate="0.6" complexity="0">
+							<lines>
+								<line number="479" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="480" hits="0" branch="false"/>
+								<line number="483" hits="5" branch="false"/>
+								<line number="486" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="487" hits="10" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="488" hits="0" branch="false"/>
+								<line number="492" hits="10" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="493" hits="0" branch="false"/>
+								<line number="496" hits="10" branch="false"/>
+								<line number="497" hits="10" branch="false"/>
+								<line number="499" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="500" hits="0" branch="false"/>
+								<line number="503" hits="5" branch="false"/>
+								<line number="505" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setResolveAddressTypes" signature="([Lio/netty/channel/socket/InternetProtocolFamily;)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.6923076923076923" branch-rate="0.6" complexity="0">
+							<lines>
+								<line number="439" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="440" hits="0" branch="false"/>
+								<line number="443" hits="5" branch="false"/>
+								<line number="446" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="447" hits="7" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="448" hits="0" branch="false"/>
+								<line number="452" hits="7" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="453" hits="0" branch="false"/>
+								<line number="456" hits="7" branch="false"/>
+								<line number="459" hits="5" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="460" hits="0" branch="false"/>
+								<line number="463" hits="5" branch="false"/>
+								<line number="465" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTtl" signature="(II)Lio/netty/resolver/dns/DnsNameResolver;" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="316" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="317" hits="0" branch="false"/>
+								<line number="319" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="320" hits="0" branch="false"/>
+								<line number="322" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="323" hits="0" branch="false"/>
+								<line number="327" hits="2" branch="false"/>
+								<line number="328" hits="2" branch="false"/>
+								<line number="330" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="67" hits="3068" branch="false"/>
+						<line number="69" hits="1" branch="false"/>
+						<line number="71" hits="1" branch="false"/>
+						<line number="73" hits="1" branch="false"/>
+						<line number="77" hits="1" branch="false"/>
+						<line number="78" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="82" hits="1" branch="false"/>
+						<line number="83" hits="1" branch="false"/>
+						<line number="84" hits="1" branch="false"/>
+						<line number="88" hits="1" branch="false"/>
+						<line number="89" hits="1" branch="false"/>
+						<line number="100" hits="1" branch="false"/>
+						<line number="105" hits="1" branch="false"/>
+						<line number="107" hits="1" branch="false"/>
+						<line number="109" hits="1" branch="false"/>
+						<line number="113" hits="1" branch="false"/>
+						<line number="115" hits="1" branch="false"/>
+						<line number="117" hits="1" branch="false"/>
+						<line number="118" hits="1" branch="false"/>
+						<line number="119" hits="1" branch="false"/>
+						<line number="133" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="161" hits="0" branch="false"/>
+						<line number="174" hits="0" branch="false"/>
+						<line number="175" hits="0" branch="false"/>
+						<line number="189" hits="1" branch="false"/>
+						<line number="190" hits="1" branch="false"/>
+						<line number="205" hits="1" branch="false"/>
+						<line number="206" hits="1" branch="false"/>
+						<line number="220" hits="0" branch="false"/>
+						<line number="221" hits="0" branch="false"/>
+						<line number="237" hits="1" branch="false"/>
+						<line number="239" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="240" hits="0" branch="false"/>
+						<line number="242" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="243" hits="0" branch="false"/>
+						<line number="245" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="246" hits="0" branch="false"/>
+						<line number="248" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="249" hits="0" branch="false"/>
+						<line number="252" hits="1" branch="false"/>
+						<line number="253" hits="1" branch="false"/>
+						<line number="254" hits="1" branch="false"/>
+						<line number="256" hits="1" branch="false"/>
+						<line number="257" hits="1" branch="false"/>
+						<line number="262" hits="1" branch="false"/>
+						<line number="263" hits="1" branch="false"/>
+						<line number="264" hits="1" branch="false"/>
+						<line number="265" hits="1" branch="false"/>
+						<line number="272" hits="1" branch="false"/>
+						<line number="273" hits="1" branch="false"/>
+						<line number="280" hits="1" branch="false"/>
+						<line number="290" hits="609" branch="false"/>
+						<line number="300" hits="609" branch="false"/>
+						<line number="316" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="317" hits="0" branch="false"/>
+						<line number="319" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="320" hits="0" branch="false"/>
+						<line number="322" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="323" hits="0" branch="false"/>
+						<line number="327" hits="2" branch="false"/>
+						<line number="328" hits="2" branch="false"/>
+						<line number="330" hits="2" branch="false"/>
+						<line number="340" hits="0" branch="false"/>
+						<line number="351" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="352" hits="0" branch="false"/>
+						<line number="355" hits="0" branch="false"/>
+						<line number="357" hits="0" branch="false"/>
+						<line number="367" hits="653" branch="false"/>
+						<line number="378" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="379" hits="0" branch="false"/>
+						<line number="382" hits="0" branch="false"/>
+						<line number="384" hits="0" branch="false"/>
+						<line number="393" hits="611" branch="false"/>
+						<line number="404" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="405" hits="0" branch="false"/>
+						<line number="408" hits="1" branch="false"/>
+						<line number="410" hits="1" branch="false"/>
+						<line number="421" hits="5" branch="false"/>
+						<line number="425" hits="414" branch="false"/>
+						<line number="439" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="440" hits="0" branch="false"/>
+						<line number="443" hits="5" branch="false"/>
+						<line number="446" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="447" hits="7" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="448" hits="0" branch="false"/>
+						<line number="452" hits="7" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="453" hits="0" branch="false"/>
+						<line number="456" hits="7" branch="false"/>
+						<line number="459" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="460" hits="0" branch="false"/>
+						<line number="463" hits="5" branch="false"/>
+						<line number="465" hits="5" branch="false"/>
+						<line number="479" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="480" hits="0" branch="false"/>
+						<line number="483" hits="5" branch="false"/>
+						<line number="486" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="487" hits="10" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="488" hits="0" branch="false"/>
+						<line number="492" hits="10" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="493" hits="0" branch="false"/>
+						<line number="496" hits="10" branch="false"/>
+						<line number="497" hits="10" branch="false"/>
+						<line number="499" hits="5" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="500" hits="0" branch="false"/>
+						<line number="503" hits="5" branch="false"/>
+						<line number="505" hits="5" branch="false"/>
+						<line number="515" hits="617" branch="false"/>
+						<line number="526" hits="0" branch="false"/>
+						<line number="527" hits="0" branch="false"/>
+						<line number="537" hits="414" branch="false"/>
+						<line number="548" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="549" hits="0" branch="false"/>
+						<line number="552" hits="0" branch="false"/>
+						<line number="554" hits="0" branch="false"/>
+						<line number="563" hits="611" branch="false"/>
+						<line number="574" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="575" hits="0" branch="false"/>
+						<line number="578" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="580" hits="0" branch="false"/>
+						<line number="583" hits="1" branch="false"/>
+						<line number="584" hits="1" branch="false"/>
+						<line number="586" hits="1" branch="false"/>
+						<line number="597" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="598" hits="606" branch="false"/>
+						<line number="599" hits="606" branch="false"/>
+						<line number="600" hits="606" branch="false"/>
+						<line number="601" hits="606" branch="false"/>
+						<line number="603" hits="6" branch="false"/>
+						<line number="610" hits="2" branch="false"/>
+						<line number="611" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="612" hits="2" branch="false"/>
+						<line number="613" hits="2" branch="false"/>
+						<line number="615" hits="0" branch="false"/>
+						<line number="626" hits="0" branch="false"/>
+						<line number="627" hits="0" branch="false"/>
+						<line number="631" hits="415" branch="false"/>
+						<line number="636" hits="414" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="641" hits="414" branch="false"/>
+						<line number="642" hits="414" branch="false"/>
+						<line number="644" hits="414" branch="false"/>
+						<line number="646" hits="414" branch="false"/>
+						<line number="647" hits="414" branch="false"/>
+						<line number="651" hits="414" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="652" hits="0" branch="false"/>
+						<line number="654" hits="414" branch="false"/>
+						<line number="662" hits="92" branch="false"/>
+						<line number="670" hits="0" branch="false"/>
+						<line number="678" hits="708" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="679" hits="0" branch="false"/>
+						<line number="681" hits="708" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="682" hits="0" branch="false"/>
+						<line number="685" hits="708" branch="false"/>
+						<line number="686" hits="708" branch="false"/>
+						<line number="687" hits="708" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="688" hits="97" branch="false"/>
+						<line number="689" hits="97" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="690" hits="97" branch="false"/>
+						<line number="692" hits="0" branch="false"/>
+						<line number="693" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="694" hits="0" branch="false"/>
+						<line number="698" hits="611" branch="false"/>
+						<line number="710" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="711" hits="0" branch="false"/>
+						<line number="713" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="714" hits="0" branch="false"/>
+						<line number="716" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="717" hits="0" branch="false"/>
+						<line number="720" hits="0" branch="false"/>
+						<line number="721" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="722" hits="0" branch="false"/>
+						<line number="723" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="724" hits="0" branch="false"/>
+						<line number="726" hits="0" branch="false"/>
+						<line number="727" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="728" hits="0" branch="false"/>
+						<line number="733" hits="0" branch="false"/>
+						<line number="740" hits="611" branch="false"/>
+						<line number="742" hits="611" branch="false"/>
+						<line number="743" hits="611" branch="false"/>
+						<line number="744" hits="0" branch="false"/>
+						<line number="745" hits="0" branch="false"/>
+						<line number="751" hits="608" branch="false"/>
+						<line number="752" hits="608" branch="false"/>
+						<line number="755" hits="0" branch="false"/>
+						<line number="756" hits="0" branch="false"/>
+						<line number="759" hits="608" branch="false"/>
+						<line number="760" hits="608" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="761" hits="0" branch="false"/>
+						<line number="764" hits="608" branch="false"/>
+						<line number="766" hits="608" branch="false"/>
+						<line number="775" hits="608" branch="false"/>
+						<line number="777" hits="608" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="780" hits="0" branch="false"/>
+						<line number="781" hits="0" branch="false"/>
+						<line number="784" hits="608" branch="false"/>
+						<line number="788" hits="611" branch="false"/>
+						<line number="793" hits="537" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolver$1" filename="io/netty/resolver/dns/DnsNameResolver.java" line-rate="1.0" branch-rate="1.0" complexity="2.6470588235294117">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="initChannel" signature="(Lio/netty/channel/Channel;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="265" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="initChannel" signature="(Lio/netty/channel/socket/DatagramChannel;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="268" hits="1" branch="false"/>
+								<line number="269" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="265" hits="2" branch="false"/>
+						<line number="268" hits="1" branch="false"/>
+						<line number="269" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolver$2" filename="io/netty/resolver/dns/DnsNameResolver.java" line-rate="1.0" branch-rate="1.0" complexity="2.6470588235294117">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/channel/ChannelFuture;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="276" hits="1" branch="false"/>
+								<line number="277" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/util/concurrent/Future;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="273" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="273" hits="2" branch="false"/>
+						<line number="276" hits="1" branch="false"/>
+						<line number="277" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolver$3" filename="io/netty/resolver/dns/DnsNameResolver.java" line-rate="1.0" branch-rate="1.0" complexity="2.6470588235294117">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;Lio/netty/handler/codec/dns/DnsQuestion;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="768" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="run" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="771" hits="2" branch="false"/>
+								<line number="772" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="768" hits="608" branch="false"/>
+						<line number="771" hits="2" branch="false"/>
+						<line number="772" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolver$DnsResponseHandler" filename="io/netty/resolver/dns/DnsNameResolver.java" line-rate="0.8863636363636364" branch-rate="0.7272727272727273" complexity="2.6470588235294117">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;Lio/netty/resolver/dns/DnsNameResolver$1;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="796" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="cache" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;)V" line-rate="0.9285714285714286" branch-rate="0.8333333333333334" complexity="0">
+							<lines>
+								<line number="853" hits="608" branch="false"/>
+								<line number="854" hits="608" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="855" hits="0" branch="false"/>
+								<line number="858" hits="608" branch="false"/>
+								<line number="860" hits="608" branch="false"/>
+								<line number="861" hits="608" branch="false"/>
+								<line number="862" hits="2326" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="863" hits="1718" branch="false"/>
+								<line number="864" hits="1718" branch="false"/>
+								<line number="865" hits="1718" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="866" hits="478" branch="false"/>
+								<line number="871" hits="608" branch="false"/>
+								<line number="873" hits="608" branch="false"/>
+								<line number="874" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="channelRead" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Object;)V" line-rate="0.9259259259259259" branch-rate="0.6875" complexity="0">
+							<lines>
+								<line number="800" hits="642" branch="false"/>
+								<line number="801" hits="642" branch="false"/>
+								<line number="803" hits="642" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="804" hits="642" branch="false"/>
+								<line number="807" hits="642" branch="false"/>
+								<line number="809" hits="642" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="810" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="811" hits="1" branch="false"/>
+								<line number="816" hits="641" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="817" hits="0" branch="false"/>
+								<line number="821" hits="641" branch="false"/>
+								<line number="822" hits="641" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="823" hits="0" branch="false"/>
+								<line number="828" hits="641" branch="false"/>
+								<line number="829" hits="641" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="830" hits="641" branch="false"/>
+								<line number="833" hits="641" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="834" hits="608" branch="false"/>
+								<line number="835" hits="608" branch="false"/>
+								<line number="837" hits="608" branch="false"/>
+								<line number="838" hits="608" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="839" hits="537" branch="false"/>
+								<line number="841" hits="608" branch="false"/>
+								<line number="842" hits="33" branch="false"/>
+								<line number="848" hits="642" branch="false"/>
+								<line number="849" hits="641" branch="false"/>
+								<line number="850" hits="641" branch="false"/>
+							</lines>
+						</method>
+						<method name="exceptionCaught" signature="(Lio/netty/channel/ChannelHandlerContext;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="878" hits="0" branch="false"/>
+								<line number="879" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="796" hits="2" branch="false"/>
+						<line number="800" hits="642" branch="false"/>
+						<line number="801" hits="642" branch="false"/>
+						<line number="803" hits="642" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="804" hits="642" branch="false"/>
+						<line number="807" hits="642" branch="false"/>
+						<line number="809" hits="642" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="810" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="811" hits="1" branch="false"/>
+						<line number="816" hits="641" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="817" hits="0" branch="false"/>
+						<line number="821" hits="641" branch="false"/>
+						<line number="822" hits="641" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="823" hits="0" branch="false"/>
+						<line number="828" hits="641" branch="false"/>
+						<line number="829" hits="641" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="830" hits="641" branch="false"/>
+						<line number="833" hits="641" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="834" hits="608" branch="false"/>
+						<line number="835" hits="608" branch="false"/>
+						<line number="837" hits="608" branch="false"/>
+						<line number="838" hits="608" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="839" hits="537" branch="false"/>
+						<line number="841" hits="608" branch="false"/>
+						<line number="842" hits="33" branch="false"/>
+						<line number="848" hits="642" branch="false"/>
+						<line number="849" hits="641" branch="false"/>
+						<line number="850" hits="641" branch="false"/>
+						<line number="853" hits="608" branch="false"/>
+						<line number="854" hits="608" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="855" hits="0" branch="false"/>
+						<line number="858" hits="608" branch="false"/>
+						<line number="860" hits="608" branch="false"/>
+						<line number="861" hits="608" branch="false"/>
+						<line number="862" hits="2326" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="863" hits="1718" branch="false"/>
+						<line number="864" hits="1718" branch="false"/>
+						<line number="865" hits="1718" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="866" hits="478" branch="false"/>
+						<line number="871" hits="608" branch="false"/>
+						<line number="873" hits="608" branch="false"/>
+						<line number="874" hits="608" branch="false"/>
+						<line number="878" hits="0" branch="false"/>
+						<line number="879" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolverContext" filename="io/netty/resolver/dns/DnsNameResolverContext.java" line-rate="0.8597285067873304" branch-rate="0.7751937984496124" complexity="5.684210526315789">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="58" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;Ljava/lang/String;ILio/netty/util/concurrent/Promise;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="75" hits="414" branch="false"/>
+								<line number="84" hits="414" branch="false"/>
+								<line number="85" hits="414" branch="false"/>
+								<line number="86" hits="414" branch="false"/>
+								<line number="87" hits="414" branch="false"/>
+								<line number="88" hits="414" branch="false"/>
+								<line number="90" hits="414" branch="false"/>
+								<line number="91" hits="414" branch="false"/>
+								<line number="92" hits="414" branch="false"/>
+								<line number="93" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$000" signature="(Lio/netty/resolver/dns/DnsNameResolverContext;)Ljava/util/Set;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$100" signature="(Lio/netty/resolver/dns/DnsNameResolverContext;)Lio/netty/util/concurrent/Promise;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$200" signature="(Lio/netty/resolver/dns/DnsNameResolverContext;Ljava/lang/Throwable;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="1306" branch="false"/>
+							</lines>
+						</method>
+						<method name="addTrace" signature="(Ljava/lang/Throwable;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="501" hits="74" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="502" hits="70" branch="false"/>
+								<line number="505" hits="74" branch="false"/>
+								<line number="506" hits="74" branch="false"/>
+								<line number="507" hits="74" branch="false"/>
+								<line number="508" hits="74" branch="false"/>
+							</lines>
+						</method>
+						<method name="addTrace" signature="(Ljava/net/InetSocketAddress;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="489" hits="108" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="490" hits="106" branch="false"/>
+								<line number="493" hits="108" branch="false"/>
+								<line number="494" hits="108" branch="false"/>
+								<line number="495" hits="108" branch="false"/>
+								<line number="496" hits="108" branch="false"/>
+								<line number="497" hits="108" branch="false"/>
+								<line number="498" hits="108" branch="false"/>
+							</lines>
+						</method>
+						<method name="buildAliasMap" signature="(Lio/netty/handler/codec/dns/DnsResponse;)Ljava/util/Map;" line-rate="0.8823529411764706" branch-rate="0.8333333333333334" complexity="0">
+							<lines>
+								<line number="261" hits="542" branch="false"/>
+								<line number="262" hits="542" branch="false"/>
+								<line number="263" hits="2255" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="264" hits="1713" branch="false"/>
+								<line number="265" hits="1713" branch="false"/>
+								<line number="266" hits="1713" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="267" hits="1700" branch="false"/>
+								<line number="270" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="271" hits="0" branch="false"/>
+								<line number="274" hits="13" branch="false"/>
+								<line number="275" hits="13" branch="false"/>
+								<line number="276" hits="13" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="277" hits="0" branch="false"/>
+								<line number="280" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="281" hits="11" branch="false"/>
+								<line number="284" hits="13" branch="false"/>
+								<line number="287" hits="542" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+							</lines>
+						</method>
+						<method name="decodeDomainName" signature="(Lio/netty/buffer/ByteBuf;)Ljava/lang/String;" line-rate="0.8846153846153846" branch-rate="0.8333333333333334" complexity="0">
+							<lines>
+								<line number="423" hits="332" branch="false"/>
+								<line number="425" hits="332" branch="false"/>
+								<line number="426" hits="332" branch="false"/>
+								<line number="427" hits="332" branch="false"/>
+								<line number="428" hits="332" branch="false"/>
+								<line number="429" hits="2055" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="430" hits="1723" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="431" hits="1723" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="432" hits="399" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="433" hits="298" branch="false"/>
+								<line number="436" hits="399" branch="false"/>
+								<line number="437" hits="399" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="439" hits="0" branch="false"/>
+								<line number="441" hits="399" branch="false"/>
+								<line number="444" hits="399" branch="false"/>
+								<line number="445" hits="399" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="447" hits="0" branch="false"/>
+								<line number="449" hits="399" branch="false"/>
+								<line number="450" hits="1324" branch="false"/>
+								<line number="451" hits="1324" branch="false"/>
+								<line number="455" hits="332" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="456" hits="298" branch="false"/>
+								<line number="459" hits="332" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="460" hits="0" branch="false"/>
+								<line number="463" hits="332" branch="false"/>
+								<line number="465" hits="332" branch="false"/>
+							</lines>
+						</method>
+						<method name="finishResolve" signature="()V" line-rate="0.6666666666666666" branch-rate="0.6666666666666666" complexity="0">
+							<lines>
+								<line number="344" hits="488" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="346" hits="74" branch="false"/>
+								<line number="347" hits="148" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="348" hits="74" branch="false"/>
+								<line number="349" hits="74" branch="false"/>
+								<line number="351" hits="74" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="352" hits="0" branch="false"/>
+								<line number="354" hits="74" branch="false"/>
+								<line number="357" hits="488" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="359" hits="559" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="360" hits="559" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="switch" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="362" hits="419" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="363" hits="419" branch="false"/>
+								<line number="367" hits="140" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="368" hits="69" branch="false"/>
+								<line number="376" hits="0" branch="false"/>
+								<line number="378" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="379" hits="0" branch="false"/>
+								<line number="383" hits="0" branch="false"/>
+								<line number="386" hits="0" branch="false"/>
+								<line number="387" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="finishResolveWithIPv4" signature="()Z" line-rate="0.875" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="390" hits="419" branch="false"/>
+								<line number="391" hits="419" branch="false"/>
+								<line number="393" hits="431" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="394" hits="431" branch="false"/>
+								<line number="395" hits="431" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="396" hits="419" branch="false"/>
+								<line number="397" hits="419" branch="false"/>
+								<line number="401" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="finishResolveWithIPv6" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="405" hits="140" branch="false"/>
+								<line number="406" hits="140" branch="false"/>
+								<line number="408" hits="452" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="409" hits="381" branch="false"/>
+								<line number="410" hits="381" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="411" hits="69" branch="false"/>
+								<line number="412" hits="69" branch="false"/>
+								<line number="416" hits="71" branch="false"/>
+							</lines>
+						</method>
+						<method name="followCname" signature="(Ljava/net/InetSocketAddress;Ljava/lang/String;Ljava/lang/String;)V" line-rate="0.9166666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="472" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="473" hits="0" branch="false"/>
+								<line number="476" hits="4" branch="false"/>
+								<line number="477" hits="4" branch="false"/>
+								<line number="478" hits="4" branch="false"/>
+								<line number="479" hits="4" branch="false"/>
+								<line number="480" hits="4" branch="false"/>
+								<line number="481" hits="4" branch="false"/>
+								<line number="482" hits="4" branch="false"/>
+								<line number="484" hits="4" branch="false"/>
+								<line number="485" hits="4" branch="false"/>
+								<line number="486" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="gotPreferredAddress" signature="()Z" line-rate="1.0" branch-rate="0.9230769230769231" complexity="0">
+							<lines>
+								<line number="318" hits="202" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="319" hits="78" branch="false"/>
+								<line number="322" hits="124" branch="false"/>
+								<line number="323" hits="124" branch="true" condition-coverage="66% (2/3)">
+									<conditions>
+										<condition number="0" type="switch" coverage="66%"/>
+									</conditions>
+								</line>
+								<line number="325" hits="78" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="326" hits="69" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="327" hits="57" branch="false"/>
+								<line number="330" hits="9" branch="false"/>
+								<line number="332" hits="262" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="333" hits="221" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="334" hits="17" branch="false"/>
+								<line number="340" hits="50" branch="false"/>
+							</lines>
+						</method>
+						<method name="onResponse" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="146" hits="542" branch="false"/>
+								<line number="148" hits="542" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="149" hits="542" branch="false"/>
+								<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="151" hits="0" branch="false"/>
+								<line number="154" hits="542" branch="false"/>
+								<line number="155" hits="542" branch="false"/>
+								<line number="156" hits="542" branch="false"/>
+							</lines>
+						</method>
+						<method name="onResponseAorAAAA" signature="(Lio/netty/handler/codec/dns/DnsRecordType;Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;)V" line-rate="0.8780487804878049" branch-rate="0.8461538461538461" complexity="0">
+							<lines>
+								<line number="162" hits="542" branch="false"/>
+								<line number="163" hits="542" branch="false"/>
+								<line number="164" hits="542" branch="false"/>
+								<line number="166" hits="542" branch="false"/>
+								<line number="167" hits="2255" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="168" hits="1713" branch="false"/>
+								<line number="169" hits="1713" branch="false"/>
+								<line number="170" hits="1713" branch="true" condition-coverage="100% (4/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="171" hits="13" branch="false"/>
+								<line number="174" hits="1700" branch="false"/>
+								<line number="175" hits="1700" branch="false"/>
+								<line number="178" hits="1700" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="180" hits="14" branch="false"/>
+								<line number="182" hits="24" branch="false"/>
+								<line number="183" hits="24" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="184" hits="14" branch="false"/>
+								<line number="186" hits="10" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="188" hits="14" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="189" hits="0" branch="false"/>
+								<line number="193" hits="1700" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="194" hits="0" branch="false"/>
+								<line number="197" hits="1700" branch="false"/>
+								<line number="198" hits="1700" branch="false"/>
+								<line number="199" hits="1700" branch="true" condition-coverage="75% (3/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="200" hits="0" branch="false"/>
+								<line number="203" hits="1700" branch="false"/>
+								<line number="204" hits="1700" branch="false"/>
+								<line number="207" hits="1700" branch="false"/>
+								<line number="208" hits="1700" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="209" hits="414" branch="false"/>
+								<line number="211" hits="1700" branch="false"/>
+								<line number="212" hits="1700" branch="false"/>
+								<line number="213" hits="0" branch="false"/>
+								<line number="215" hits="0" branch="false"/>
+								<line number="216" hits="1700" branch="false"/>
+								<line number="219" hits="542" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="220" hits="434" branch="false"/>
+								<line number="223" hits="108" branch="false"/>
+								<line number="226" hits="108" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="227" hits="4" branch="false"/>
+								<line number="229" hits="108" branch="false"/>
+							</lines>
+						</method>
+						<method name="onResponseCNAME" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="232" hits="0" branch="false"/>
+								<line number="233" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="onResponseCNAME" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/channel/AddressedEnvelope;Ljava/util/Map;Z)V" line-rate="0.8461538461538461" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="240" hits="4" branch="false"/>
+								<line number="241" hits="4" branch="false"/>
+								<line number="242" hits="4" branch="false"/>
+								<line number="244" hits="8" branch="false"/>
+								<line number="245" hits="8" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="246" hits="4" branch="false"/>
+								<line number="247" hits="4" branch="false"/>
+								<line number="251" hits="4" branch="false"/>
+								<line number="253" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="254" hits="4" branch="false"/>
+								<line number="255" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="256" hits="0" branch="false"/>
+								<line number="258" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="(Ljava/lang/Iterable;Lio/netty/handler/codec/dns/DnsQuestion;)V" line-rate="0.8571428571428571" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="114" hits="616" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="115" hits="0" branch="false"/>
+								<line number="118" hits="616" branch="false"/>
+								<line number="120" hits="616" branch="false"/>
+								<line number="121" hits="616" branch="false"/>
+								<line number="123" hits="616" branch="false"/>
+								<line number="143" hits="616" branch="false"/>
+							</lines>
+						</method>
+						<method name="resolve" signature="()V" line-rate="0.8888888888888888" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="96" hits="1022" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="98" hits="608" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="switch" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="100" hits="388" branch="false"/>
+								<line number="101" hits="388" branch="false"/>
+								<line number="103" hits="220" branch="false"/>
+								<line number="104" hits="220" branch="false"/>
+								<line number="106" hits="0" branch="false"/>
+								<line number="109" hits="608" branch="false"/>
+								<line number="111" hits="414" branch="false"/>
+							</lines>
+						</method>
+						<method name="tryToFinishResolve" signature="()V" line-rate="0.6363636363636364" branch-rate="0.625" complexity="0">
+							<lines>
+								<line number="291" hits="616" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="293" hits="202" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="295" hits="74" branch="false"/>
+								<line number="299" hits="202" branch="false"/>
+								<line number="303" hits="414" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="305" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="307" hits="0" branch="false"/>
+								<line number="308" hits="0" branch="false"/>
+								<line number="309" hits="0" branch="false"/>
+								<line number="314" hits="414" branch="false"/>
+								<line number="315" hits="414" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="53" hits="1306" branch="false"/>
+						<line number="58" hits="1" branch="false"/>
+						<line number="75" hits="414" branch="false"/>
+						<line number="84" hits="414" branch="false"/>
+						<line number="85" hits="414" branch="false"/>
+						<line number="86" hits="414" branch="false"/>
+						<line number="87" hits="414" branch="false"/>
+						<line number="88" hits="414" branch="false"/>
+						<line number="90" hits="414" branch="false"/>
+						<line number="91" hits="414" branch="false"/>
+						<line number="92" hits="414" branch="false"/>
+						<line number="93" hits="414" branch="false"/>
+						<line number="96" hits="1022" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="98" hits="608" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="switch" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="100" hits="388" branch="false"/>
+						<line number="101" hits="388" branch="false"/>
+						<line number="103" hits="220" branch="false"/>
+						<line number="104" hits="220" branch="false"/>
+						<line number="106" hits="0" branch="false"/>
+						<line number="109" hits="608" branch="false"/>
+						<line number="111" hits="414" branch="false"/>
+						<line number="114" hits="616" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="115" hits="0" branch="false"/>
+						<line number="118" hits="616" branch="false"/>
+						<line number="120" hits="616" branch="false"/>
+						<line number="121" hits="616" branch="false"/>
+						<line number="123" hits="616" branch="false"/>
+						<line number="143" hits="616" branch="false"/>
+						<line number="146" hits="542" branch="false"/>
+						<line number="148" hits="542" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="149" hits="542" branch="false"/>
+						<line number="150" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="151" hits="0" branch="false"/>
+						<line number="154" hits="542" branch="false"/>
+						<line number="155" hits="542" branch="false"/>
+						<line number="156" hits="542" branch="false"/>
+						<line number="162" hits="542" branch="false"/>
+						<line number="163" hits="542" branch="false"/>
+						<line number="164" hits="542" branch="false"/>
+						<line number="166" hits="542" branch="false"/>
+						<line number="167" hits="2255" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="168" hits="1713" branch="false"/>
+						<line number="169" hits="1713" branch="false"/>
+						<line number="170" hits="1713" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="171" hits="13" branch="false"/>
+						<line number="174" hits="1700" branch="false"/>
+						<line number="175" hits="1700" branch="false"/>
+						<line number="178" hits="1700" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="180" hits="14" branch="false"/>
+						<line number="182" hits="24" branch="false"/>
+						<line number="183" hits="24" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="184" hits="14" branch="false"/>
+						<line number="186" hits="10" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="188" hits="14" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="189" hits="0" branch="false"/>
+						<line number="193" hits="1700" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="194" hits="0" branch="false"/>
+						<line number="197" hits="1700" branch="false"/>
+						<line number="198" hits="1700" branch="false"/>
+						<line number="199" hits="1700" branch="true" condition-coverage="75% (3/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="200" hits="0" branch="false"/>
+						<line number="203" hits="1700" branch="false"/>
+						<line number="204" hits="1700" branch="false"/>
+						<line number="207" hits="1700" branch="false"/>
+						<line number="208" hits="1700" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="209" hits="414" branch="false"/>
+						<line number="211" hits="1700" branch="false"/>
+						<line number="212" hits="1700" branch="false"/>
+						<line number="213" hits="0" branch="false"/>
+						<line number="215" hits="0" branch="false"/>
+						<line number="216" hits="1700" branch="false"/>
+						<line number="219" hits="542" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="220" hits="434" branch="false"/>
+						<line number="223" hits="108" branch="false"/>
+						<line number="226" hits="108" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="227" hits="4" branch="false"/>
+						<line number="229" hits="108" branch="false"/>
+						<line number="232" hits="0" branch="false"/>
+						<line number="233" hits="0" branch="false"/>
+						<line number="240" hits="4" branch="false"/>
+						<line number="241" hits="4" branch="false"/>
+						<line number="242" hits="4" branch="false"/>
+						<line number="244" hits="8" branch="false"/>
+						<line number="245" hits="8" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="246" hits="4" branch="false"/>
+						<line number="247" hits="4" branch="false"/>
+						<line number="251" hits="4" branch="false"/>
+						<line number="253" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="254" hits="4" branch="false"/>
+						<line number="255" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="256" hits="0" branch="false"/>
+						<line number="258" hits="4" branch="false"/>
+						<line number="261" hits="542" branch="false"/>
+						<line number="262" hits="542" branch="false"/>
+						<line number="263" hits="2255" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="264" hits="1713" branch="false"/>
+						<line number="265" hits="1713" branch="false"/>
+						<line number="266" hits="1713" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="267" hits="1700" branch="false"/>
+						<line number="270" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="271" hits="0" branch="false"/>
+						<line number="274" hits="13" branch="false"/>
+						<line number="275" hits="13" branch="false"/>
+						<line number="276" hits="13" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="277" hits="0" branch="false"/>
+						<line number="280" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="281" hits="11" branch="false"/>
+						<line number="284" hits="13" branch="false"/>
+						<line number="287" hits="542" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="291" hits="616" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="293" hits="202" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="295" hits="74" branch="false"/>
+						<line number="299" hits="202" branch="false"/>
+						<line number="303" hits="414" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="305" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="307" hits="0" branch="false"/>
+						<line number="308" hits="0" branch="false"/>
+						<line number="309" hits="0" branch="false"/>
+						<line number="314" hits="414" branch="false"/>
+						<line number="315" hits="414" branch="false"/>
+						<line number="318" hits="202" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="319" hits="78" branch="false"/>
+						<line number="322" hits="124" branch="false"/>
+						<line number="323" hits="124" branch="true" condition-coverage="66% (2/3)">
+							<conditions>
+								<condition number="0" type="switch" coverage="66%"/>
+							</conditions>
+						</line>
+						<line number="325" hits="78" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="326" hits="69" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="327" hits="57" branch="false"/>
+						<line number="330" hits="9" branch="false"/>
+						<line number="332" hits="262" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="333" hits="221" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="334" hits="17" branch="false"/>
+						<line number="340" hits="50" branch="false"/>
+						<line number="344" hits="488" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="346" hits="74" branch="false"/>
+						<line number="347" hits="148" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="348" hits="74" branch="false"/>
+						<line number="349" hits="74" branch="false"/>
+						<line number="351" hits="74" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="352" hits="0" branch="false"/>
+						<line number="354" hits="74" branch="false"/>
+						<line number="357" hits="488" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="359" hits="559" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="360" hits="559" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="switch" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="362" hits="419" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="363" hits="419" branch="false"/>
+						<line number="367" hits="140" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="368" hits="69" branch="false"/>
+						<line number="376" hits="0" branch="false"/>
+						<line number="378" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="379" hits="0" branch="false"/>
+						<line number="383" hits="0" branch="false"/>
+						<line number="386" hits="0" branch="false"/>
+						<line number="387" hits="0" branch="false"/>
+						<line number="390" hits="419" branch="false"/>
+						<line number="391" hits="419" branch="false"/>
+						<line number="393" hits="431" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="394" hits="431" branch="false"/>
+						<line number="395" hits="431" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="396" hits="419" branch="false"/>
+						<line number="397" hits="419" branch="false"/>
+						<line number="401" hits="0" branch="false"/>
+						<line number="405" hits="140" branch="false"/>
+						<line number="406" hits="140" branch="false"/>
+						<line number="408" hits="452" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="409" hits="381" branch="false"/>
+						<line number="410" hits="381" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="411" hits="69" branch="false"/>
+						<line number="412" hits="69" branch="false"/>
+						<line number="416" hits="71" branch="false"/>
+						<line number="423" hits="332" branch="false"/>
+						<line number="425" hits="332" branch="false"/>
+						<line number="426" hits="332" branch="false"/>
+						<line number="427" hits="332" branch="false"/>
+						<line number="428" hits="332" branch="false"/>
+						<line number="429" hits="2055" branch="true" condition-coverage="100% (4/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+								<condition number="1" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="430" hits="1723" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="431" hits="1723" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="432" hits="399" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="433" hits="298" branch="false"/>
+						<line number="436" hits="399" branch="false"/>
+						<line number="437" hits="399" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="439" hits="0" branch="false"/>
+						<line number="441" hits="399" branch="false"/>
+						<line number="444" hits="399" branch="false"/>
+						<line number="445" hits="399" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="447" hits="0" branch="false"/>
+						<line number="449" hits="399" branch="false"/>
+						<line number="450" hits="1324" branch="false"/>
+						<line number="451" hits="1324" branch="false"/>
+						<line number="455" hits="332" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="456" hits="298" branch="false"/>
+						<line number="459" hits="332" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="460" hits="0" branch="false"/>
+						<line number="463" hits="332" branch="false"/>
+						<line number="465" hits="332" branch="false"/>
+						<line number="472" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="473" hits="0" branch="false"/>
+						<line number="476" hits="4" branch="false"/>
+						<line number="477" hits="4" branch="false"/>
+						<line number="478" hits="4" branch="false"/>
+						<line number="479" hits="4" branch="false"/>
+						<line number="480" hits="4" branch="false"/>
+						<line number="481" hits="4" branch="false"/>
+						<line number="482" hits="4" branch="false"/>
+						<line number="484" hits="4" branch="false"/>
+						<line number="485" hits="4" branch="false"/>
+						<line number="486" hits="4" branch="false"/>
+						<line number="489" hits="108" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="490" hits="106" branch="false"/>
+						<line number="493" hits="108" branch="false"/>
+						<line number="494" hits="108" branch="false"/>
+						<line number="495" hits="108" branch="false"/>
+						<line number="496" hits="108" branch="false"/>
+						<line number="497" hits="108" branch="false"/>
+						<line number="498" hits="108" branch="false"/>
+						<line number="501" hits="74" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="502" hits="70" branch="false"/>
+						<line number="505" hits="74" branch="false"/>
+						<line number="506" hits="74" branch="false"/>
+						<line number="507" hits="74" branch="false"/>
+						<line number="508" hits="74" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolverContext$1" filename="io/netty/resolver/dns/DnsNameResolverContext.java" line-rate="0.25" branch-rate="0.0" complexity="5.684210526315789">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="59" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/util/concurrent/Future;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="62" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="63" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="59" hits="1" branch="false"/>
+						<line number="62" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="63" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolverContext$2" filename="io/netty/resolver/dns/DnsNameResolverContext.java" line-rate="0.9" branch-rate="0.75" complexity="5.684210526315789">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolverContext;Lio/netty/handler/codec/dns/DnsQuestion;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="123" hits="616" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/util/concurrent/Future;)V" line-rate="0.8888888888888888" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="126" hits="616" branch="false"/>
+								<line number="128" hits="616" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="129" hits="0" branch="false"/>
+								<line number="133" hits="616" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="134" hits="542" branch="false"/>
+								<line number="136" hits="74" branch="false"/>
+								<line number="139" hits="616" branch="false"/>
+								<line number="140" hits="616" branch="false"/>
+								<line number="141" hits="616" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="123" hits="616" branch="false"/>
+						<line number="126" hits="616" branch="false"/>
+						<line number="128" hits="616" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="129" hits="0" branch="false"/>
+						<line number="133" hits="616" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="134" hits="542" branch="false"/>
+						<line number="136" hits="74" branch="false"/>
+						<line number="139" hits="616" branch="false"/>
+						<line number="140" hits="616" branch="false"/>
+						<line number="141" hits="616" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolverContext$3" filename="io/netty/resolver/dns/DnsNameResolverContext.java" line-rate="1.0" branch-rate="1.0" complexity="5.684210526315789">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="98" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="98" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsNameResolverGroup" filename="io/netty/resolver/dns/DnsNameResolverGroup.java" line-rate="0.0" branch-rate="0.0" complexity="1.2222222222222223">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/ChannelFactory;Ljava/lang/Iterable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="80" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;Ljava/lang/Iterable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="85" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/channel/ChannelFactory;Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Ljava/lang/Iterable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Ljava/net/InetSocketAddress;Ljava/lang/Iterable;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Ljava/net/InetSocketAddress;Ljava/net/InetSocketAddress;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="newResolver" signature="(Lio/netty/util/concurrent/EventExecutor;)Lio/netty/resolver/NameResolver;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="93" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="94" hits="0" branch="false"/>
+								<line number="99" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="93" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="94" hits="0" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsQueryContext" filename="io/netty/resolver/dns/DnsQueryContext.java" line-rate="0.75" branch-rate="0.46153846153846156" complexity="2.642857142857143">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="46" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsNameResolver;Ljava/lang/Iterable;Lio/netty/handler/codec/dns/DnsQuestion;Lio/netty/util/concurrent/Promise;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="63" hits="611" branch="false"/>
+								<line number="65" hits="611" branch="false"/>
+								<line number="66" hits="611" branch="false"/>
+								<line number="67" hits="611" branch="false"/>
+								<line number="69" hits="611" branch="false"/>
+								<line number="70" hits="611" branch="false"/>
+								<line number="71" hits="611" branch="false"/>
+								<line number="72" hits="611" branch="false"/>
+								<line number="73" hits="611" branch="false"/>
+								<line number="76" hits="611" branch="false"/>
+								<line number="77" hits="611" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$000" signature="(Lio/netty/resolver/dns/DnsQueryContext;Lio/netty/handler/codec/dns/DnsQuery;Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$100" signature="(Lio/netty/resolver/dns/DnsQueryContext;)Lio/netty/util/concurrent/Promise;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="access$200" signature="(Lio/netty/resolver/dns/DnsQueryContext;Lio/netty/channel/ChannelFuture;Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="488" branch="false"/>
+							</lines>
+						</method>
+						<method name="allocateId" signature="()I" line-rate="0.625" branch-rate="0.25" complexity="0">
+							<lines>
+								<line number="80" hits="611" branch="false"/>
+								<line number="81" hits="611" branch="false"/>
+								<line number="82" hits="611" branch="false"/>
+								<line number="84" hits="611" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="611" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="91" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="cache" signature="(Lio/netty/handler/codec/dns/DnsQuestion;Ljava/lang/Throwable;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="216" hits="0" branch="false"/>
+								<line number="217" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="218" hits="0" branch="false"/>
+								<line number="221" hits="0" branch="false"/>
+								<line number="222" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="onQueryWriteCompletion" signature="(Lio/netty/channel/ChannelFuture;Ljava/net/InetSocketAddress;)V" line-rate="0.7142857142857143" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="176" hits="653" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="177" hits="0" branch="false"/>
+								<line number="178" hits="0" branch="false"/>
+								<line number="182" hits="653" branch="false"/>
+								<line number="183" hits="653" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="184" hits="653" branch="false"/>
+								<line number="196" hits="653" branch="false"/>
+							</lines>
+						</method>
+						<method name="promise" signature="()Lio/netty/util/concurrent/Promise;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="97" hits="608" branch="false"/>
+							</lines>
+						</method>
+						<method name="query" signature="()V" line-rate="0.6" branch-rate="0.375" complexity="0">
+							<lines>
+								<line number="109" hits="653" branch="false"/>
+								<line number="111" hits="653" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="112" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="117" hits="0" branch="false"/>
+								<line number="121" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="126" hits="0" branch="false"/>
+								<line number="129" hits="653" branch="false"/>
+								<line number="131" hits="653" branch="false"/>
+								<line number="132" hits="653" branch="false"/>
+								<line number="133" hits="653" branch="false"/>
+								<line number="134" hits="653" branch="false"/>
+								<line number="135" hits="653" branch="false"/>
+								<line number="137" hits="653" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="138" hits="653" branch="false"/>
+								<line number="141" hits="653" branch="false"/>
+								<line number="142" hits="653" branch="false"/>
+							</lines>
+						</method>
+						<method name="question" signature="()Lio/netty/handler/codec/dns/DnsQuestion;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="101" hits="641" branch="false"/>
+							</lines>
+						</method>
+						<method name="retry" signature="(Ljava/net/InetSocketAddress;Ljava/lang/String;)V" line-rate="1.0" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="199" hits="45" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="200" hits="3" branch="false"/>
+								<line number="203" hits="42" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="204" hits="42" branch="false"/>
+								<line number="207" hits="42" branch="false"/>
+								<line number="208" hits="42" branch="false"/>
+								<line number="209" hits="42" branch="false"/>
+								<line number="210" hits="42" branch="false"/>
+								<line number="211" hits="42" branch="false"/>
+								<line number="212" hits="42" branch="false"/>
+								<line number="213" hits="42" branch="false"/>
+							</lines>
+						</method>
+						<method name="sendQuery" signature="(Lio/netty/handler/codec/dns/DnsQuery;Ljava/net/InetSocketAddress;)V" line-rate="0.75" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="145" hits="653" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="146" hits="653" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="159" hits="653" branch="false"/>
+							</lines>
+						</method>
+						<method name="timeoutFuture" signature="()Lio/netty/util/concurrent/ScheduledFuture;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="105" hits="641" branch="false"/>
+							</lines>
+						</method>
+						<method name="writeQuery" signature="(Lio/netty/handler/codec/dns/DnsQuery;Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="162" hits="653" branch="false"/>
+								<line number="163" hits="653" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="164" hits="178" branch="false"/>
+								<line number="166" hits="475" branch="false"/>
+								<line number="173" hits="653" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="488" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="63" hits="611" branch="false"/>
+						<line number="65" hits="611" branch="false"/>
+						<line number="66" hits="611" branch="false"/>
+						<line number="67" hits="611" branch="false"/>
+						<line number="69" hits="611" branch="false"/>
+						<line number="70" hits="611" branch="false"/>
+						<line number="71" hits="611" branch="false"/>
+						<line number="72" hits="611" branch="false"/>
+						<line number="73" hits="611" branch="false"/>
+						<line number="76" hits="611" branch="false"/>
+						<line number="77" hits="611" branch="false"/>
+						<line number="80" hits="611" branch="false"/>
+						<line number="81" hits="611" branch="false"/>
+						<line number="82" hits="611" branch="false"/>
+						<line number="84" hits="611" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="611" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="91" hits="0" branch="false"/>
+						<line number="97" hits="608" branch="false"/>
+						<line number="101" hits="641" branch="false"/>
+						<line number="105" hits="641" branch="false"/>
+						<line number="109" hits="653" branch="false"/>
+						<line number="111" hits="653" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="112" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="117" hits="0" branch="false"/>
+						<line number="121" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="126" hits="0" branch="false"/>
+						<line number="129" hits="653" branch="false"/>
+						<line number="131" hits="653" branch="false"/>
+						<line number="132" hits="653" branch="false"/>
+						<line number="133" hits="653" branch="false"/>
+						<line number="134" hits="653" branch="false"/>
+						<line number="135" hits="653" branch="false"/>
+						<line number="137" hits="653" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="138" hits="653" branch="false"/>
+						<line number="141" hits="653" branch="false"/>
+						<line number="142" hits="653" branch="false"/>
+						<line number="145" hits="653" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="146" hits="653" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="159" hits="653" branch="false"/>
+						<line number="162" hits="653" branch="false"/>
+						<line number="163" hits="653" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="164" hits="178" branch="false"/>
+						<line number="166" hits="475" branch="false"/>
+						<line number="173" hits="653" branch="false"/>
+						<line number="176" hits="653" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="177" hits="0" branch="false"/>
+						<line number="178" hits="0" branch="false"/>
+						<line number="182" hits="653" branch="false"/>
+						<line number="183" hits="653" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="184" hits="653" branch="false"/>
+						<line number="196" hits="653" branch="false"/>
+						<line number="199" hits="45" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="200" hits="3" branch="false"/>
+						<line number="203" hits="42" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="204" hits="42" branch="false"/>
+						<line number="207" hits="42" branch="false"/>
+						<line number="208" hits="42" branch="false"/>
+						<line number="209" hits="42" branch="false"/>
+						<line number="210" hits="42" branch="false"/>
+						<line number="211" hits="42" branch="false"/>
+						<line number="212" hits="42" branch="false"/>
+						<line number="213" hits="42" branch="false"/>
+						<line number="216" hits="0" branch="false"/>
+						<line number="217" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="218" hits="0" branch="false"/>
+						<line number="221" hits="0" branch="false"/>
+						<line number="222" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsQueryContext$1" filename="io/netty/resolver/dns/DnsQueryContext.java" line-rate="0.0" branch-rate="0.0" complexity="2.642857142857143">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsQueryContext;Lio/netty/handler/codec/dns/DnsQuery;Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/channel/ChannelFuture;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="151" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="152" hits="0" branch="false"/>
+								<line number="154" hits="0" branch="false"/>
+								<line number="156" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/util/concurrent/Future;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="148" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="148" hits="0" branch="false"/>
+						<line number="151" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="152" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="false"/>
+						<line number="156" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsQueryContext$2" filename="io/netty/resolver/dns/DnsQueryContext.java" line-rate="1.0" branch-rate="1.0" complexity="2.642857142857143">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsQueryContext;Lio/netty/channel/ChannelFuture;Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/channel/ChannelFuture;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="169" hits="475" branch="false"/>
+								<line number="170" hits="475" branch="false"/>
+							</lines>
+						</method>
+						<method name="operationComplete" signature="(Lio/netty/util/concurrent/Future;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="166" hits="950" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="166" hits="950" branch="false"/>
+						<line number="169" hits="475" branch="false"/>
+						<line number="170" hits="475" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsQueryContext$3" filename="io/netty/resolver/dns/DnsQueryContext.java" line-rate="1.0" branch-rate="1.0" complexity="2.642857142857143">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsQueryContext;Ljava/net/InetSocketAddress;J)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="184" hits="653" branch="false"/>
+							</lines>
+						</method>
+						<method name="run" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="187" hits="13" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="189" hits="1" branch="false"/>
+								<line number="192" hits="12" branch="false"/>
+								<line number="193" hits="12" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="184" hits="653" branch="false"/>
+						<line number="187" hits="13" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="189" hits="1" branch="false"/>
+						<line number="192" hits="12" branch="false"/>
+						<line number="193" hits="12" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="0.7246376811594203" branch-rate="0.5714285714285714" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.8333333333333334" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="51" hits="1" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="54" hits="1" branch="false"/>
+								<line number="55" hits="1" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+								<line number="59" hits="1" branch="false"/>
+								<line number="60" hits="1" branch="false"/>
+								<line number="61" hits="7" branch="false"/>
+								<line number="62" hits="6" branch="false"/>
+								<line number="63" hits="6" branch="false"/>
+								<line number="64" hits="6" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="70" hits="1" branch="false"/>
+								<line number="72" hits="1" branch="false"/>
+								<line number="73" hits="1" branch="false"/>
+								<line number="74" hits="1" branch="false"/>
+								<line number="78" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="89" hits="1" branch="false"/>
+								<line number="90" hits="1" branch="false"/>
+								<line number="91" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="276" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="defaultAddresses" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="103" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="rotational" signature="(Ljava/lang/Iterable;)Ljava/lang/Iterable;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="168" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="rotational" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="179" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="rotational0" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="183" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="sanitize" signature="(Ljava/lang/Iterable;)[Ljava/net/InetSocketAddress;" line-rate="0.6666666666666666" branch-rate="0.5833333333333334" complexity="0">
+							<lines>
+								<line number="225" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="226" hits="0" branch="false"/>
+								<line number="230" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="231" hits="1" branch="false"/>
+								<line number="233" hits="0" branch="false"/>
+								<line number="236" hits="1" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="237" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="238" hits="0" branch="false"/>
+								<line number="240" hits="6" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="241" hits="0" branch="false"/>
+								<line number="243" hits="6" branch="false"/>
+								<line number="244" hits="6" branch="false"/>
+								<line number="246" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="247" hits="0" branch="false"/>
+								<line number="250" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="sanitize" signature="([Ljava/net/InetSocketAddress;)[Ljava/net/InetSocketAddress;" line-rate="0.6666666666666666" branch-rate="0.6" complexity="0">
+							<lines>
+								<line number="254" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="255" hits="0" branch="false"/>
+								<line number="258" hits="3" branch="false"/>
+								<line number="259" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="260" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="261" hits="0" branch="false"/>
+								<line number="263" hits="9" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="264" hits="0" branch="false"/>
+								<line number="266" hits="9" branch="false"/>
+								<line number="269" hits="3" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="270" hits="0" branch="false"/>
+								<line number="273" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="sequential" signature="(Ljava/lang/Iterable;)Ljava/lang/Iterable;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="111" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="sequential" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="119" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="sequential0" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="123" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="shuffled" signature="(Ljava/lang/Iterable;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="136" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="shuffled" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="144" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="shuffled0" signature="([Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="148" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="149" hits="0" branch="false"/>
+								<line number="152" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="singleton" signature="(Ljava/net/InetSocketAddress;)Ljava/lang/Iterable;" line-rate="0.6" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="191" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="192" hits="0" branch="false"/>
+								<line number="194" hits="1" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="195" hits="0" branch="false"/>
+								<line number="198" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="55" hits="1" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="59" hits="1" branch="false"/>
+						<line number="60" hits="1" branch="false"/>
+						<line number="61" hits="7" branch="false"/>
+						<line number="62" hits="6" branch="false"/>
+						<line number="63" hits="6" branch="false"/>
+						<line number="64" hits="6" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="70" hits="1" branch="false"/>
+						<line number="72" hits="1" branch="false"/>
+						<line number="73" hits="1" branch="false"/>
+						<line number="74" hits="1" branch="false"/>
+						<line number="78" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="89" hits="1" branch="false"/>
+						<line number="90" hits="1" branch="false"/>
+						<line number="91" hits="1" branch="false"/>
+						<line number="103" hits="1" branch="false"/>
+						<line number="111" hits="0" branch="false"/>
+						<line number="119" hits="1" branch="false"/>
+						<line number="123" hits="1" branch="false"/>
+						<line number="136" hits="1" branch="false"/>
+						<line number="144" hits="1" branch="false"/>
+						<line number="148" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="149" hits="0" branch="false"/>
+						<line number="152" hits="2" branch="false"/>
+						<line number="168" hits="0" branch="false"/>
+						<line number="179" hits="1" branch="false"/>
+						<line number="183" hits="1" branch="false"/>
+						<line number="191" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="192" hits="0" branch="false"/>
+						<line number="194" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="195" hits="0" branch="false"/>
+						<line number="198" hits="1" branch="false"/>
+						<line number="225" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="226" hits="0" branch="false"/>
+						<line number="230" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="231" hits="1" branch="false"/>
+						<line number="233" hits="0" branch="false"/>
+						<line number="236" hits="1" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="237" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="238" hits="0" branch="false"/>
+						<line number="240" hits="6" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="241" hits="0" branch="false"/>
+						<line number="243" hits="6" branch="false"/>
+						<line number="244" hits="6" branch="false"/>
+						<line number="246" hits="1" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="247" hits="0" branch="false"/>
+						<line number="250" hits="1" branch="false"/>
+						<line number="254" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="255" hits="0" branch="false"/>
+						<line number="258" hits="3" branch="false"/>
+						<line number="259" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="260" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="261" hits="0" branch="false"/>
+						<line number="263" hits="9" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="264" hits="0" branch="false"/>
+						<line number="266" hits="9" branch="false"/>
+						<line number="269" hits="3" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="270" hits="0" branch="false"/>
+						<line number="273" hits="3" branch="false"/>
+						<line number="276" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$1" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="1.0" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="([Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="123" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="iterator" signature="()Ljava/util/Iterator;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="126" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="123" hits="1" branch="false"/>
+						<line number="126" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$2" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="1.0" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="([Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="152" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="iterator" signature="()Ljava/util/Iterator;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="155" hits="615" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="152" hits="2" branch="false"/>
+						<line number="155" hits="615" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$3" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="1.0" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="198" hits="1" branch="false"/>
+								<line number="200" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="iterator" signature="()Ljava/util/Iterator;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="219" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="198" hits="1" branch="false"/>
+						<line number="200" hits="1" branch="false"/>
+						<line number="219" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$3$1" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="0.75" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lio/netty/resolver/dns/DnsServerAddresses$3;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+							</lines>
+						</method>
+						<method name="hasNext" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="203" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="200" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="208" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="remove" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="213" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="200" hits="4" branch="false"/>
+						<line number="203" hits="3" branch="false"/>
+						<line number="208" hits="3" branch="false"/>
+						<line number="213" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$RotationalAddresses" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="0.8666666666666667" branch-rate="0.75" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.8" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="363" hits="1" branch="false"/>
+								<line number="366" hits="1" branch="false"/>
+								<line number="367" hits="0" branch="false"/>
+								<line number="370" hits="1" branch="false"/>
+								<line number="371" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="([Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="377" hits="1" branch="false"/>
+								<line number="378" hits="1" branch="false"/>
+								<line number="379" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="iterator" signature="()Ljava/util/Iterator;" line-rate="0.8571428571428571" branch-rate="0.75" complexity="0">
+							<lines>
+								<line number="384" hits="4" branch="false"/>
+								<line number="385" hits="4" branch="false"/>
+								<line number="386" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="387" hits="1" branch="false"/>
+								<line number="389" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="390" hits="4" branch="false"/>
+								<line number="392" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="363" hits="1" branch="false"/>
+						<line number="366" hits="1" branch="false"/>
+						<line number="367" hits="0" branch="false"/>
+						<line number="370" hits="1" branch="false"/>
+						<line number="371" hits="1" branch="false"/>
+						<line number="377" hits="1" branch="false"/>
+						<line number="378" hits="1" branch="false"/>
+						<line number="379" hits="1" branch="false"/>
+						<line number="384" hits="4" branch="false"/>
+						<line number="385" hits="4" branch="false"/>
+						<line number="386" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="387" hits="1" branch="false"/>
+						<line number="389" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="390" hits="4" branch="false"/>
+						<line number="392" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$SequentialAddressIterator" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="0.9230769230769231" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="([Ljava/net/InetSocketAddress;I)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="283" hits="8" branch="false"/>
+								<line number="284" hits="8" branch="false"/>
+								<line number="285" hits="8" branch="false"/>
+								<line number="286" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasNext" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="290" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="278" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="295" hits="36" branch="false"/>
+								<line number="296" hits="36" branch="false"/>
+								<line number="297" hits="36" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="298" hits="24" branch="false"/>
+								<line number="300" hits="12" branch="false"/>
+								<line number="302" hits="36" branch="false"/>
+							</lines>
+						</method>
+						<method name="remove" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="307" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="278" hits="36" branch="false"/>
+						<line number="283" hits="8" branch="false"/>
+						<line number="284" hits="8" branch="false"/>
+						<line number="285" hits="8" branch="false"/>
+						<line number="286" hits="8" branch="false"/>
+						<line number="290" hits="36" branch="false"/>
+						<line number="295" hits="36" branch="false"/>
+						<line number="296" hits="36" branch="false"/>
+						<line number="297" hits="36" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="298" hits="24" branch="false"/>
+						<line number="300" hits="12" branch="false"/>
+						<line number="302" hits="36" branch="false"/>
+						<line number="307" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="io.netty.resolver.dns.DnsServerAddresses$ShuffledAddressIterator" filename="io/netty/resolver/dns/DnsServerAddresses.java" line-rate="0.9545454545454546" branch-rate="1.0" complexity="2.032258064516129">
+					<methods>
+						<method name="&lt;init&gt;" signature="([Ljava/net/InetSocketAddress;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="316" hits="615" branch="false"/>
+								<line number="317" hits="615" branch="false"/>
+								<line number="319" hits="615" branch="false"/>
+								<line number="320" hits="615" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasNext" signature="()Z" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="336" hits="1049230" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="311" hits="1049229" branch="false"/>
+							</lines>
+						</method>
+						<method name="next" signature="()Ljava/net/InetSocketAddress;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="341" hits="1049229" branch="false"/>
+								<line number="342" hits="1049229" branch="false"/>
+								<line number="343" hits="1049229" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="344" hits="699704" branch="false"/>
+								<line number="346" hits="349525" branch="false"/>
+								<line number="347" hits="349525" branch="false"/>
+								<line number="349" hits="1049229" branch="false"/>
+							</lines>
+						</method>
+						<method name="remove" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="354" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="shuffle" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="323" hits="350140" branch="false"/>
+								<line number="324" hits="350140" branch="false"/>
+								<line number="326" hits="1402396" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="327" hits="1052256" branch="false"/>
+								<line number="328" hits="1052256" branch="false"/>
+								<line number="329" hits="1052256" branch="false"/>
+								<line number="330" hits="1052256" branch="false"/>
+								<line number="332" hits="350140" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="311" hits="1049229" branch="false"/>
+						<line number="316" hits="615" branch="false"/>
+						<line number="317" hits="615" branch="false"/>
+						<line number="319" hits="615" branch="false"/>
+						<line number="320" hits="615" branch="false"/>
+						<line number="323" hits="350140" branch="false"/>
+						<line number="324" hits="350140" branch="false"/>
+						<line number="326" hits="1402396" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="327" hits="1052256" branch="false"/>
+						<line number="328" hits="1052256" branch="false"/>
+						<line number="329" hits="1052256" branch="false"/>
+						<line number="330" hits="1052256" branch="false"/>
+						<line number="332" hits="350140" branch="false"/>
+						<line number="336" hits="1049230" branch="false"/>
+						<line number="341" hits="1049229" branch="false"/>
+						<line number="342" hits="1049229" branch="false"/>
+						<line number="343" hits="1049229" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="344" hits="699704" branch="false"/>
+						<line number="346" hits="349525" branch="false"/>
+						<line number="347" hits="349525" branch="false"/>
+						<line number="349" hits="1049229" branch="false"/>
+						<line number="354" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

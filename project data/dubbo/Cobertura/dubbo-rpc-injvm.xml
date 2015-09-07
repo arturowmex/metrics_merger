@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.6949152542372882" branch-rate="0.5" lines-covered="41" lines-valid="59" branches-covered="16" branches-valid="32" complexity="2.6666666666666665" version="2.1.1" timestamp="1436190720298">
+	<sources>
+		<source>C:/Users/Arturo/git/Alibaba/dubbo/dubbo-rpc/dubbo-rpc-injvm/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="com.alibaba.dubbo.rpc.protocol.injvm" line-rate="0.6949152542372882" branch-rate="0.5" complexity="2.6666666666666665">
+			<classes>
+				<class name="com.alibaba.dubbo.rpc.protocol.injvm.InjvmExporter" filename="com/alibaba/dubbo/rpc/protocol/injvm/InjvmExporter.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lcom/alibaba/dubbo/rpc/Invoker;Ljava/lang/String;Ljava/util/Map;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="36" hits="6" branch="false"/>
+								<line number="37" hits="6" branch="false"/>
+								<line number="38" hits="6" branch="false"/>
+								<line number="39" hits="6" branch="false"/>
+								<line number="40" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="unexport" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="4" branch="false"/>
+								<line number="44" hits="4" branch="false"/>
+								<line number="45" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="36" hits="6" branch="false"/>
+						<line number="37" hits="6" branch="false"/>
+						<line number="38" hits="6" branch="false"/>
+						<line number="39" hits="6" branch="false"/>
+						<line number="40" hits="6" branch="false"/>
+						<line number="43" hits="4" branch="false"/>
+						<line number="44" hits="4" branch="false"/>
+						<line number="45" hits="4" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.rpc.protocol.injvm.InjvmInvoker" filename="com/alibaba/dubbo/rpc/protocol/injvm/InjvmInvoker.java" line-rate="0.6153846153846154" branch-rate="0.25" complexity="2.3333333333333335">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/Class;Lcom/alibaba/dubbo/common/URL;Ljava/lang/String;Ljava/util/Map;)V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="4" branch="false"/>
+								<line number="43" hits="4" branch="false"/>
+								<line number="44" hits="4" branch="false"/>
+								<line number="45" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="doInvoke" signature="(Lcom/alibaba/dubbo/rpc/Invocation;)Lcom/alibaba/dubbo/rpc/Result;" line-rate="0.8" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="58" hits="8" branch="false"/>
+								<line number="59" hits="8" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="60" hits="0" branch="false"/>
+								<line number="62" hits="8" branch="false"/>
+								<line number="63" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="isAvailable" signature="()Z" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="51" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="42" hits="4" branch="false"/>
+						<line number="43" hits="4" branch="false"/>
+						<line number="44" hits="4" branch="false"/>
+						<line number="45" hits="4" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="51" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="58" hits="8" branch="false"/>
+						<line number="59" hits="8" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="60" hits="0" branch="false"/>
+						<line number="62" hits="8" branch="false"/>
+						<line number="63" hits="8" branch="false"/>
+					</lines>
+				</class>
+				<class name="com.alibaba.dubbo.rpc.protocol.injvm.InjvmProtocol" filename="com/alibaba/dubbo/rpc/protocol/injvm/InjvmProtocol.java" line-rate="0.6578947368421053" branch-rate="0.5357142857142857" complexity="3.2857142857142856">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="2" branch="false"/>
+								<line number="50" hits="2" branch="false"/>
+								<line number="51" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="export" signature="(Lcom/alibaba/dubbo/rpc/Invoker;)Lcom/alibaba/dubbo/rpc/Exporter;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="61" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDefaultPort" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getExporter" signature="(Ljava/util/Map;Lcom/alibaba/dubbo/common/URL;)Lcom/alibaba/dubbo/rpc/Exporter;" line-rate="0.8666666666666667" branch-rate="0.5714285714285714" complexity="0">
+							<lines>
+								<line number="69" hits="12" branch="false"/>
+								<line number="71" hits="12" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="72" hits="10" branch="false"/>
+								<line number="73" hits="10" branch="false"/>
+								<line number="74" hits="2" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="75" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="76" hits="2" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="77" hits="2" branch="false"/>
+								<line number="78" hits="2" branch="false"/>
+								<line number="84" hits="12" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="85" hits="0" branch="false"/>
+								<line number="86" hits="12" branch="false"/>
+								<line number="87" hits="24" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="88" hits="0" branch="false"/>
+								<line number="90" hits="12" branch="false"/>
+							</lines>
+						</method>
+						<method name="getInjvmProtocol" signature="()Lcom/alibaba/dubbo/rpc/protocol/injvm/InjvmProtocol;" line-rate="0.6666666666666666" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="54" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="55" hits="0" branch="false"/>
+								<line number="57" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="isInjvmRefer" signature="(Lcom/alibaba/dubbo/common/URL;)Z" line-rate="0.35714285714285715" branch-rate="0.5" complexity="0">
+							<lines>
+								<line number="96" hits="4" branch="false"/>
+								<line number="98" hits="4" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="99" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="true" condition-coverage="50% (2/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+										<condition number="1" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="103" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="106" hits="0" branch="false"/>
+								<line number="107" hits="0" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="109" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="true" condition-coverage="50% (1/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="50%"/>
+									</conditions>
+								</line>
+								<line number="112" hits="4" branch="false"/>
+								<line number="113" hits="4" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="116" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="refer" signature="(Ljava/lang/Class;Lcom/alibaba/dubbo/common/URL;)Lcom/alibaba/dubbo/rpc/Invoker;" line-rate="1.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="65" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="0" branch="false"/>
+						<line number="49" hits="2" branch="false"/>
+						<line number="50" hits="2" branch="false"/>
+						<line number="51" hits="2" branch="false"/>
+						<line number="54" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="55" hits="0" branch="false"/>
+						<line number="57" hits="4" branch="false"/>
+						<line number="61" hits="6" branch="false"/>
+						<line number="65" hits="4" branch="false"/>
+						<line number="69" hits="12" branch="false"/>
+						<line number="71" hits="12" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="72" hits="10" branch="false"/>
+						<line number="73" hits="10" branch="false"/>
+						<line number="74" hits="2" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="75" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="76" hits="2" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="77" hits="2" branch="false"/>
+						<line number="78" hits="2" branch="false"/>
+						<line number="84" hits="12" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="85" hits="0" branch="false"/>
+						<line number="86" hits="12" branch="false"/>
+						<line number="87" hits="24" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="88" hits="0" branch="false"/>
+						<line number="90" hits="12" branch="false"/>
+						<line number="96" hits="4" branch="false"/>
+						<line number="98" hits="4" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="99" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="true" condition-coverage="50% (2/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+								<condition number="1" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="103" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="106" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="109" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="true" condition-coverage="50% (1/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="50%"/>
+							</conditions>
+						</line>
+						<line number="112" hits="4" branch="false"/>
+						<line number="113" hits="4" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="116" hits="4" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>

@@ -1,0 +1,11 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter.java.CuratorZookeeperTransporter,CuratorZookeeperTransporter,0.203356732,3,1,3,1,0,1,0,27,7,1,1,1,0,1,1,0,1
+com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperClient.java.ZkclientZookeeperClient,ZkclientZookeeperClient,0.047504677,2,1,2,0,2,0,1,23,79,1,0,11,0,9,9,0.583333333,9
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperClient.java.ZookeeperClient,ZookeeperClient,0.184142549,2,1,2,0,0,100,0,15,23,1,0,10,1,10,10,0,10
+com.alibaba.dubbo.remoting.zookeeper.zkclient.ZkclientZookeeperTransporter.java.ZkclientZookeeperTransporter,ZkclientZookeeperTransporter,0.203356732,3,1,3,1,0,1,0,28,7,1,1,1,0,1,1,0,1
+com.alibaba.dubbo.remoting.zookeeper.ZookeeperTransporter.java.ZookeeperTransporter,ZookeeperTransporter,0.192177209,1,1,1,0,0,1,0,20,7,1,0,1,2,1,1,0,1
+com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.java.CuratorZookeeperClient,CuratorZookeeperClient,0.061690839,3,2,3,0,1,0,1,22,116,1,2,10,0,9,10,0.583333333,9
+com.alibaba.dubbo.remoting.zookeeper.StateListener.java.StateListener,StateListener,0.184142549,0,1,0,0,0,1,0,13,11,1,0,4,0,1,1,0,1
+com.alibaba.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient.java.CuratorZookeeperClient.CuratorWatcherImpl,CuratorWatcherImpl,0.051912351,2,2,1,0,1,0,0.5,18,18,1,1,3,0,2,3,1,3
+com.alibaba.dubbo.remoting.zookeeper.ChildListener.java.ChildListener,ChildListener,0.184142549,0,1,0,0,0,1,0,13,5,1,0,1,0,1,1,0,1
+com.alibaba.dubbo.remoting.zookeeper.support.AbstractZookeeperClient.java.AbstractZookeeperClient,AbstractZookeeperClient,0.171947913,3,1,3,1,4,195,1,23,99,1,1,20,0,15,16,0.142857143,23

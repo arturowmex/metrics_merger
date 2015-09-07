@@ -1,0 +1,2 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.rpc.protocol.redis.RedisProtocol.java.RedisProtocol,RedisProtocol,0.081742947,0,1,0,0,1,8,0,13,124,0.8,0,5,0,4,4,0.333333333,11

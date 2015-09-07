@@ -1,0 +1,4 @@
+FullQualifiedName,name,Maintainability,CBO,CYC_Classes,DAC,DIT,ILCOM,LCOM,LD,LEN,LOC,LOD_Class,MPC,NAM,NOC,NOM,RFC,TCC,WMC
+com.alibaba.dubbo.registry.multicast.MulticastRegistryFactory.java.MulticastRegistryFactory,MulticastRegistryFactory,0.149651003,1,1,1,0,0,1,0,24,12,0.5,1,1,0,1,1,0,1
+com.alibaba.dubbo.registry.multicast.MulticastRegistryTest.java.MulticastRegistryTest,MulticastRegistryTest,0.013013131,1,1,1,0,1,18,1,21,88,0.285714286,8,11,0,6,10,0.2,7
+com.alibaba.dubbo.registry.multicast.MulticastRegistry.java.MulticastRegistry,MulticastRegistry,0.131432293,0,1,0,0,1,393,1,17,375,0.958333333,0,33,0,23,23,0.111111111,66
